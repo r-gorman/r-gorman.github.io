@@ -436,9 +436,12 @@ footer {
         justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
-        padding: 1.25rem 1rem;
+        padding: 1.25rem 1.25rem; /* slightly tweaked padding */
         text-align: left;
+        border-bottom: 6px solid var(--logo-orange); /* Ensures the bar stays locked here */
     }
+    /* ... rest of your mobile styles */
+
 
     .logo-section {
         justify-content: flex-start;
