@@ -1,0 +1,644 @@
+/* css/styles.css */
+
+:root {
+    --logo-brown: #33231d;     /* Deep dark brown from the logo ring */
+    --logo-orange: #e67e35;    /* Vibrant accent orange from the logo highlights */
+    --bg-cream: #fcfbfa;       /* Warm soft off-white background */
+    --text-dark: #2d2724;      /* Clean crisp text matching the branding */
+    --border-color: #e5ded7;   /* Soft warm border tone */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-dark);
+    background-color: var(--bg-cream);
+    line-height: 1.6;
+}
+
+header {
+    background: var(--logo-brown);
+    border-bottom: none;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom, var(--logo-brown) 75%, rgba(230, 126, 53, 0.5) 90%, var(--logo-brown) 100%);
+    background-size: 100% 16px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0.75rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a.active {
+    color: var(--logo-orange);
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.logo-section img {
+    height: 45px !important;
+    width: 45px !important;
+    max-height: 45px !important;
+    max-width: 45px !important;
+    object-fit: contain;
+}
+
+.logo-section h1 {
+    font-size: 1.15rem;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #f4eee9;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+nav a:hover, nav a.active {
+    color: var(--logo-orange);
+}
+
+.hero {
+    background: var(--logo-brown);
+    color: white;
+    padding: 5rem 2rem;
+    overflow: hidden;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 280px;
+    text-align: left;
+}
+
+.hero-text h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #f4eee9;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Polaroid Stack Styles */
+.polaroid-stack {
+    position: relative;
+    width: 560px;
+    height: 380px;
+    flex-shrink: 0;
+    margin-right: -50px;
+    transform: translateX(60px);
+}
+
+.polaroid {
+    position: absolute;
+    background: #ffffff;
+    padding: 12px 12px 40px 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    transform: translateZ(0);
+}
+
+.polaroid img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.polaroid-caption {
+    display: block;
+    font-family: cursive, sans-serif;
+    color: #33231d;
+    font-size: 0.95rem;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Individual Polaroid Rotations & Spaced Positioning */
+.polaroid.p3 {
+    top: 0px;
+    left: -20px;
+    transform: rotate(-14deg) translateZ(0);
+    z-index: 1;
+}
+
+.polaroid.p2 {
+    top: -15px;
+    right: -30px;
+    transform: rotate(14deg) translateZ(0);
+    z-index: 2;
+}
+
+.polaroid.p1 {
+    bottom: 0px;
+    left: 80px;
+    transform: rotate(-6deg) translateZ(0);
+    z-index: 3;
+}
+
+.polaroid.p-main {
+    top: 30px;
+    left: 175px;
+    transform: rotate(4deg) translateZ(0);
+    z-index: 4;
+}
+
+.polaroid:hover {
+    transform: scale(1.06) rotate(0deg) translateZ(0) !important;
+    z-index: 10;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 900px) {
+    .polaroid-stack {
+        margin: 2rem auto 0 auto;
+        transform: scale(0.9) translateX(0);
+    }
+}
+
+.button {
+    padding: 0.85rem 1.75rem;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+.button:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background: var(--logo-orange);
+    color: white;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    color: var(--logo-brown);
+}
+
+.stats-section {
+    background: #ffffff;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.stats-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.stats-container h3 {
+    font-size: 2.4rem;
+    color: var(--logo-orange);
+    margin-bottom: 0.25rem;
+}
+
+.stats-container p {
+    color: #665c54;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.featured {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 1.5rem;
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.featured-header h2 {
+    font-size: 1.8rem;
+    color: var(--logo-brown);
+    margin: 0;
+}
+
+.featured-header a {
+    color: var(--logo-orange);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.featured-card {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(51, 35, 29, 0.03);
+}
+
+.featured-card p {
+    color: #665c54;
+    margin-bottom: 1.5rem;
+}
+
+.about-section {
+    background: #ffffff;
+    padding: 5rem 1.5rem;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.about-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.about-logo {
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+}
+
+.about-container h2 {
+    font-size: 2.2rem;
+    color: var(--logo-brown);
+    margin: 0;
+}
+
+.about-container p {
+    color: #594f47;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.help-section {
+    background: #f7f1ec;
+    padding: 5rem 1.5rem;
+}
+
+.help-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.help-container h2 {
+    margin-bottom: 0.75rem;
+    color: var(--logo-brown);
+    font-size: 2.2rem;
+}
+
+.help-subtitle {
+    color: #665c54;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.help-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    text-align: left;
+}
+
+.help-card {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(51, 35, 29, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+}
+
+.help-card h3 {
+    color: var(--logo-orange);
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+.help-card p {
+    color: #594f47;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.help-link {
+    color: var(--logo-orange);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.payment-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.payment-links a {
+    background: #f0ebe6;
+    color: var(--logo-brown);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.payment-links a:hover {
+    background: var(--logo-orange);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--logo-brown);
+    color: #f4eee9;
+    font-size: 0.9rem;
+}
+
+/* ========================================== */
+/* MOBILE RESPONSIVE FIXES                   */
+/* ========================================== */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0.75rem;
+        text-align: center;
+    }
+
+    .logo-section {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo-section h1 {
+        font-size: 1rem;
+        white-space: normal; /* Allows long ranch name to wrap cleanly on tiny screens */
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    nav a {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .hero-text h2 {
+        font-size: 2.2rem;
+    }
+}@media (max-width: 768px) {
+    /* Existing mobile header styles... */
+    header {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0.75rem;
+        text-align: center;
+    }
+
+    .logo-section {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo-section h1 {
+        font-size: 1rem;
+        white-space: normal;
+    }
+
+    .help-card, .featured-card, div[style*="max-width"] {
+        max-width: 100% !important;
+        box-sizing: border-box;
+        padding: 1.5rem 1rem !important;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0.75rem;
+        text-align: center;
+    }
+
+    .logo-section {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo-section h1 {
+        font-size: 1rem;
+        white-space: normal;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    nav a {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    /* Force section containers and grids to respect mobile screen bounds */
+    .help-section {
+        padding: 2rem 0.75rem !important;
+    }
+
+    .help-container {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .help-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+
+    .help-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+        padding: 1.5rem 1rem !important;
+    }
+}
+@media (max-width: 768px) {
+    .polaroid-stack {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: 320px !important;
+        margin: 2rem auto 1rem auto !important;
+        transform: none !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    .polaroid {
+        padding: 8px 8px 30px 8px !important;
+    }
+
+    .polaroid img {
+        width: 160px !important;
+        height: 160px !important;
+    }
+
+    /* Tighter mobile positioning for the stack */
+    .polaroid.p3 { top: 0; left: 10px; transform: rotate(-8deg); }
+    .polaroid.p2 { top: 10px; right: 10px; transform: rotate(8deg); }
+    .polaroid.p1 { bottom: 0; left: 40px; transform: rotate(-4deg); }
+    .polaroid.p-main { top: 20px; left: 60px; transform: rotate(3deg); }
+}
+/* Hide mobile toggle elements by default on desktop */
+.nav-toggle, .nav-toggle-label {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .nav-toggle-label {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 28px;
+        height: 21px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .nav-toggle-label span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #f4eee9;
+        border-radius: 2px;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .nav-toggle {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+        pointer-events: none;
+    }
+
+    /* Force nav to be a clean single-column stack */
+    nav {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        background: var(--logo-brown);
+        gap: 0 !important;
+    }
+
+    nav a {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        padding: 0.75rem 0 !important;
+        margin: 0 !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        font-size: 1rem;
+    }
+
+    .nav-toggle:checked ~ nav {
+        max-height: 350px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+}
