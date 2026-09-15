@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Jak's Second Chance Rescue Ranch</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Include js-yaml to parse front matter markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </head>
 
 <body>
@@ -38,37 +40,41 @@
     <section class="help-section" style="padding: 5rem 1.5rem; background: #ffffff;">
         <div class="help-container" style="max-width: 900px; margin: 0 auto; text-align: center;">
             <img src="images/logo.png" alt="Jak's Second Chance Rescue Ranch Emblem" style="height: 100px; width: 100px; object-fit: contain; margin-bottom: 1.5rem;">
-            <h2 style="color: var(--logo-brown); font-size: 2.5rem; margin-bottom: 1rem;">Get in Touch With Us</h2>
-            <p style="color: #594f47; font-size: 1.15rem; line-height: 1.7; margin-bottom: 3rem;">
-                Have questions about our adoption process, fostering, or how you can support our rescue? We would love to hear from you! Because we are 100% volunteer-run, please allow 24 to 48 hours for a response.
+            <h2 id="contact-title" style="color: var(--logo-brown); font-size: 2.5rem; margin-bottom: 1rem;">Get in Touch With Us</h2>
+            <p id="contact-text" style="color: #594f47; font-size: 1.15rem; line-height: 1.7; margin-bottom: 3rem;">
+                Loading...
             </p>
 
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; text-align: center; margin-bottom: 3rem;">
+                <!-- Message Us Card -->
                 <div style="background: var(--bg-cream); padding: 2rem; border-radius: 10px; border: 1px solid var(--border-color); display: flex; flex-direction: column; align-items: center;">
-                    <h3 style="color: var(--logo-orange); margin-top: 0; font-size: 1.2rem;">💬 Message Us on Facebook</h3>
-                    <p style="color: #594f47; font-size: 0.95rem; margin-bottom: 1rem;">Messaging us on Facebook works well for a quick response:</p>
-                    <a href="https://www.facebook.com/profile.php?id=61566464825278" target="_blank" style="color: var(--logo-brown); font-weight: bold; text-decoration: none;">Visit Our Facebook Page →</a>
+                    <h3 id="card-message-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.2rem;">💬 Message Us on Facebook</h3>
+                    <p id="card-message-text" style="color: #594f47; font-size: 0.95rem; margin-bottom: 1rem;">Loading...</p>
+                    <a id="card-message-link" href="#" target="_blank" style="color: var(--logo-brown); font-weight: bold; text-decoration: none;">Loading...</a>
                 </div>
 
+                <!-- Email Us Card -->
                 <div style="background: var(--bg-cream); padding: 2rem; border-radius: 10px; border: 1px solid var(--border-color); display: flex; flex-direction: column; align-items: center;">
-                    <h3 style="color: var(--logo-orange); margin-top: 0; font-size: 1.2rem;">📧 Email Us</h3>
-                    <p style="color: #594f47; font-size: 0.95rem; margin-bottom: 1rem;">Prefer email? Drop us a line anytime:</p>
-                    <a href="mailto:jaksrescueranch@gmail.com" style="color: var(--logo-brown); font-weight: bold; text-decoration: none;">jaksrescueranch@gmail.com</a>
+                    <h3 id="card-email-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.2rem;">📧 Email Us</h3>
+                    <p id="card-email-text" style="color: #594f47; font-size: 0.95rem; margin-bottom: 1rem;">Loading...</p>
+                    <a id="card-email-link" href="#" style="color: var(--logo-brown); font-weight: bold; text-decoration: none;">Loading...</a>
                 </div>
 
+                <!-- Location Card -->
                 <div style="background: var(--bg-cream); padding: 2rem; border-radius: 10px; border: 1px solid var(--border-color); display: flex; flex-direction: column; align-items: center;">
-                    <h3 style="color: var(--logo-orange); margin-top: 0; font-size: 1.2rem;">📍 Location</h3>
-                    <p style="color: #594f47; font-size: 0.95rem; margin-bottom: 0.5rem;">Cabot, AR & Central Arkansas</p>
-                    <p style="color: #665c54; font-size: 0.9rem; margin: 0;">Foster-based plus physical rescue facility.</p>
+                    <h3 id="card-location-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.2rem;">📍 Location</h3>
+                    <p id="card-location-main" style="color: #594f47; font-size: 0.95rem; margin-bottom: 0.5rem;">Loading...</p>
+                    <p id="card-location-sub" style="color: #665c54; font-size: 0.9rem; margin: 0;">Loading...</p>
                 </div>
             </div>
 
+            <!-- Connect With Us Online Card -->
             <div style="background: #f7f1ec; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
-                <h3 style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem;">Connect With Us Online</h3>
-                <p style="color: #594f47; font-size: 0.95rem; margin-bottom: 1.5rem;">For the fastest updates on available dogs and daily rescue life, check out our active channels:</p>
+                <h3 id="card-connect-title" style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem;">Connect With Us Online</h3>
+                <p id="card-connect-text" style="color: #594f47; font-size: 0.95rem; margin-bottom: 1.5rem;">Loading...</p>
                 <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-                    <a href="https://www.facebook.com/profile.php?id=61566464825278" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Facebook</a>
-                    <a href="https://www.instagram.com/jaks_second_chance" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Instagram</a>
+                    <a id="connect-fb-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Facebook</a>
+                    <a id="connect-insta-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Instagram</a>
                 </div>
             </div>
         </div>
@@ -78,6 +84,55 @@
 <footer style="padding: 2.5rem 1rem; text-align: center; background: #2b221e; color: #fff;">
     <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
 </footer>
+
+<script>
+    async function loadContactContent() {
+        try {
+            const response = await fetch('content/contact.md');
+            if (!response.ok) throw new Error('Could not load content/contact.md');
+            const markdownText = await response.text();
+            
+            const parts = markdownText.split('---');
+            if (parts.length >= 2) {
+                const data = jsyaml.load(parts[1]);
+
+                document.getElementById('contact-title').textContent = data.contact_title || '';
+                document.getElementById('contact-text').textContent = data.contact_text || '';
+
+                if (data.card_message) {
+                    document.getElementById('card-message-title').textContent = data.card_message.title || '';
+                    document.getElementById('card-message-text').textContent = data.card_message.text || '';
+                    document.getElementById('card-message-link').textContent = data.card_message.link_text || '';
+                    document.getElementById('card-message-link').href = data.card_message.link_url || '#';
+                }
+
+                if (data.card_email) {
+                    document.getElementById('card-email-title').textContent = data.card_email.title || '';
+                    document.getElementById('card-email-text').textContent = data.card_email.text || '';
+                    document.getElementById('card-email-link').textContent = data.card_email.link_text || '';
+                    document.getElementById('card-email-link').href = data.card_email.link_url || '#';
+                }
+
+                if (data.card_location) {
+                    document.getElementById('card-location-title').textContent = data.card_location.title || '';
+                    document.getElementById('card-location-main').textContent = data.card_location.text_main || '';
+                    document.getElementById('card-location-sub').textContent = data.card_location.text_sub || '';
+                }
+
+                if (data.card_connect) {
+                    document.getElementById('card-connect-title').textContent = data.card_connect.title || '';
+                    document.getElementById('card-connect-text').textContent = data.card_connect.text || '';
+                    if (data.card_connect.facebook_url) document.getElementById('connect-fb-link').href = data.card_connect.facebook_url;
+                    if (data.card_connect.instagram_url) document.getElementById('connect-insta-link').href = data.card_connect.instagram_url;
+                }
+            }
+        } catch (error) {
+            console.error('Error loading CMS content:', error);
+        }
+    }
+
+    loadContactContent();
+</script>
 
 </body>
 </html>

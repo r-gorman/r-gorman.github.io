@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate | Jak's Second Chance Rescue Ranch</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Include js-yaml to parse front matter markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <style>
         @media (max-width: 768px) {
             footer {
@@ -47,20 +49,20 @@
 <main>
     <section class="help-section" style="padding: 4.5rem 1.5rem;">
         <div class="help-container" style="max-width: 800px; margin: 0 auto; text-align: center;">
-            <h2>Support Our Mission</h2>
-            <p class="help-subtitle" style="margin-left: auto; margin-right: auto; max-width: 650px;">Your financial support goes directly toward medical care, food, shelter, and finding loving forever homes for dogs in Central Arkansas.</p>
+            <h2 id="donate-title">Support Our Mission</h2>
+            <p id="donate-text" class="help-subtitle" style="margin-left: auto; margin-right: auto; max-width: 650px;">Loading...</p>
             
             <!-- Direct Digital Giving Card -->
             <div class="help-card" style="padding: 2.5rem; display: flex; flex-direction: column; justify-content: space-between; text-align: left; max-width: 600px; margin: 0 auto;">
                 <div>
-                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center;">Direct Digital Giving</h3>
-                    <p style="margin-bottom: 2rem; text-align: center;">Contribute instantly using your preferred digital wallet or send supplies straight from our wishlist.</p>
+                    <h3 id="card-giving-title" style="font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center;">Direct Digital Giving</h3>
+                    <p id="card-giving-text" style="margin-bottom: 2rem; text-align: center;">Loading...</p>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 0.85rem;">
-                    <a href="https://www.amazon.com/hz/wishlist/ls/3CDWBH4GUF1TT" target="_blank" class="button btn-secondary" style="text-align: center; padding: 1rem; font-size: 1.05rem; border: 1px solid var(--border-color); color: var(--logo-brown);">Amazon Wishlist</a>
-                    <a href="https://account.venmo.com/u/JaksSecondChanceRescueRanch" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">Venmo</a>
-                    <a href="https://www.paypal.com/paypalme/JaksRescueRanch" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">PayPal</a>
-                    <a href="https://cash.app/$JaksRescueRanch" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">CashApp</a>
+                    <a id="amazon-link" href="#" target="_blank" class="button btn-secondary" style="text-align: center; padding: 1rem; font-size: 1.05rem; border: 1px solid var(--border-color); color: var(--logo-brown);">Amazon Wishlist</a>
+                    <a id="venmo-link" href="#" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">Venmo</a>
+                    <a id="paypal-link" href="#" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">PayPal</a>
+                    <a id="cashapp-link" href="#" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">CashApp</a>
                 </div>
             </div>
 
@@ -69,8 +71,39 @@
 </main>
 
 <footer style="padding: 2.5rem 1rem; text-align: center; background: #2b221e; color: #fff;">
-    <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas[cite: 4].</p>
+    <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
 </footer>
+
+<script>
+    async function loadDonateContent() {
+        try {
+            const response = await fetch('content/donate.md');
+            if (!response.ok) throw new Error('Could not load content/donate.md');
+            const markdownText = await response.text();
+            
+            const parts = markdownText.split('---');
+            if (parts.length >= 2) {
+                const data = jsyaml.load(parts[1]);
+
+                document.getElementById('donate-title').textContent = data.donate_title || '';
+                document.getElementById('donate-text').textContent = data.donate_text || '';
+
+                if (data.card_giving) {
+                    document.getElementById('card-giving-title').textContent = data.card_giving.title || '';
+                    document.getElementById('card-giving-text').textContent = data.card_giving.text || '';
+                    if (data.card_giving.amazon_url) document.getElementById('amazon-link').href = data.card_giving.amazon_url;
+                    if (data.card_giving.venmo_url) document.getElementById('venmo-link').href = data.card_giving.venmo_url;
+                    if (data.card_giving.paypal_url) document.getElementById('paypal-link').href = data.card_giving.paypal_url;
+                    if (data.card_giving.cashapp_url) document.getElementById('cashapp-link').href = data.card_giving.cashapp_url;
+                }
+            }
+        } catch (error) {
+            console.error('Error loading CMS content:', error);
+        }
+    }
+
+    loadDonateContent();
+</script>
 
 </body>
 </html>

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt | Jak's Second Chance Rescue Ranch</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Include js-yaml to parse front matter markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <style>
         .pet-list-wrapper {
             width: 100%;
@@ -53,57 +55,50 @@
 <main>
     <section class="help-section" style="padding: 5rem 1.5rem; background: #ffffff;">
         <div class="help-container" style="max-width: 1100px; margin: 0 auto; text-align: center;">
-            <h2 style="color: var(--logo-brown); font-size: 2.5rem; margin-bottom: 1rem;">Find Your New Best Friend</h2>
-            <p style="color: #594f47; font-size: 1.15rem; line-height: 1.7; margin-bottom: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
-                Every dog in our care is looking for a family to call their own. Whether they are staying with one of our loving foster families or resting at our shelter, they are all waiting for their fresh start. Take a look at our available dogs below!
+            <h2 id="hero-title" style="color: var(--logo-brown); font-size: 2.5rem; margin-bottom: 1rem;">Find Your New Best Friend</h2>
+            <p id="hero-text" style="color: #594f47; font-size: 1.15rem; line-height: 1.7; margin-bottom: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
+                Loading...
             </p>
 
             <!-- Adopt-a-Pet Live Embed Container -->
             <div class="pet-list-wrapper">
-                <iframe src="https://searchtools.adoptapet.com/cgi-bin/searchtools.cgi/portable_pet_list?shelter_id=263842&title=&color=green&clan_name=&size=450x320_list&sort_by=pet_name&hide_clan_filter_p=" 
-                        title="Jak's Second Chance Rescue Ranch Adoptable Pets">
-                </iframe>
+                <iframe id="adopt-embed" src="" title="Jak's Second Chance Rescue Ranch Adoptable Pets"></iframe>
             </div>
         </div>
     </section>
 
     <section class="help-section" style="padding: 5rem 1.5rem; background: #f7f1ec;">
         <div class="help-container" style="max-width: 900px; margin: 0 auto;">
-            <h2 style="text-align: center; color: var(--logo-brown); font-size: 2.2rem; margin-bottom: 0.75rem;">Our Adoption Process & Promise</h2>
-            <p class="help-subtitle" style="text-align: center; margin-bottom: 3rem;">We want to make sure every match is built to last a lifetime.</p>
+            <h2 id="process-title" style="text-align: center; color: var(--logo-brown); font-size: 2.2rem; margin-bottom: 0.75rem;">Our Adoption Process & Promise</h2>
+            <p id="process-text" class="help-subtitle" style="text-align: center; margin-bottom: 3rem;">Loading...</p>
             
             <div style="display: flex; flex-direction: column; gap: 2rem;">
+                <!-- Card 1: Submit Application -->
                 <div style="background: white; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
-                    <h3 style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">1. Submit an Application</h3>
-                    <p style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
-                        To kick off the process, you'll first submit an adoption application. One of our volunteers will review it closely. If you currently have pets, we do require proof of up to date vaccinations and heartworm prevention to ensure everyone's health and safety.
-                    </p>
+                    <h3 id="card-app-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">1. Submit an Application</h3>
+                    <p id="card-app-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">Loading...</p>
                     
-                    <!-- Adoption Application Form Embed -->
                     <div style="background: #fcfbfa; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden;">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScu8FOTnWAp9xgAKpMqbW_nHat5ELqtaAwA9t0SDQoRzpar1Q/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" title="Jak's Second Chance Rescue Ranch Adoption Application">Loading…</iframe>
+                        <iframe id="app-embed" src="" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" title="Jak's Second Chance Rescue Ranch Adoption Application">Loading…</iframe>
                     </div>
                 </div>
 
+                <!-- Card 2: Meet & Greet -->
                 <div style="background: white; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
-                    <h3 style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">2. Meet & Greet</h3>
-                    <p style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">
-                        Once your application is reviewed and approved, we'll coordinate a meet-and-greet so you can spend some one-on-one time with the dog and make sure they're the right fit for you.
-                    </p>
+                    <h3 id="card-meet-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">2. Meet & Greet</h3>
+                    <p id="card-meet-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">Loading...</p>
                 </div>
 
+                <!-- Card 3: Foster-to-Adopt -->
                 <div style="background: white; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
-                    <h3 style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">3. Foster-to-Adopt (Recommended)</h3>
-                    <p style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">
-                        We highly recommend foster-to-adopt scenarios! It's a wonderful way to see how the dog settles into your actual home environment and daily routine before you make a permanent commitment.
-                    </p>
+                    <h3 id="card-foster-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">3. Foster-to-Adopt (Recommended)</h3>
+                    <p id="card-foster-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">Loading...</p>
                 </div>
 
+                <!-- Card 4: Have Questions -->
                 <div style="background: white; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
-                    <h3 style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">4. Have Questions About the Process?</h3>
-                    <p style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
-                        If you have any questions regarding our adoption requirements, scheduling, or specific dogs, we would love to hear from you. Head over to our contact page to get in touch with our team!
-                    </p>
+                    <h3 id="card-questions-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">4. Have Questions About the Process?</h3>
+                    <p id="card-questions-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">Loading...</p>
                     <a href="contact.html" class="button btn-primary" style="display: inline-block;">Contact Us</a>
                 </div>
             </div>
@@ -114,6 +109,54 @@
 <footer style="padding: 2.5rem 1rem; text-align: center; background: #2b221e; color: #fff;">
     <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
 </footer>
+
+<script>
+    async function loadAdoptContent() {
+        try {
+            const response = await fetch('content/adopt.md');
+            if (!response.ok) throw new Error('Could not load content/adopt.md');
+            const markdownText = await response.text();
+            
+            const parts = markdownText.split('---');
+            if (parts.length >= 2) {
+                const data = jsyaml.load(parts[1]);
+
+                document.getElementById('hero-title').textContent = data.hero_title || '';
+                document.getElementById('hero-text').textContent = data.hero_text || '';
+                if (data.adopt_embed_url) {
+                    document.getElementById('adopt-embed').src = data.adopt_embed_url;
+                }
+
+                document.getElementById('process-title').textContent = data.process_title || '';
+                document.getElementById('process-text').textContent = data.process_text || '';
+
+                if (data.card_app) {
+                    document.getElementById('card-app-title').textContent = data.card_app.title || '';
+                    document.getElementById('card-app-text').textContent = data.card_app.text || '';
+                    if (data.card_app.embed_url) {
+                        document.getElementById('app-embed').src = data.card_app.embed_url;
+                    }
+                }
+                if (data.card_meet) {
+                    document.getElementById('card-meet-title').textContent = data.card_meet.title || '';
+                    document.getElementById('card-meet-text').textContent = data.card_meet.text || '';
+                }
+                if (data.card_foster) {
+                    document.getElementById('card-foster-title').textContent = data.card_foster.title || '';
+                    document.getElementById('card-foster-text').textContent = data.card_foster.text || '';
+                }
+                if (data.card_questions) {
+                    document.getElementById('card-questions-title').textContent = data.card_questions.title || '';
+                    document.getElementById('card-questions-text').textContent = data.card_questions.text || '';
+                }
+            }
+        } catch (error) {
+            console.error('Error loading CMS content:', error);
+        }
+    }
+
+    loadAdoptContent();
+</script>
 
 </body>
 </html>
