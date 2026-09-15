@@ -1,6 +1,6 @@
 ---
 layout: "donate"
-donate_title: "Support Our Mission"
+donate_title: "Testing!!"
 donate_text: "Your financial support goes directly toward medical care, food, shelter, and finding loving forever homes for dogs in Central Arkansas."
 
 card_giving:
