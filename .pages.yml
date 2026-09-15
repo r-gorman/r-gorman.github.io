@@ -6,7 +6,8 @@
       "label": "Site Pages",
       "type": "collection",
       "path": "content",
-      "subfolders": true
+      "extension": "md",
+      "filename": "{{slug}}/{{slug}}"
     }
   ]
 }
