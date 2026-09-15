@@ -1,0 +1,65 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Website Pages"
+    folder: "content"
+    create: false
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+      
+      # --- Hero Section ---
+      - {label: "Hero Title", name: "hero_title", widget: "string"}
+      - {label: "Hero Text", name: "hero_text", widget: "text"}
+
+      # --- Impact Statistics ---
+      - {label: "Dogs Rescued Stat", name: "stats_rescued", widget: "string"}
+      - {label: "Active Foster Homes Stat", name: "stats_fosters", widget: "string"}
+      - {label: "Successful Adoptions Stat", name: "stats_adoptions", widget: "string"}
+
+      # --- About / Mission Description ---
+      - {label: "Main Description Text", name: "about_text", widget: "text"}
+
+      # --- Featured Animals ---
+      - label: "Featured Animals"
+        name: "featured_animals"
+        widget: "list"
+        fields:
+          - {label: "Dog Name", name: "name", widget: "string"}
+          - {label: "Dog Picture", name: "image", widget: "image"}
+          - {label: "Dog Bio Text", name: "text", widget: "text"}
+          - {label: "View Profile & Apply Link", name: "link", widget: "string"}
+
+      # --- How You Can Help Section ---
+      - {label: "How You Can Help Title", name: "help_title", widget: "string"}
+      - {label: "How You Can Help Subtitle", name: "help_subtitle", widget: "text"}
+      
+      - label: "Apply to Foster Card"
+        name: "card_foster"
+        widget: "object"
+        fields:
+          - {label: "Card Title", name: "title", widget: "string"}
+          - {label: "Card Text", name: "text", widget: "text"}
+
+      - label: "Adoption Application Card"
+        name: "card_adopt"
+        widget: "object"
+        fields:
+          - {label: "Card Title", name: "title", widget: "string"}
+          - {label: "Card Text", name: "text", widget: "text"}
+
+      - label: "Support Our Mission Card"
+        name: "card_support"
+        widget: "object"
+        fields:
+          - {label: "Card Title", name: "title", widget: "string"}
+          - {label: "Card Text", name: "text", widget: "text"}
+
+      # --- Connect With Us Online ---
+      - {label: "Connect With Us Online Title", name: "connect_title", widget: "string"}
+      - {label: "Connect With Us Online Text", name: "connect_text", widget: "text"}

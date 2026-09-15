@@ -47,8 +47,8 @@
 <section class="hero">
     <div class="hero-container">
         <div class="hero-text">
-            <h2>Every Dog Deserves A Second Chance</h2>
-            <p>Saving dogs throughout Central Arkansas and helping them find loving forever homes.</p>
+            <h2 id="hero_title">Every Dog Deserves A Second Chance</h2>
+            <p id="hero_text">Saving dogs throughout Central Arkansas and helping them find loving forever homes.</p>
             <div class="hero-buttons">
                 <a href="adopt.html" class="button btn-primary">Adopt</a>
                 <a href="get-involved.html" class="button btn-secondary">Apply to Foster</a>
@@ -80,29 +80,31 @@
 <section class="stats-section">
     <div class="stats-container">
         <div>
-            <h3>350+</h3>
+            <h3 id="stats_rescued">350+</h3>
             <p>Dogs Rescued</p>
         </div>
         <div>
-            <h3>45+</h3>
+            <h3 id="stats_fosters">45+</h3>
             <p>Active Foster Homes</p>
         </div>
         <div>
-            <h3>300+</h3>
+            <h3 id="stats_adoptions">300+</h3>
             <p>Successful Adoptions</p>
         </div>
     </div>
 </section>
+
 <!-- ABOUT / MISSION -->
 <section class="about-section">
     <div class="about-container">
         <img src="images/logo.png" alt="Jak's Second Chance Rescue Ranch Emblem" class="about-logo">
         <h2>About Jak's Second Chance Rescue Ranch</h2>
-        <p>
+        <p id="about_text">
             Based in Cabot, AR and serving Central Arkansas, our rescue is dedicated to saving abandoned and neglected dogs, providing them with necessary medical care, rehabilitation, and placing them into safe, temporary foster environments until they find their permanent families.
         </p>
     </div>
 </section>
+
 <!-- FEATURED ANIMALS -->
 <section class="featured" style="padding: 4rem 1.5rem; max-width: 1000px; margin: 0 auto;">
     <div class="featured-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
@@ -110,8 +112,9 @@
         <a href="adopt.html" style="color: var(--logo-orange); font-weight: bold; text-decoration: none;">View All Dogs →</a>
     </div>
 
-    <div class="featured-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
-        <!-- Featured Dog 1: Joseph -->
+    <!-- CMS Dynamic Featured Animals Grid Container -->
+    <div id="featured-animals-container" class="featured-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+        <!-- Fallback static render before script runs -->
         <div class="featured-card" style="background: white; border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;">
             <img src="images\IMG_5662.jpeg" alt="Joseph" style="width: 100%; height: 220px; object-fit: cover;">
             <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
@@ -123,7 +126,6 @@
             </div>
         </div>
 
-        <!-- Featured Dog 2: Frankie -->
         <div class="featured-card" style="background: white; border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;">
             <img src="images\resized-image.png" alt="Frankie" style="width: 100%; height: 220px; object-fit: cover; object-position: center center;">
             <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
@@ -140,30 +142,30 @@
 <!-- HOW YOU CAN HELP -->
 <section class="help-section">
     <div class="help-container">
-        <h2>How You Can Help</h2>
-        <p class="help-subtitle">Whether you want to open your home or support our mission from afar, there are many ways to make an impact.</p>
+        <h2 id="help_title">How You Can Help</h2>
+        <p id="help_subtitle" class="help-subtitle">Whether you want to open your home or support our mission from afar, there are many ways to make an impact.</p>
         
         <div class="help-grid">
             <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                 <div style="width: 100%;">
-                    <h3>🏠 Apply to Foster</h3>
-                    <p>Fosters save lives by providing temporary, loving homes while dogs await their permanent match. We cover medical expenses and supplies.</p>
+                    <h3 id="card_foster-title">🏠 Apply to Foster</h3>
+                    <p id="card_foster-text">Fosters save lives by providing temporary, loving homes while dogs await their permanent match. We cover medical expenses and supplies.</p>
                 </div>
                 <a href="get-involved.html" class="help-link">Apply Now →</a>
             </div>
             
             <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                 <div style="width: 100%;">
-                    <h3>🐾 Adoption Application</h3>
-                    <p>Ready to add a furry family member? Explore our available dogs and fill out an adoption application today.</p>
+                    <h3 id="card_adopt-title">🐾 Adoption Application</h3>
+                    <p id="card_adopt-text">Ready to add a furry family member? Explore our available dogs and fill out an adoption application today.</p>
                 </div>
                 <a href="adopt.html#application" class="help-link">Adopt a Dog →</a>
             </div>
 
             <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                 <div style="width: 100%;">
-                    <h3>💖 Support Our Mission</h3>
-                    <p>Your tax-deductible financial contributions directly fund emergency veterinary care, food, and shelter for rescued dogs.</p>
+                    <h3 id="card_support-title">💖 Support Our Mission</h3>
+                    <p id="card_support-text">Your tax-deductible financial contributions directly fund emergency veterinary care, food, and shelter for rescued dogs.</p>
                 </div>
                 <div class="payment-links" style="display: flex; justify-content: center; gap: 0.5rem; width: 100%;">
                     <a href="https://paypal.me/JaksRescueRanch" target="_blank">PayPal</a>
@@ -178,8 +180,8 @@
 <!-- CONNECT WITH US ONLINE -->
 <section style="padding: 3rem 1.5rem; background: #ffffff;">
     <div style="max-width: 800px; margin: 0 auto; background: #f7f1ec; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color); text-align: center;">
-        <h3 style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem; font-size: 1.5rem;">Connect With Us Online</h3>
-        <p style="color: #594f47; font-size: 0.95rem; margin-bottom: 1.5rem;">For the newest updates on available dogs and daily rescue life, check out our socials</p>
+        <h3 id="connect_title" style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem; font-size: 1.5rem;">Connect With Us Online</h3>
+        <p id="connect_text" style="color: #594f47; font-size: 0.95rem; margin-bottom: 1.5rem;">For the newest updates on available dogs and daily rescue life, check out our socials</p>
         <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
             <a href="https://www.facebook.com/profile.php?id=61566464825278" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Facebook</a>
             <a href="https://www.instagram.com/jaks_second_chance" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Instagram</a>
@@ -190,6 +192,76 @@
 <footer style="padding: 2.5rem 1rem; text-align: center; background: #2b221e; color: #fff;">
     <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
 </footer>
+
+<!-- CMS Content Injection Loader Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+<script>
+async function loadHomeCMSContent() {
+    try {
+        const response = await fetch('/content/home.md');
+        if (!response.ok) return; // Fallback gracefully if running locally without server
+        const markdownText = await response.text();
+        
+        const parts = markdownText.split('---');
+        if (parts.length >= 3) {
+            const data = jsyaml.load(parts[1]);
+
+            // 1. Populate simple text/string fields
+            const simpleFields = [
+                'hero_title', 'hero_text', 
+                'stats_rescued', 'stats_fosters', 'stats_adoptions', 
+                'about_text', 'help_title', 'help_subtitle',
+                'connect_title', 'connect_text'
+            ];
+
+            simpleFields.forEach(field => {
+                const el = document.getElementById(field);
+                if (el && data[field] !== undefined) {
+                    el.textContent = data[field];
+                }
+            });
+
+            // 2. Populate Help Cards (Foster, Adopt, Support)
+            ['card_foster', 'card_adopt', 'card_support'].forEach(cardKey => {
+                if (data[cardKey]) {
+                    const titleEl = document.getElementById(`${cardKey}-title`);
+                    const textEl = document.getElementById(`${cardKey}-text`);
+                    if (titleEl) titleEl.textContent = data[cardKey].title;
+                    if (textEl) textEl.textContent = data[cardKey].text;
+                }
+            });
+
+            // 3. Render Featured Animals List
+            const container = document.getElementById('featured-animals-container');
+            if (container && Array.isArray(data.featured_animals)) {
+                container.innerHTML = '';
+                data.featured_animals.forEach(animal => {
+                    const card = document.createElement('div');
+                    card.className = 'featured-card';
+                    card.style.cssText = "background: white; border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;";
+                    card.innerHTML = `
+                        <img src="${animal.image}" alt="${animal.name}" style="width: 100%; height: 220px; object-fit: cover;">
+                        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                            <h3 style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.5rem; font-size: 1.3rem;">${animal.name}</h3>
+                            <p style="color: #594f47; font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">
+                                ${animal.text}
+                            </p>
+                            <a href="${animal.link}" class="button btn-primary" target="_blank" rel="noopener" style="text-align: center; padding: 0.75rem; background: var(--logo-orange); color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">View Profile & Apply</a>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            }
+        }
+    } catch (error) {
+        console.error('Error loading homepage content from CMS:', error);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', loadHomeCMSContent);
+</script>
 
 </body>
 </html>
