@@ -60,6 +60,7 @@
         </div>
         
         <div class="polaroid-stack">
+            <!-- Fallback static render before script runs -->
             <div class="polaroid p3">
                 <img src="images/IMG_5644.jpeg" alt="White rescue dog">
                 <span class="polaroid-caption"> Lucy</span>
@@ -205,7 +206,7 @@
 async function loadHomeCMSContent() {
     try {
         const response = await fetch('content/home/home.md');
-        if (!response.ok) return; // Fallback gracefully if running locally without server
+        if (!response.ok) return; 
         const markdownText = await response.text();
         
         const parts = markdownText.split('---');
@@ -227,7 +228,22 @@ async function loadHomeCMSContent() {
                 }
             });
 
-            // 2. Populate Help Cards (Foster, Adopt, Support)
+            // 2. Populate Polaroid Stack
+            const polaroidContainer = document.querySelector('.polaroid-stack');
+            if (polaroidContainer && Array.isArray(data.polaroids)) {
+                polaroidContainer.innerHTML = '';
+                data.polaroids.forEach(p => {
+                    const div = document.createElement('div');
+                    div.className = `polaroid ${p.position}`;
+                    div.innerHTML = `
+                        <img src="${p.image}" alt="${p.alt}">
+                        <span class="polaroid-caption">${p.caption}</span>
+                    `;
+                    polaroidContainer.appendChild(div);
+                });
+            }
+
+            // 3. Populate Help Cards (Foster, Adopt, Support)
             ['card_foster', 'card_adopt', 'card_support'].forEach(cardKey => {
                 if (data[cardKey]) {
                     const titleEl = document.getElementById(`${cardKey}-title`);
@@ -237,7 +253,7 @@ async function loadHomeCMSContent() {
                 }
             });
 
-            // 3. Render Featured Animals List
+            // 4. Render Featured Animals List
             const container = document.getElementById('featured-animals-container');
             if (container && Array.isArray(data.featured_animals)) {
                 container.innerHTML = '';
