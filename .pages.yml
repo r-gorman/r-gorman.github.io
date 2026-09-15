@@ -1,47 +1,38 @@
-# Pages CMS Configuration File
+media: "images"
+
 actions:
   - name: trigger-deploy
     label: "Trigger Deployment"
     workflow: "deploy.yml"
     ref: "main"
-{
-  "media": "images",
-  "content": [
-    {
-      "name": "home",
-      "label": "Home",
-      "type": "file",
-      "path": "content/home/home.md"
-    },
-    {
-      "name": "about",
-      "label": "About",
-      "type": "file",
-      "path": "content/about/about.md"
-    },
-    {
-      "name": "adopt",
-      "label": "Adopt",
-      "type": "file",
-      "path": "content/adopt/adopt.md"
-    },
-    {
-      "name": "contact",
-      "label": "Contact",
-      "type": "file",
-      "path": "content/contact/contact.md"
-    },
-    {
-      "name": "donate",
-      "label": "Donate",
-      "type": "file",
-      "path": "content/donate/donate.md"
-    },
-    {
-      "name": "get-involved",
-      "label": "Get Involved",
-      "type": "file",
-      "path": "content/get-involved/get-involved.md"
-    }
-  ]
-}
+
+content:
+  - name: home
+    label: "Home"
+    type: file
+    path: "content/home/home.md"
+
+  - name: about
+    label: "About"
+    type: file
+    path: "content/about/about.md"
+
+  - name: adopt
+    label: "Adopt"
+    type: file
+    path: "content/adopt/adopt.md"
+
+  - name: contact
+    label: "Contact"
+    type: file
+    path: "content/contact/contact.md"
+
+  - name: donate
+    label: "Donate"
+    type: file
+    path: "content/donate/donate.md"
+
+  - name: get-involved
+    label: "Get Involved"
+    type: file
+    path: "content/get-involved/get-involved.md"
