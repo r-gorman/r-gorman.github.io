@@ -37,16 +37,5 @@
       "type": "file",
       "path": "content/get-involved/get-involved.md"
     }
-  ],
-{
-    "name": "polaroids",
-    "label": "Hero Polaroid Stack",
-    "widget": "list",
-    "fields": [
-      { "name": "image", "label": "Image", "widget": "image" },
-      { "name": "alt", "label": "Alt Text", "widget": "string" },
-      { "name": "caption", "label": "Dog Name / Caption", "widget": "string" },
-      { "name": "position", "label": "Stack Class (p3, p2, p1, p-main)", "widget": "string" }
-    ]
-   }
-  }
+  ]
+}
