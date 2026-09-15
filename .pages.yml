@@ -5,6 +5,7 @@
       "name": "pages",
       "label": "Site Pages",
       "folder": "content",
+      "path": "{{slug}}/{{slug}}",
       "extension": "md",
       "nested": true
     }
