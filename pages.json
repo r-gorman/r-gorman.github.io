@@ -1,0 +1,12 @@
+{
+  "media": "images",
+  "collections": [
+    {
+      "name": "pages",
+      "label": "Site Pages",
+      "folder": "content",
+      "extension": "md",
+      "nested": true
+    }
+  ]
+}
