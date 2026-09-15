@@ -3,7 +3,7 @@ media: "images"
 actions:
   - name: trigger-deploy
     label: "Trigger Deployment"
-    workflow: "deploy.yml"
+    workflow: ".github/workflows/deploy.yml"
     ref: "main"
 
 content:
