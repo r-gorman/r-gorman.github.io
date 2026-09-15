@@ -1,13 +1,12 @@
 {
   "media": "images",
-  "collections": [
+  "content": [
     {
       "name": "pages",
       "label": "Site Pages",
-      "folder": "content",
-      "path": "{{slug}}/{{slug}}",
-      "extension": "md",
-      "nested": true
+      "type": "collection",
+      "path": "content",
+      "subfolders": true
     }
   ]
 }
