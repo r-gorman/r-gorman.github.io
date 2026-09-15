@@ -1,0 +1,20 @@
+name: Deploy via Pages CMS
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: 'Payload from Pages CMS'
+        required: false
+        type: string
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm Action Trigger
+        run: |
+          echo "Pages CMS successfully triggered the deployment action workflow!"
