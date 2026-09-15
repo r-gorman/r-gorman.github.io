@@ -1,3 +1,9 @@
+# Pages CMS Configuration File
+actions:
+  - name: trigger-deploy
+    label: "Trigger Deployment"
+    workflow: "deploy.yml"
+    ref: "main"
 {
   "media": "images",
   "content": [
