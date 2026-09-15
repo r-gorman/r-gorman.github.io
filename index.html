@@ -62,19 +62,19 @@
         <div class="polaroid-stack">
             <!-- Fallback static render before script runs -->
             <div class="polaroid p3">
-                <img src="images/IMG_5644.jpeg" alt="White rescue dog">
-                <span class="polaroid-caption"> Lucy</span>
+                <img src="images/IMG_5644.jpeg">
+                <span class="polaroid-caption">Lucy</span>
             </div>
             <div class="polaroid p2">
-                <img src="images/IMG_5745.jpeg" alt="Rescue dog with volunteer">
+                <img src="images/IMG_5745.jpeg">
                 <span class="polaroid-caption">Topeka</span>
             </div>
             <div class="polaroid p1">
-                <img src="images/IMG_5891.jpeg" alt="Dog on pink leash">
+                <img src="images/IMG_5891.jpeg">
                 <span class="polaroid-caption">Andy</span>
             </div>
             <div class="polaroid p-main">
-                <img src="images/IMG_5610.jpeg" alt="Rescued dog at Jak's Second Chance">
+                <img src="images/IMG_5610.jpeg">
                 <span class="polaroid-caption">Laverne</span>
             </div>
         </div>
@@ -236,7 +236,7 @@ async function loadHomeCMSContent() {
                     const div = document.createElement('div');
                     div.className = `polaroid ${p.position}`;
                     div.innerHTML = `
-                        <img src="${p.image}" alt="${p.alt}">
+                        <img src="${p.image}">
                         <span class="polaroid-caption">${p.caption}</span>
                     `;
                     polaroidContainer.appendChild(div);
