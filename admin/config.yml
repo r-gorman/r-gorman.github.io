@@ -1,9 +1,13 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: r-gorman/r-gorman.github.io # Your repository
   branch: main
+  client_id: Ov23liT21UQQbuN02dLT   # Paste your actual GitHub Client ID here
+  base_url: https://jaksrescue.org
 
 media_folder: "images"
 public_folder: "/images"
+
 
 collections:
   - name: "pages"
