@@ -7,8 +7,8 @@ public_folder: "/images"
 
 collections:
   - name: "pages"
-    label: "Website Pages"
-    folder: "content"
+    label: "Homepage"
+    folder: "content/home"
     create: false
     summary: "Homepage"
     fields:
@@ -67,7 +67,7 @@ collections:
 
   - name: "about_page"
     label: "About Page"
-    folder: "content"
+    folder: "content/about"
     create: false
     summary: "About Page"
     filter: {field: "layout", value: "about"}
@@ -101,7 +101,7 @@ collections:
   
   - name: "adopt_page"
     label: "Adopt Page"
-    folder: "content"
+    folder: "content/adopt"
     create: false
     summary: "Adopt Page"
     filter: {field: "layout", value: "adopt"}
@@ -144,7 +144,7 @@ collections:
 
   - name: "get_involved_page"
     label: "Get Involved Page"
-    folder: "content"
+    folder: "content/get-involved"
     create: false
     summary: "Get Involved Page"
     filter: {field: "layout", value: "get-involved"}
@@ -160,7 +160,7 @@ collections:
 
   - name: "donate_page"
     label: "Donate Page"
-    folder: "content"
+    folder: "content/donate"
     create: false
     summary: "Donate Page"
     filter: {field: "layout", value: "donate"}
@@ -182,7 +182,7 @@ collections:
 
   - name: "contact_page"
     label: "Contact Page"
-    folder: "content"
+    folder: "content/contact"
     create: false
     summary: "Contact Page"
     filter: {field: "layout", value: "contact"}

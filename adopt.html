@@ -113,7 +113,7 @@
 <script>
     async function loadAdoptContent() {
         try {
-            const response = await fetch('content/adopt.md');
+            const response = await fetch('content/adopt/adopt.md');
             if (!response.ok) throw new Error('Could not load content/adopt.md');
             const markdownText = await response.text();
             

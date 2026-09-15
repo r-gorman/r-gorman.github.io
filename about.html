@@ -78,7 +78,7 @@
 <script>
     async function loadAboutContent() {
         try {
-            const response = await fetch('content/about.md');
+            const response = await fetch('content/about/about.md');
             if (!response.ok) throw new Error('Could not load content/about.md');
             const markdownText = await response.text();
             

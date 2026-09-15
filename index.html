@@ -204,7 +204,7 @@
 <script>
 async function loadHomeCMSContent() {
     try {
-        const response = await fetch('content/home.md');
+        const response = await fetch('content/home/home.md');
         if (!response.ok) return; // Fallback gracefully if running locally without server
         const markdownText = await response.text();
         

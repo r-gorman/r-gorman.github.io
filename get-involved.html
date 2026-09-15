@@ -78,7 +78,7 @@
 <script>
     async function loadGetInvolvedContent() {
         try {
-            const response = await fetch('content/get-involved.md');
+            const response = await fetch('content/get-involved/get-involved.md');
             if (!response.ok) throw new Error('Could not load content/get-involved.md');
             const markdownText = await response.text();
             

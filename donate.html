@@ -77,7 +77,7 @@
 <script>
     async function loadDonateContent() {
         try {
-            const response = await fetch('content/donate.md');
+            const response = await fetch('content/donate/donate.md');
             if (!response.ok) throw new Error('Could not load content/donate.md');
             const markdownText = await response.text();
             
