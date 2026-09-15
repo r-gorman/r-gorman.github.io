@@ -1,11 +1,5 @@
 media: "images"
 
-actions:
-  - name: trigger-deploy
-    label: "Trigger Deployment"
-    workflow: ".github/workflows/deploy.yml"
-    ref: "main"
-
 content:
   - name: home
     label: "Home"
