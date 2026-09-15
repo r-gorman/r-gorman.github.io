@@ -3,7 +3,7 @@ hero_title: Every Dog Deserves A Second Chance
 hero_text: Saving dogs throughout Central Arkansas and helping them find loving
   forever homes.
 stats_rescued: 350+
-stats_fosters: 35+
+stats_fosters: 25+
 stats_adoptions: 300+
 about_text: Based in Cabot, AR and serving Central Arkansas, our rescue is
   dedicated to saving abandoned and neglected dogs, providing them with
