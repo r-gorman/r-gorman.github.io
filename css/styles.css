@@ -490,15 +490,14 @@ footer {
     color: var(--logo-brown);
 }
 
-.vet-phone {
-    color: var(--logo-brown);
+a.vet-phone, a.vet-phone:visited {
+    color: var(--logo-brown) !important;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.2s;
 }
 
-.vet-phone:hover {
-    color: var(--logo-orange);
+a.vet-phone:hover {
+    color: var(--logo-orange) !important;
     text-decoration: underline;
 }
 
