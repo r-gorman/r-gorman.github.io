@@ -15,7 +15,7 @@ polaroids:
   - image: "images/IMG_5610.jpeg"
     caption: "Laverne"
     position: "p-main"
-stats_rescued: "350+"
+stats_rescued: "360+"
 stats_fosters: "45+"
 about_text: "Based in Cabot, AR and serving Central Arkansas, our rescue is dedicated to saving abandoned and neglected dogs, providing them with necessary medical care, rehabilitation, and placing them into safe, temporary foster environments until they find their permanent families."
 featured_animals:
