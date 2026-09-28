@@ -258,10 +258,9 @@ nav a:hover, nav a.active {
 }
 
 .featured-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    display: block;
 }
 
 .featured-header h2 {
@@ -283,6 +282,10 @@ nav a:hover, nav a.active {
     text-align: center;
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 12px rgba(51, 35, 29, 0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .featured-card p {
@@ -290,6 +293,19 @@ nav a:hover, nav a.active {
     margin-bottom: 1.5rem;
 }
 
+/* Restrict the grid width so cards stay compact and form a strict 2x2 layout */
+.featured .help-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .featured .help-grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+}
 .about-section {
     background: #ffffff;
     padding: 5rem 1.5rem;
@@ -418,6 +434,72 @@ footer {
     background: var(--logo-brown);
     color: #f4eee9;
     font-size: 0.9rem;
+}
+
+/* ========================================== */
+/* DONATE PAGE SPECIFIC MATCHING STYLES       */
+/* ========================================== */
+
+/* Matches the clean, centered inner-page hero style (like Foster Hero) */
+.donate-hero {
+    background: var(--bg-cream);
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.donate-hero .hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+.donate-hero .hero-text {
+    text-align: center;
+}
+
+.donate-hero .hero-text h2 {
+    font-size: 2.5rem;
+    color: var(--logo-brown);
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.donate-hero .hero-text p {
+    font-size: 1.1rem;
+    color: #594f47;
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Professional Vet Card Layout */
+.vet-info {
+    margin: 1rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.vet-detail {
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+    color: #594f47;
+    line-height: 1.4;
+}
+
+.vet-detail span {
+    font-weight: 600;
+    color: var(--logo-brown);
+}
+
+.vet-phone {
+    color: var(--logo-brown);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.vet-phone:hover {
+    color: var(--logo-orange);
+    text-decoration: underline;
 }
 
 /* ========================================== */
@@ -568,17 +650,34 @@ footer {
         padding: 0 !important;
     }
 
-    .help-grid {
+    /* Force all help grids and digital giving grids into a strict single-column flex layout on mobile */
+    .help-grid,
+    .featured .help-grid,
+    .digital-giving-container .help-grid {
+        display: flex !important;
+        flex-direction: column !important;
         grid-template-columns: 1fr !important;
+        width: 100% !important;
+        max-width: 100% !important;
         gap: 1.5rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
-    .help-card {
+    /* Ensure individual cards fill the mobile screen nicely without overflow */
+    .help-card,
+    .featured-card,
+    .digital-giving-container .featured-card,
+    .digital-giving-container .amazon-card {
         width: 100% !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
         margin: 0 !important;
-        padding: 1.5rem 1rem !important;
+        grid-column: auto !important;
+    }
+
+    .digital-giving-section {
+        padding: 3rem 1rem !important;
     }
 
     footer {

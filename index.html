@@ -167,16 +167,12 @@
                 <a href="adopt.html#application" class="help-link">Adopt a Dog →</a>
             </div>
 
-            <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: space-between;">
                 <div style="width: 100%;">
                     <h3 id="card_support-title">💖 Support Our Mission</h3>
                     <p id="card_support-text">Your tax-deductible financial contributions directly fund emergency veterinary care, food, and shelter for rescued dogs.</p>
                 </div>
-                <div class="payment-links" style="display: flex; justify-content: center; gap: 0.5rem; width: 100%;">
-                    <a href="https://paypal.me/JaksRescueRanch" target="_blank">PayPal</a>
-                    <a href="https://venmo.com/u/JaksSecondChanceRescueRanch" target="_blank">Venmo</a>
-                    <a href="https://cash.app/$JaksRescueRanch" target="_blank">CashApp</a>
-                </div>
+                <a href="donate.html" class="help-link">Donate Now →</a>
             </div>
         </div>
     </div>
@@ -188,8 +184,9 @@
         <h3 id="connect_title" style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem; font-size: 1.5rem;">Connect With Us Online</h3>
         <p id="connect_text" style="color: #594f47; font-size: 0.95rem; margin-bottom: 1.5rem;">For the newest updates on available dogs and daily rescue life, check out our socials</p>
         <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-            <a href="https://www.facebook.com/profile.php?id=61566464825278" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Facebook</a>
-            <a href="https://www.instagram.com/jaks_second_chance" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Instagram</a>
+            <a id="connect-fb-link" href="https://www.facebook.com/profile.php?id=61566464825278" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Facebook</a>
+            <a id="connect-insta-link" href="https://www.instagram.com/jaks_second_chance" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Instagram</a>
+            <a id="connect-tiktok-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">TikTok</a>
         </div>
     </div>
 </section>
@@ -227,6 +224,15 @@ async function loadHomeCMSContent() {
                     el.textContent = data[field];
                 }
             });
+
+            // Social links
+            if (data.facebook_url) document.getElementById('connect-fb-link').href = data.facebook_url;
+            if (data.instagram_url) document.getElementById('connect-insta-link').href = data.instagram_url;
+            if (data.tiktok_url) {
+                document.getElementById('connect-tiktok-link').href = data.tiktok_url;
+            } else {
+                document.getElementById('connect-tiktok-link').style.display = 'none';
+            }
 
             // 2. Populate Polaroid Stack
             const polaroidContainer = document.querySelector('.polaroid-stack');

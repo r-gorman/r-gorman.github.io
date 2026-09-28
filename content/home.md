@@ -1,6 +1,20 @@
 ---
+layout: "home"
 hero_title: "Every Dog Deserves A Second Chance"
 hero_text: "Saving dogs throughout Central Arkansas and helping them find loving forever homes."
+polaroids:
+  - image: "images/IMG_5644.jpeg"
+    caption: "Lucy"
+    position: "p3"
+  - image: "images/IMG_5745.jpeg"
+    caption: "Topeka"
+    position: "p2"
+  - image: "images/IMG_5891.jpeg"
+    caption: "Andy"
+    position: "p1"
+  - image: "images/IMG_5610.jpeg"
+    caption: "Laverne"
+    position: "p-main"
 stats_rescued: "350+"
 stats_fosters: "45+"
 stats_adoptions: "300+"
@@ -27,4 +41,7 @@ card_support:
   text: "Your tax-deductible financial contributions directly fund emergency veterinary care, food, and shelter for rescued dogs."
 connect_title: "Connect With Us Online"
 connect_text: "For the newest updates on available dogs and daily rescue life, check out our socials"
+facebook_url: "https://www.facebook.com/profile.php?id=61566464825278"
+instagram_url: "https://www.instagram.com/jaks_second_chance"
+tiktok_url: "https://tiktok.com/@jaks.second.chance"
 ---

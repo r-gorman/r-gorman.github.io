@@ -25,4 +25,5 @@ card_connect:
   text: "For the fastest updates on available dogs and daily rescue life, check out our active channels:"
   facebook_url: "https://www.facebook.com/profile.php?id=61566464825278"
   instagram_url: "https://www.instagram.com/jaks_second_chance"
+  tiktok_url: "https://tiktok.com/@jaks.second.chance"
 ---
