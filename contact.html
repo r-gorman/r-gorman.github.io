@@ -75,6 +75,7 @@
                 <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
                     <a id="connect-fb-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Facebook</a>
                     <a id="connect-insta-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Instagram</a>
+                    <a id="connect-tiktok-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">TikTok</a>
                 </div>
             </div>
         </div>
@@ -124,6 +125,11 @@
                     document.getElementById('card-connect-text').textContent = data.card_connect.text || '';
                     if (data.card_connect.facebook_url) document.getElementById('connect-fb-link').href = data.card_connect.facebook_url;
                     if (data.card_connect.instagram_url) document.getElementById('connect-insta-link').href = data.card_connect.instagram_url;
+                    if (data.card_connect.tiktok_url) {
+                        document.getElementById('connect-tiktok-link').href = data.card_connect.tiktok_url;
+                    } else {
+                        document.getElementById('connect-tiktok-link').style.display = 'none';
+                    }
                 }
             }
         } catch (error) {
