@@ -62,11 +62,12 @@
             color: var(--logo-brown) !important;
             text-decoration: none;
             font-weight: 600;
+            transition: color 0.2s ease;
         }
 
-        a.vet-phone:hover {
+        a.vet-phone:hover, a.vet-phone:active {
             color: var(--logo-orange) !important;
-            text-decoration: underline;
+            text-decoration: underline !important;
         }
 
         /* Responsive design for mobile phones */
@@ -123,55 +124,55 @@
                 <!-- Row 1, Item 1: PayPal -->
                 <div class="featured-card">
                     <div>
-                        <h3>💳 PayPal</h3>
-                        <p>Make a secure donation online using your PayPal balance, debit, or credit card.</p>
+                        <h3 id="paypal-title">💳 PayPal</h3>
+                        <p id="paypal-desc">Loading...</p>
                     </div>
-                    <a id="paypal-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">Donate via PayPal</a>
+                    <a id="paypal-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="paypal-btn-text">Donate via PayPal</span></a>
                 </div>
 
                 <!-- Row 1, Item 2: Venmo -->
                 <div class="featured-card">
                     <div>
-                        <h3>💸 Venmo</h3>
-                        <p>Send a quick donation straight from your phone or mobile device using Venmo.</p>
+                        <h3 id="venmo-title">💸 Venmo</h3>
+                        <p id="venmo-desc">Loading...</p>
                     </div>
-                    <a id="venmo-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">Donate via Venmo</a>
+                    <a id="venmo-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="venmo-btn-text">Donate via Venmo</span></a>
                 </div>
 
                 <!-- Row 2, Item 1: Cash App -->
                 <div class="featured-card">
                     <div>
-                        <h3>💵 Cash App</h3>
-                        <p>Support our day-to-day rescue operations safely and instantly through Cash App.</p>
+                        <h3 id="cashapp-title">💵 Cash App</h3>
+                        <p id="cashapp-desc">Loading...</p>
                     </div>
-                    <a id="cashapp-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">Donate via Cash App</a>
+                    <a id="cashapp-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="cashapp-btn-text">Donate via Cash App</span></a>
                 </div>
 
                 <!-- Row 2, Item 2: Zelle -->
                 <div class="featured-card">
                     <div>
-                        <h3>🏦 Zelle</h3>
-                        <p>Send direct contributions through your banking app using Zelle. Copy our email below:<br><strong id="zelle-email" style="color: var(--logo-brown); display: block; margin-top: 0.4rem;">jaksrescueranch@gmail.com</strong><span style="font-size: 0.85rem; display: block; margin-top: 0.15rem;"><strong>Name:</strong> <span id="zelle-name">Jennifer Bridges</span></span></p>
+                        <h3 id="zelle-title">🏦 Zelle</h3>
+                        <p><span id="zelle-desc">Loading...</span><br><strong id="zelle-email" style="color: var(--logo-brown); display: block; margin-top: 0.4rem;">Loading...</strong><span style="font-size: 0.85rem; display: block; margin-top: 0.15rem;"><strong>Name:</strong> <span id="zelle-name">Loading...</span></span></p>
                     </div>
-                    <a href="javascript:void(0);" onclick="copyZelleEmail(this)" class="button btn-primary">Copy Zelle Email</a>
+                    <a href="javascript:void(0);" onclick="copyZelleEmail(this)" class="button btn-primary"><span id="zelle-btn-text">Copy Zelle Email</span></a>
                 </div>
 
                 <!-- Row 3, Item 1: Amazon Wish List -->
                 <div class="featured-card">
                     <div>
-                        <h3>📦 Amazon Wish List</h3>
-                        <p>Prefer sending physical supplies? Check out our most-needed items on Amazon.</p>
+                        <h3 id="amazon-title">📦 Amazon Wish List</h3>
+                        <p id="amazon-desc">Loading...</p>
                     </div>
-                    <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">View Amazon Wish List</a>
+                    <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="amazon-btn-text">View Amazon Wish List</span></a>
                 </div>
 
                 <!-- Row 3, Item 2: Chewy Wish List -->
                 <div class="featured-card">
                     <div>
-                        <h3>🐾 Chewy Wish List</h3>
-                        <p>Help us stock up on food, treats, and pet essentials directly through Chewy.</p>
+                        <h3 id="chewy-title">🐾 Chewy Wish List</h3>
+                        <p id="chewy-desc">Loading...</p>
                     </div>
-                    <a id="chewy-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">View Chewy Wish List</a>
+                    <a id="chewy-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="chewy-btn-text">View Chewy Wish List</span></a>
                 </div>
             </div>
         </div>
@@ -243,16 +244,46 @@
                 document.getElementById('donate-title').textContent = data.donate_title || '';
                 document.getElementById('donate-text').textContent = data.donate_text || '';
 
-                // Digital Giving Links
+                // Digital Giving Content & Links
                 if (data.card_giving) {
                     if (data.card_giving.title) document.getElementById('giving-heading').textContent = data.card_giving.title;
+
+                    // PayPal
+                    if (data.card_giving.paypal_title) document.getElementById('paypal-title').textContent = data.card_giving.paypal_title;
+                    if (data.card_giving.paypal_desc) document.getElementById('paypal-desc').textContent = data.card_giving.paypal_desc;
+                    if (data.card_giving.paypal_btn) document.getElementById('paypal-btn-text').textContent = data.card_giving.paypal_btn;
                     if (data.card_giving.paypal_url) document.getElementById('paypal-link').href = data.card_giving.paypal_url;
+
+                    // Venmo
+                    if (data.card_giving.venmo_title) document.getElementById('venmo-title').textContent = data.card_giving.venmo_title;
+                    if (data.card_giving.venmo_desc) document.getElementById('venmo-desc').textContent = data.card_giving.venmo_desc;
+                    if (data.card_giving.venmo_btn) document.getElementById('venmo-btn-text').textContent = data.card_giving.venmo_btn;
                     if (data.card_giving.venmo_url) document.getElementById('venmo-link').href = data.card_giving.venmo_url;
+
+                    // Cash App
+                    if (data.card_giving.cashapp_title) document.getElementById('cashapp-title').textContent = data.card_giving.cashapp_title;
+                    if (data.card_giving.cashapp_desc) document.getElementById('cashapp-desc').textContent = data.card_giving.cashapp_desc;
+                    if (data.card_giving.cashapp_btn) document.getElementById('cashapp-btn-text').textContent = data.card_giving.cashapp_btn;
                     if (data.card_giving.cashapp_url) document.getElementById('cashapp-link').href = data.card_giving.cashapp_url;
-                    if (data.card_giving.amazon_url) document.getElementById('amazon-link').href = data.card_giving.amazon_url;
-                    if (data.card_giving.chewy_url) document.getElementById('chewy-link').href = data.card_giving.chewy_url;
+
+                    // Zelle
+                    if (data.card_giving.zelle_title) document.getElementById('zelle-title').textContent = data.card_giving.zelle_title;
+                    if (data.card_giving.zelle_desc) document.getElementById('zelle-desc').textContent = data.card_giving.zelle_desc;
+                    if (data.card_giving.zelle_btn) document.getElementById('zelle-btn-text').textContent = data.card_giving.zelle_btn;
                     if (data.card_giving.zelle_email) document.getElementById('zelle-email').textContent = data.card_giving.zelle_email;
                     if (data.card_giving.zelle_name) document.getElementById('zelle-name').textContent = data.card_giving.zelle_name;
+
+                    // Amazon
+                    if (data.card_giving.amazon_title) document.getElementById('amazon-title').textContent = data.card_giving.amazon_title;
+                    if (data.card_giving.amazon_desc) document.getElementById('amazon-desc').textContent = data.card_giving.amazon_desc;
+                    if (data.card_giving.amazon_btn) document.getElementById('amazon-btn-text').textContent = data.card_giving.amazon_btn;
+                    if (data.card_giving.amazon_url) document.getElementById('amazon-link').href = data.card_giving.amazon_url;
+
+                    // Chewy
+                    if (data.card_giving.chewy_title) document.getElementById('chewy-title').textContent = data.card_giving.chewy_title;
+                    if (data.card_giving.chewy_desc) document.getElementById('chewy-desc').textContent = data.card_giving.chewy_desc;
+                    if (data.card_giving.chewy_btn) document.getElementById('chewy-btn-text').textContent = data.card_giving.chewy_btn;
+                    if (data.card_giving.chewy_url) document.getElementById('chewy-link').href = data.card_giving.chewy_url;
                 }
 
                 // Vet Partners Content
@@ -261,21 +292,21 @@
                     if (data.card_vets.subtitle) document.getElementById('vets-subtitle').textContent = data.card_vets.subtitle;
 
                     // Vet 1
-                    document.getElementById('vet-1-name').textContent = '🏥 ' + (data.card_vets.vet_1_name || '');
+                    document.getElementById('vet-1-name').textContent = data.card_vets.vet_1_name || '';
                     document.getElementById('vet-1-account').textContent = data.card_vets.vet_1_account || '';
                     document.getElementById('vet-1-phone-display').textContent = data.card_vets.vet_1_phone_display || '';
                     document.getElementById('vet-1-phone-link').href = 'tel:' + (data.card_vets.vet_1_phone || '');
                     document.getElementById('vet-1-url').href = data.card_vets.vet_1_url || '#';
 
                     // Vet 2
-                    document.getElementById('vet-2-name').textContent = '🏥 ' + (data.card_vets.vet_2_name || '');
+                    document.getElementById('vet-2-name').textContent = data.card_vets.vet_2_name || '';
                     document.getElementById('vet-2-account').textContent = data.card_vets.vet_2_account || '';
                     document.getElementById('vet-2-phone-display').textContent = data.card_vets.vet_2_phone_display || '';
                     document.getElementById('vet-2-phone-link').href = 'tel:' + (data.card_vets.vet_2_phone || '');
                     document.getElementById('vet-2-url').href = data.card_vets.vet_2_url || '#';
 
                     // Vet 3
-                    document.getElementById('vet-3-name').textContent = '🏥 ' + (data.card_vets.vet_3_name || '');
+                    document.getElementById('vet-3-name').textContent = data.card_vets.vet_3_name || '';
                     document.getElementById('vet-3-account').textContent = data.card_vets.vet_3_account || '';
                     document.getElementById('vet-3-phone-display').textContent = data.card_vets.vet_3_phone_display || '';
                     document.getElementById('vet-3-phone-link').href = 'tel:' + (data.card_vets.vet_3_phone || '');
@@ -290,11 +321,12 @@
     function copyZelleEmail(button) {
         const emailText = document.getElementById('zelle-email').textContent;
         navigator.clipboard.writeText(emailText).then(() => {
-            const originalText = button.textContent;
-            button.textContent = 'Copied Email!';
+            const spanText = button.querySelector('span') || button;
+            const originalText = spanText.textContent;
+            spanText.textContent = 'Copied Email!';
             button.style.background = '#38a169'; // Success green look
             setTimeout(() => {
-                button.textContent = originalText;
+                spanText.textContent = originalText;
                 button.style.background = ''; // Reverts back to button default (.btn-primary color)
             }, 2500);
         }).catch(err => {
