@@ -25,7 +25,7 @@ featured_animals:
     link: "https://www.adoptapet.com/pet/47987703-cabot-arkansas-pit-bull-terrier-plott-hound-mix"
   - name: "Lucy"
     image: "images/IMG_5652.jpeg"
-    text: "Kid-friendly, dog-friendly, cat-friendly and 100% ready for a family of her own. Lucy is looking for her forever home!"
+    text: "Kid-friendly, dog-friendly, cat-friendly, and endlessly sweet, Lucy is ready to steal your heart."
     link: "https://www.adoptapet.com/pet/48464989-cabot-arkansas-pit-bull-terrier-mix"
 help_title: "How You Can Help"
 help_subtitle: "Whether you want to open your home or support our mission from afar, there are many ways to make an impact."
