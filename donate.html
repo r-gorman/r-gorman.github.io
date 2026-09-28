@@ -5,16 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate | Jak's Second Chance Rescue Ranch</title>
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Netlify Identity Widget Script for handling invites and logins -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <!-- Include js-yaml to parse front matter markdown -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
     <style>
+        /* Section background wrapper styling */
+        .digital-giving-section {
+            background: #f7f1ec;
+            padding: 5rem 1.5rem;
+        }
+
+        .digital-giving-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .digital-giving-container h2 {
+            color: #000000;
+            font-size: 2.2rem;
+            margin-bottom: 3rem;
+            margin-top: 0;
+        }
+
+        /* Make individual cards white */
+        .digital-giving-container .featured-card {
+            background: #ffffff !important;
+            border-color: var(--border-color) !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .digital-giving-container .featured-card h3 {
+            color: var(--logo-orange) !important;
+        }
+
+        .digital-giving-container .featured-card p {
+            color: #594f47 !important;
+        }
+
+        /* Grid layout for digital giving section */
+        .digital-giving-container .help-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Responsive design for mobile phones */
         @media (max-width: 768px) {
-            footer {
-                padding: 1.5rem 1rem !important;
-            }
-            footer p {
-                font-size: 0.85rem !important;
-                margin: 0 !important;
+            .digital-giving-container .help-grid {
+                grid-template-columns: 1fr !important;
+                max-width: 100% !important;
             }
         }
     </style>
@@ -47,30 +94,125 @@
 </header>
 
 <main>
-    <section class="help-section" style="padding: 4.5rem 1.5rem;">
-        <div class="help-container" style="max-width: 800px; margin: 0 auto; text-align: center;">
-            <h2 id="donate-title">Support Our Mission</h2>
-            <p id="donate-text" class="help-subtitle" style="margin-left: auto; margin-right: auto; max-width: 650px;">Loading...</p>
-            
-            <!-- Direct Digital Giving Card -->
-            <div class="help-card" style="padding: 2.5rem; display: flex; flex-direction: column; justify-content: space-between; text-align: left; max-width: 600px; margin: 0 auto;">
-                <div>
-                    <h3 id="card-giving-title" style="font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center;">Direct Digital Giving</h3>
-                    <p id="card-giving-text" style="margin-bottom: 2rem; text-align: center;">Loading...</p>
+    <section class="help-section" style="padding: 5rem 1.5rem; background: #ffffff;">
+        <div class="help-container" style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <h2 id="donate-title" style="color: var(--logo-brown); font-size: 2.5rem; margin-bottom: 1rem;">Loading...</h2>
+            <p id="donate-text" style="color: #594f47; font-size: 1.15rem; line-height: 1.7; margin: 0 auto; max-width: 800px;">
+                Loading...
+            </p>
+        </div>
+    </section>
+
+    <!-- Digital Giving & Wishlist Section with #f7f1ec background -->
+    <section class="digital-giving-section">
+        <div class="digital-giving-container">
+            <h2 id="giving-heading">Digital Giving & Wishlist</h2>
+            <div class="help-grid">
+                <!-- Row 1, Item 1: PayPal -->
+                <div class="featured-card">
+                    <div>
+                        <h3>💳 PayPal</h3>
+                        <p>Make a secure donation online using your PayPal balance, debit, or credit card.</p>
+                    </div>
+                    <a id="paypal-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">Donate via PayPal</a>
                 </div>
-                <div style="display: flex; flex-direction: column; gap: 0.85rem;">
-                    <a id="amazon-link" href="#" target="_blank" class="button btn-secondary" style="text-align: center; padding: 1rem; font-size: 1.05rem; border: 1px solid var(--border-color); color: var(--logo-brown);">Amazon Wishlist</a>
-                    <a id="venmo-link" href="#" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">Venmo</a>
-                    <a id="paypal-link" href="#" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">PayPal</a>
-                    <a id="cashapp-link" href="#" target="_blank" class="button btn-primary" style="text-align: center; padding: 1rem; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(230, 126, 53, 0.2);">CashApp</a>
+
+                <!-- Row 1, Item 2: Venmo -->
+                <div class="featured-card">
+                    <div>
+                        <h3>💸 Venmo</h3>
+                        <p>Send a quick donation straight from your phone or mobile device using Venmo.</p>
+                    </div>
+                    <a id="venmo-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">Donate via Venmo</a>
+                </div>
+
+                <!-- Row 2, Item 1: Cash App -->
+                <div class="featured-card">
+                    <div>
+                        <h3>💵 Cash App</h3>
+                        <p>Support our day-to-day rescue operations safely and instantly through Cash App.</p>
+                    </div>
+                    <a id="cashapp-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">Donate via Cash App</a>
+                </div>
+
+                <!-- Row 2, Item 2: Zelle -->
+                <div class="featured-card">
+                    <div>
+                        <h3>🏦 Zelle</h3>
+                        <p>Send direct contributions through your banking app using Zelle. Copy our email below:<br><strong id="zelle-email" style="color: var(--logo-brown); display: block; margin-top: 0.4rem;">jaksrescueranch@gmail.com</strong><span style="font-size: 0.85rem; display: block; margin-top: 0.15rem;"><strong>Name:</strong> <span id="zelle-name">Jennifer Bridges</span></span></p>
+                    </div>
+                    <a href="javascript:void(0);" onclick="copyZelleEmail(this)" class="button btn-primary">Copy Zelle Email</a>
+                </div>
+
+                <!-- Row 3, Item 1: Amazon Wish List -->
+                <div class="featured-card">
+                    <div>
+                        <h3>📦 Amazon Wish List</h3>
+                        <p>Prefer sending physical supplies? Check out our most-needed items on Amazon.</p>
+                    </div>
+                    <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">View Amazon Wish List</a>
+                </div>
+
+                <!-- Row 3, Item 2: Chewy Wish List -->
+                <div class="featured-card">
+                    <div>
+                        <h3>🐾 Chewy Wish List</h3>
+                        <p>Help us stock up on food, treats, and pet essentials directly through Chewy.</p>
+                    </div>
+                    <a id="chewy-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary">View Chewy Wish List</a>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <!-- Vet Partners Section -->
+    <section class="help-section">
+        <div class="help-container">
+            <h2 id="vets-heading">Our Trusted Veterinary Partners</h2>
+            <p id="vets-subtitle" class="help-subtitle">Loading...</p>
+            
+            <div class="help-grid">
+                <!-- Vet 1 -->
+                <div class="help-card">
+                    <div>
+                        <h3 id="vet-1-name">🏥 Veterinary Partner</h3>
+                        <div class="vet-info">
+                            <p class="vet-detail"><span>Account Name:</span> <span id="vet-1-account">Loading...</span></p>
+                            <p class="vet-detail"><span>📞 Phone:</span> <a id="vet-1-phone-link" href="#" class="vet-phone"><span id="vet-1-phone-display">Loading...</span></a></p>
+                        </div>
+                    </div>
+                    <a id="vet-1-url" href="#" target="_blank" rel="noopener noreferrer" class="help-link">Visit Website &rarr;</a>
+                </div>
+
+                <!-- Vet 2 -->
+                <div class="help-card">
+                    <div>
+                        <h3 id="vet-2-name">🏥 Veterinary Partner</h3>
+                        <div class="vet-info">
+                            <p class="vet-detail"><span>Account Name:</span> <span id="vet-2-account">Loading...</span></p>
+                            <p class="vet-detail"><span>📞 Phone:</span> <a id="vet-2-phone-link" href="#" class="vet-phone"><span id="vet-2-phone-display">Loading...</span></a></p>
+                        </div>
+                    </div>
+                    <a id="vet-2-url" href="#" target="_blank" rel="noopener noreferrer" class="help-link">Visit Website &rarr;</a>
+                </div>
+
+                <!-- Vet 3 -->
+                <div class="help-card">
+                    <div>
+                        <h3 id="vet-3-name">🏥 Veterinary Partner</h3>
+                        <div class="vet-info">
+                            <p class="vet-detail"><span>Account Name:</span> <span id="vet-3-account">Loading...</span></p>
+                            <p class="vet-detail"><span>📞 Phone:</span> <a id="vet-3-phone-link" href="#" class="vet-phone"><span id="vet-3-phone-display">Loading...</span></a></p>
+                        </div>
+                    </div>
+                    <a id="vet-3-url" href="#" target="_blank" rel="noopener noreferrer" class="help-link">Visit Website &rarr;</a>
+                </div>
+            </div>
         </div>
     </section>
 </main>
 
-<footer style="padding: 2.5rem 1rem; text-align: center; background: #2b221e; color: #fff;">
+<footer>
     <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
 </footer>
 
@@ -78,28 +220,74 @@
     async function loadDonateContent() {
         try {
             const response = await fetch('content/donate/donate.md');
-            if (!response.ok) throw new Error('Could not load content/donate.md');
+            if (!response.ok) throw new Error('Could not load content/donate/donate.md');
             const markdownText = await response.text();
             
             const parts = markdownText.split('---');
             if (parts.length >= 2) {
                 const data = jsyaml.load(parts[1]);
 
+                // Hero Content
                 document.getElementById('donate-title').textContent = data.donate_title || '';
                 document.getElementById('donate-text').textContent = data.donate_text || '';
 
+                // Digital Giving Links
                 if (data.card_giving) {
-                    document.getElementById('card-giving-title').textContent = data.card_giving.title || '';
-                    document.getElementById('card-giving-text').textContent = data.card_giving.text || '';
-                    if (data.card_giving.amazon_url) document.getElementById('amazon-link').href = data.card_giving.amazon_url;
-                    if (data.card_giving.venmo_url) document.getElementById('venmo-link').href = data.card_giving.venmo_url;
+                    if (data.card_giving.title) document.getElementById('giving-heading').textContent = data.card_giving.title;
                     if (data.card_giving.paypal_url) document.getElementById('paypal-link').href = data.card_giving.paypal_url;
+                    if (data.card_giving.venmo_url) document.getElementById('venmo-link').href = data.card_giving.venmo_url;
                     if (data.card_giving.cashapp_url) document.getElementById('cashapp-link').href = data.card_giving.cashapp_url;
+                    if (data.card_giving.amazon_url) document.getElementById('amazon-link').href = data.card_giving.amazon_url;
+                    if (data.card_giving.chewy_url) document.getElementById('chewy-link').href = data.card_giving.chewy_url;
+                    if (data.card_giving.zelle_email) document.getElementById('zelle-email').textContent = data.card_giving.zelle_email;
+                    if (data.card_giving.zelle_name) document.getElementById('zelle-name').textContent = data.card_giving.zelle_name;
+                }
+
+                // Vet Partners Content
+                if (data.card_vets) {
+                    if (data.card_vets.title) document.getElementById('vets-heading').textContent = data.card_vets.title;
+                    if (data.card_vets.subtitle) document.getElementById('vets-subtitle').textContent = data.card_vets.subtitle;
+
+                    // Vet 1
+                    document.getElementById('vet-1-name').textContent = '🏥 ' + (data.card_vets.vet_1_name || '');
+                    document.getElementById('vet-1-account').textContent = data.card_vets.vet_1_account || '';
+                    document.getElementById('vet-1-phone-display').textContent = data.card_vets.vet_1_phone_display || '';
+                    document.getElementById('vet-1-phone-link').href = 'tel:' + (data.card_vets.vet_1_phone || '');
+                    document.getElementById('vet-1-url').href = data.card_vets.vet_1_url || '#';
+
+                    // Vet 2
+                    document.getElementById('vet-2-name').textContent = '🏥 ' + (data.card_vets.vet_2_name || '');
+                    document.getElementById('vet-2-account').textContent = data.card_vets.vet_2_account || '';
+                    document.getElementById('vet-2-phone-display').textContent = data.card_vets.vet_2_phone_display || '';
+                    document.getElementById('vet-2-phone-link').href = 'tel:' + (data.card_vets.vet_2_phone || '');
+                    document.getElementById('vet-2-url').href = data.card_vets.vet_2_url || '#';
+
+                    // Vet 3
+                    document.getElementById('vet-3-name').textContent = '🏥 ' + (data.card_vets.vet_3_name || '');
+                    document.getElementById('vet-3-account').textContent = data.card_vets.vet_3_account || '';
+                    document.getElementById('vet-3-phone-display').textContent = data.card_vets.vet_3_phone_display || '';
+                    document.getElementById('vet-3-phone-link').href = 'tel:' + (data.card_vets.vet_3_phone || '');
+                    document.getElementById('vet-3-url').href = data.card_vets.vet_3_url || '#';
                 }
             }
         } catch (error) {
             console.error('Error loading CMS content:', error);
         }
+    }
+
+    function copyZelleEmail(button) {
+        const emailText = document.getElementById('zelle-email').textContent;
+        navigator.clipboard.writeText(emailText).then(() => {
+            const originalText = button.textContent;
+            button.textContent = 'Copied Email!';
+            button.style.background = '#38a169'; // Success green look
+            setTimeout(() => {
+                button.textContent = originalText;
+                button.style.background = ''; // Reverts back to button default (.btn-primary color)
+            }, 2500);
+        }).catch(err => {
+            console.error('Failed to copy text: ', err);
+        });
     }
 
     loadDonateContent();
