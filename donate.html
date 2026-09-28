@@ -57,6 +57,18 @@
             margin: 0 auto;
         }
 
+        /* Force override browser default link styling for vet phone numbers */
+        a.vet-phone, a.vet-phone:visited {
+            color: var(--logo-brown) !important;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a.vet-phone:hover {
+            color: var(--logo-orange) !important;
+            text-decoration: underline;
+        }
+
         /* Responsive design for mobile phones */
         @media (max-width: 768px) {
             .digital-giving-container .help-grid {
