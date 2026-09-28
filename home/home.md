@@ -41,4 +41,7 @@ card_support:
   text: "Your tax-deductible financial contributions directly fund emergency veterinary care, food, and shelter for rescued dogs."
 connect_title: "Connect With Us Online"
 connect_text: "For the newest updates on available dogs and daily rescue life, check out our socials"
+facebook_url: "https://www.facebook.com/profile.php?id=61566464825278"
+instagram_url: "https://www.instagram.com/jaks_second_chance"
+tiktok_url: "https://tiktok.com/@jaks.second.chance"
 ---
