@@ -5,37 +5,37 @@
       "name": "home",
       "label": "Home",
       "type": "file",
-      "path": "content/home/home.md"
+      "path": "index.md"
     },
     {
       "name": "about",
       "label": "About",
       "type": "file",
-      "path": "content/about/about.md"
+      "path": "content/about/index.md"
     },
     {
       "name": "adopt",
       "label": "Adopt",
       "type": "file",
-      "path": "content/adopt/adopt.md"
+      "path": "content/adopt/index.md"
     },
     {
       "name": "contact",
       "label": "Contact",
       "type": "file",
-      "path": "content/contact/contact.md"
+      "path": "content/contact/index.md"
     },
     {
       "name": "donate",
       "label": "Donate",
       "type": "file",
-      "path": "content/donate/donate.md"
+      "path": "content/donate/index.md"
     },
     {
       "name": "get-involved",
       "label": "Get Involved",
       "type": "file",
-      "path": "content/get-involved/get-involved.md"
+      "path": "content/get-involved/index.md"
     }
   ]
 }

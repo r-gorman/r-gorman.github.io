@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Jak's Second Chance Rescue Ranch</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Include js-yaml to parse front matter markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+
+<body>
+
+<header>
+    <a href="/" class="logo-section" style="text-decoration: none; display: flex; align-items: center; gap: 1rem;">
+        <img src="assets/images/logo.png" alt="Jak's Second Chance Rescue Ranch Logo">
+        <h1>Jak's Second Chance Rescue Ranch</h1>
+    </a>
+    
+    <!-- Mobile hamburger menu toggle elements -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <nav id="mainNav">
+        <a href="/">Home</a>
+        <a href="/adopt/">Adopt</a>
+        <a href="/get-involved/">Get Involved</a>
+        <a href="/about/" class="active">About Us</a>
+        <a href="/donate/">Donate</a>
+        <a href="/contact/">Contact Us</a>
+    </nav>
+</header>
+
+<main>
+    <section class="about-section" style="padding: 5rem 1.5rem; background: #ffffff;">
+        <div class="about-container" style="max-width: 850px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1.5rem;">
+            <img src="assets/images/logo.png" alt="Jak's Logo" class="about-logo" style="height: 200px; width: 200px; object-fit: contain;">
+            <h2 id="who-title">Who We Are</h2>
+            <p id="who-text" style="color: #594f47; font-size: 1.1rem; line-height: 1.7; margin: 0;">
+                Loading...
+            </p>
+        </div>
+    </section>
+
+    <section class="help-section" style="padding: 5rem 1.5rem; background: #f7f1ec;">
+        <div class="help-container" style="max-width: 1000px; margin: 0 auto;">
+            <h2 id="mission-title" style="text-align: center; margin-bottom: 0.75rem; color: var(--logo-brown); font-size: 2.2rem;">Our Mission & Values</h2>
+            <p id="mission-text" class="help-subtitle" style="text-align: center; margin-bottom: 3rem;">Loading...</p>
+            
+            <div class="help-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div class="help-card" style="background: white; padding: 2.5rem 2rem; border-radius: 10px; border: 1px solid var(--border-color); text-align: center; display: flex; flex-direction: column; justify-content: flex-start;">
+                    <h3 id="card-rescue-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">Rescue & Rehabilitation</h3>
+                    <p id="card-rescue-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">Loading...</p>
+                </div>
+                
+                <div class="help-card" style="background: white; padding: 2.5rem 2rem; border-radius: 10px; border: 1px solid var(--border-color); text-align: center; display: flex; flex-direction: column; justify-content: flex-start;">
+                    <h3 id="card-foster-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">Foster Network</h3>
+                    <p id="card-foster-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">Loading...</p>
+                </div>
+
+                <div class="help-card" style="background: white; padding: 2.5rem 2rem; border-radius: 10px; border: 1px solid var(--border-color); text-align: center; display: flex; flex-direction: column; justify-content: flex-start;">
+                    <h3 id="card-matches-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">Lifelong Matches</h3>
+                    <p id="card-matches-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">Loading...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer style="padding: 2.5rem 1rem; text-align: center; background: #2b221e; color: #fff;">
+    <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
+</footer>
+
+<script>
+    async function loadAboutContent() {
+        try {
+            const response = await fetch('content/about/index.md');
+            if (!response.ok) throw new Error('Could not load content/index.md');
+            const markdownText = await response.text();
+            
+            // Split out the YAML front matter block
+            const parts = markdownText.split('---');
+            if (parts.length >= 2) {
+                const data = jsyaml.load(parts[1]);
+
+                // Populate elements dynamically
+                document.getElementById('who-title').textContent = data.who_title || '';
+                document.getElementById('who-text').textContent = data.who_text || '';
+                document.getElementById('mission-title').textContent = data.mission_title || '';
+                document.getElementById('mission-text').textContent = data.mission_text || '';
+
+                if (data.card_rescue) {
+                    document.getElementById('card-rescue-title').textContent = data.card_rescue.title || '';
+                    document.getElementById('card-rescue-text').textContent = data.card_rescue.text || '';
+                }
+                if (data.card_foster_network) {
+                    document.getElementById('card-foster-title').textContent = data.card_foster_network.title || '';
+                    document.getElementById('card-foster-text').textContent = data.card_foster_network.text || '';
+                }
+                if (data.card_matches) {
+                    document.getElementById('card-matches-title').textContent = data.card_matches.title || '';
+                    document.getElementById('card-matches-text').textContent = data.card_matches.text || '';
+                }
+            }
+        } catch (error) {
+            console.error('Error loading CMS content:', error);
+        }
+    }
+
+    loadAboutContent();
+</script>
+
+</body>
+</html>
