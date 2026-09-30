@@ -5,9 +5,8 @@ actions:
     workflow: "deploy.yml"
     ref: "main"
 
-media: "assets/images"
+media: "images"
 content:
-  - name: "home"
   - name: "home"
     label: "Home"
     type: "file"
