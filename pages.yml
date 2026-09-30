@@ -4,44 +4,31 @@ actions:
     label: "Trigger Deployment"
     workflow: "deploy.yml"
     ref: "main"
-{
-  "media": "assets/images",
-  "content": [
-    {
-      "name": "home",
-      "label": "Home",
-      "type": "file",
-      "path": "index.md"
-    },
-    {
-      "name": "about",
-      "label": "About",
-      "type": "file",
-      "path": "content/about/index.md"
-    },
-    {
-      "name": "adopt",
-      "label": "Adopt",
-      "type": "file",
-      "path": "content/adopt/index.md"
-    },
-    {
-      "name": "contact",
-      "label": "Contact",
-      "type": "file",
-      "path": "content/contact/index.md"
-    },
-    {
-      "name": "donate",
-      "label": "Donate",
-      "type": "file",
-      "path": "content/donate/index.md"
-    },
-    {
-      "name": "get-involved",
-      "label": "Get Involved",
-      "type": "file",
-      "path": "content/get-involved/index.md"
-    }
-  ]
-}
+
+media: "assets/images"
+content:
+  - name: "home"
+  - name: "home"
+    label: "Home"
+    type: "file"
+    path: "index.md"
+  - name: "about"
+    label: "About"
+    type: "file"
+    path: "content/about/index.md"
+  - name: "adopt"
+    label: "Adopt"
+    type: "file"
+    path: "content/adopt/index.md"
+  - name: "contact"
+    label: "Contact"
+    type: "file"
+    path: "content/contact/index.md"
+  - name: "donate"
+    label: "Donate"
+    type: "file"
+    path: "content/donate/index.md"
+  - name: "get-involved"
+    label: "Get Involved"
+    type: "file"
+    path: "content/get-involved/index.md"
