@@ -1,5 +1,6 @@
 ---
 layout: "home"
+title: "Home"
 hero_title: "Every Dog Deserves A Second Chance"
 hero_text: "Saving dogs throughout Central Arkansas and helping them find loving forever homes."
 polaroids:

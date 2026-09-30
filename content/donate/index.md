@@ -1,5 +1,6 @@
 ---
 layout: "donate"
+title: "Donate"
 donate_title: "Support Our Rescue"
 donate_text: "Every dollar directly helps us provide medical care, food, safe shelter, and rehabilitation for animals in need across Central Arkansas. Thank you for giving them a second chance!"
 

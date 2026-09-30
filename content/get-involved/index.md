@@ -1,5 +1,6 @@
 ---
 layout: "get-involved"
+Title: "Get Involved"
 hero_title: "Become a Foster Hero"
 hero_text: "Fostering is one of the most impactful ways to help. By opening your home, you give a rescue dog a safe, loving place to decompress, learn household routines, and get ready for their forever family. Plus, it frees up space for us to rescue another dog in need."
 cover_title: "We Cover Everything"

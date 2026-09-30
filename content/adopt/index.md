@@ -1,5 +1,6 @@
 ---
 layout: "adopt"
+title: "Adopt"
 hero_title: "Find Your New Best Friend"
 hero_text: "Every dog in our care is looking for a family to call their own. Whether they are staying with one of our loving foster families or resting at our shelter, they are all waiting for their fresh start. Take a look at our available dogs below!"
 adopt_embed_url: "https://searchtools.adoptapet.com/cgi-bin/searchtools.cgi/portable_pet_list?shelter_id=263842&title=&color=green&clan_name=&size=450x320_list&sort_by=pet_name&hide_clan_filter_p="

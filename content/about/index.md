@@ -1,5 +1,6 @@
 ---
 layout: "about"
+title: "About"
 who_title: "Who We Are"
 who_text: "Jak's Second Chance Rescue Ranch is a registered 501(c)(3) nonprofit organization based in Cabot, AR and dedicated to saving dogs throughout Central Arkansas and helping them find loving forever homes. We provide safe shelter, essential medical rehabilitation, and compassionate care for dogs that need a fresh start."
 mission_title: "Our Mission & Values"

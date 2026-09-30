@@ -1,5 +1,6 @@
 ---
 layout: "contact"
+title: "Contact"
 contact_title: "Get in Touch With Us"
 contact_text: "Have questions about our adoption process, fostering, or how you can support our rescue? We would love to hear from you! Because we are 100% volunteer-run, please allow 24 to 48 hours for a response."
 
