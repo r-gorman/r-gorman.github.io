@@ -5,7 +5,7 @@ actions:
     workflow: "deploy.yml"
     ref: "main"
 {
-  "media": "images",
+  "media": "assets/images",
   "content": [
     {
       "name": "home",
