@@ -9,7 +9,7 @@ process_text: "We want to make sure every match is built to last a lifetime."
 card_app:
   title: "1. Submit an Application"
   text: "To kick off the process, you'll first submit an adoption application. One of our volunteers will review it closely. If you currently have pets, we do require proof of up to date vaccinations and heartworm prevention to ensure everyone's health and safety."
-  embed_url: "https://docs.google.com/forms/d/e/1FAIpQLScu8FOTnWAp9xgAKpMqbW_nHat5ELqtaAwA9t0SDQoRzpar1Q/viewform?embedded=true"
+  embed_url: "https://new.shelterluv.com/matchme/adopt/JAKS/Dog"
 
 card_meet:
   title: "2. Meet & Greet"
