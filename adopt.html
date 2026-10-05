@@ -18,12 +18,11 @@
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            padding: 1rem;
         }
-        .pet-list-wrapper iframe {
-            width: 100%;
-            height: 750px;
-            border: none;
-            display: block;
+        /* Style for hiding the application container initially */
+        .app-container-hidden {
+            display: none;
         }
     </style>
 </head>
@@ -62,9 +61,12 @@
                 Loading...
             </p>
 
-            <!-- Adopt-a-Pet Live Embed Container -->
+            <!-- Shelterluv Live Embed Widget -->
             <div class="pet-list-wrapper">
-                <iframe id="adopt-embed" src="" title="Jak's Second Chance Rescue Ranch Adoptable Pets"></iframe>
+                <div id="shelterluv_wrap_1790972780"></div>
+                <div style="font-size: 0.85rem; color: #888; margin-top: 1rem;">
+                    This page is powered by Shelterluv. Learn more at <a href="https://www.shelterluv.com/" target="_blank" style="color: var(--logo-orange);">www.shelterluv.com</a>
+                </div>
             </div>
         </div>
     </section>
@@ -79,12 +81,13 @@
                 <div style="background: white; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
                     <h3 id="card-app-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">1. Submit an Application</h3>
                     <p id="card-app-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">Loading...</p>
+                    <button id="toggle-app-btn" class="button btn-primary" style="display: inline-block; cursor: pointer; border: none;">Open Application Form</button>
                 </div>
     
-                   
-                <div style="background: #fcfbfa; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; margin-bottom: 4rem;">
-                    <iframe id="app-embed" src="" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0" title="Jak's Second Chance Rescue Ranch Adoption Application">Loading…</iframe>
-                 </div>
+                <!-- Collapsible Application Iframe Container (URL hardcoded directly here) -->
+                <div id="app-wrapper" class="app-container-hidden" style="background: #fcfbfa; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; margin-bottom: 4rem;">
+                    <iframe id="app-embed" src="https://new.shelterluv.com/matchme/adopt/JAKS/Dog" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0" title="Jak's Second Chance Rescue Ranch Adoption Application">Loading…</iframe>
+                </div>
                 
                 <!-- Card 2: Meet & Greet -->
                 <div style="background: white; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
@@ -113,7 +116,31 @@
     <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
 </footer>
 
+<!-- Shelterluv Embed Script -->
+<script type="text/javascript" src="https://new.shelterluv.com/misc/shelterluv_embed.js"></script>
+<script type="text/javascript" defer>
+    var sourceDomain = "https://new.shelterluv.com";
+    var base_path = "";
+    var GID = 100004636;
+    var filters = {"defaultSort": "random"};
+    EmbedAvailablePets("shelterluv_wrap_1790972780", GID, filters, 1, sourceDomain, base_path, 2, { scrollContainer: 'host' });
+</script>
+
 <script>
+    // Setup toggle button functionality immediately
+    const toggleBtn = document.getElementById('toggle-app-btn');
+    const appWrapper = document.getElementById('app-wrapper');
+
+    toggleBtn.addEventListener('click', () => {
+        const isHidden = appWrapper.classList.toggle('app-container-hidden');
+        if (!isHidden) {
+            toggleBtn.textContent = 'Close Application Form';
+            appWrapper.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            toggleBtn.textContent = 'Open Application Form';
+        }
+    });
+
     async function loadAdoptContent() {
         try {
             const response = await fetch('content/adopt/adopt.md');
@@ -126,9 +153,6 @@
 
                 document.getElementById('hero-title').textContent = data.hero_title || '';
                 document.getElementById('hero-text').textContent = data.hero_text || '';
-                if (data.adopt_embed_url) {
-                    document.getElementById('adopt-embed').src = data.adopt_embed_url;
-                }
 
                 document.getElementById('process-title').textContent = data.process_title || '';
                 document.getElementById('process-text').textContent = data.process_text || '';
@@ -136,9 +160,6 @@
                 if (data.card_app) {
                     document.getElementById('card-app-title').textContent = data.card_app.title || '';
                     document.getElementById('card-app-text').textContent = data.card_app.text || '';
-                    if (data.card_app.embed_url) {
-                        document.getElementById('app-embed').src = data.card_app.embed_url;
-                    }
                 }
                 if (data.card_meet) {
                     document.getElementById('card-meet-title').textContent = data.card_meet.title || '';
