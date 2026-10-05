@@ -1,31 +1,30 @@
-name: Update Featured Pets
+name: Update Featured Pets Daily
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Runs automatically every 6 hours
-  workflow_dispatch: # Allows you to manually trigger it from GitHub anytime
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  workflow_dispatch:      # Allows manual trigger
 
 jobs:
   update-pets:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
-      - name: Run Pet Fetcher Script
+      - name: Run Fetch Script
         env:
           SHELTERLUV_API_KEY: ${{ secrets.SHELTERLUV_API_KEY }}
-        run: |
-          node scripts/fetch-featured-pets.js
+        run: node scripts/fetch-featured-pets.js
 
-      - name: Commit and push if changed
+      - name: Commit and Push Changes if Updated
         run: |
-          git config --global user.name 'GitHub Actions Bot'
-          git config --global user.email 'bot@users.noreply.github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add content/home/featured-pets.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update featured pets [skip ci]" && git push)
+          git diff --staged --quiet || (git commit -m "chore: auto-update featured pets daily [skip ci]" && git push)
