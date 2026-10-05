@@ -2,19 +2,11 @@ const fs = require('fs');
 
 async function updateFeaturedPets() {
     try {
-        // Pull token from environment variable (GitHub Secret or local env)
-        const bearerToken = process.env.SHELTERLUV_API_KEY;
-
-        if (!bearerToken) {
-            console.error('Error: SHELTERLUV_API_KEY environment variable is missing.');
-            process.exit(1);
-        }
-
         const response = await fetch('https://new.shelterluv.com/api/v1/animals?status_type=in%20custody&sort=updated_at&since=1672531199&limit=100&offset=0', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
-                'Authorization': bearerToken,
+                'Authorization': 'Bearer 97473|hbE2FAoJDSgzfzg4TMjhOzbbGm5usTM8WSTZPiqR',
                 'User-Agent': 'PostmanRuntime/7.36.1',
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Connection': 'keep-alive'
@@ -44,7 +36,7 @@ async function updateFeaturedPets() {
         const shuffled = availableAnimals.sort(() => 0.5 - Math.random());
         const selected = shuffled.slice(0, 2);
 
-        // Map data fields using Internal-ID for profile URLs
+        // Map data fields using the correct Internal-ID for Shelterluv profile URLs
         const featuredData = selected.map(pet => {
             const uniqueId = pet['Internal-ID'] || pet.ID;
             return {
@@ -60,7 +52,7 @@ async function updateFeaturedPets() {
         }
 
         fs.writeFileSync('content/home/featured-pets.json', JSON.stringify(featuredData, null, 2));
-        console.log('Successfully updated featured-pets.json securely.');
+        console.log('Successfully updated featured-pets.json with working Shelterluv links.');
 
     } catch (error) {
         console.error('API Request Error:', error);

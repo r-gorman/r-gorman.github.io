@@ -5,6 +5,11 @@ donate_text: "Every dollar directly helps us provide medical care, food, safe sh
 
 card_giving:
   title: "Digital Giving & Wishlist"
+
+  shelterluv_title: "🐾 Direct Donation"
+  shelterluv_desc: "Make a direct secure monetary contribution to support our rescue efforts online."
+  shelterluv_btn: "Donate via Shelterluv"
+  shelterluv_url: "https://checkout.shelterluv.com/donate/JAKS"
   
   paypal_title: "💳 PayPal"
   paypal_desc: "Make a secure donation online using your PayPal balance, debit, or credit card."

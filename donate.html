@@ -122,7 +122,16 @@
         <div class="digital-giving-container">
             <h2 id="giving-heading">Digital Giving & Wishlist</h2>
             <div class="help-grid">
-                <!-- Row 1, Item 1: PayPal -->
+                <!-- Shelterluv Checkout / Direct Donation -->
+                <div class="featured-card">
+                    <div>
+                        <h3 id="shelterluv-title">🐾 Direct Donation</h3>
+                        <p id="shelterluv-desc">Loading...</p>
+                    </div>
+                    <a id="shelterluv-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="shelterluv-btn-text">Donate via Shelterluv</span></a>
+                </div>
+
+                <!-- PayPal -->
                 <div class="featured-card">
                     <div>
                         <h3 id="paypal-title">💳 PayPal</h3>
@@ -131,7 +140,7 @@
                     <a id="paypal-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="paypal-btn-text">Donate via PayPal</span></a>
                 </div>
 
-                <!-- Row 1, Item 2: Venmo -->
+                <!-- Venmo -->
                 <div class="featured-card">
                     <div>
                         <h3 id="venmo-title">💸 Venmo</h3>
@@ -140,7 +149,7 @@
                     <a id="venmo-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="venmo-btn-text">Donate via Venmo</span></a>
                 </div>
 
-                <!-- Row 2, Item 1: Cash App -->
+                <!-- Cash App -->
                 <div class="featured-card">
                     <div>
                         <h3 id="cashapp-title">💵 Cash App</h3>
@@ -149,7 +158,7 @@
                     <a id="cashapp-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="cashapp-btn-text">Donate via Cash App</span></a>
                 </div>
 
-                <!-- Row 2, Item 2: Zelle -->
+                <!-- Zelle -->
                 <div class="featured-card">
                     <div>
                         <h3 id="zelle-title">🏦 Zelle</h3>
@@ -158,7 +167,7 @@
                     <a href="javascript:void(0);" onclick="copyZelleEmail(this)" class="button btn-primary"><span id="zelle-btn-text">Copy Zelle Email</span></a>
                 </div>
 
-                <!-- Row 3, Item 1: Amazon Wish List -->
+                <!-- Amazon Wish List -->
                 <div class="featured-card">
                     <div>
                         <h3 id="amazon-title">📦 Amazon Wish List</h3>
@@ -167,7 +176,7 @@
                     <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="button btn-primary"><span id="amazon-btn-text">View Amazon Wish List</span></a>
                 </div>
 
-                <!-- Row 3, Item 2: Chewy Wish List -->
+                <!-- Chewy Wish List -->
                 <div class="featured-card">
                     <div>
                         <h3 id="chewy-title">🐾 Chewy Wish List</h3>
@@ -248,6 +257,12 @@
                 // Digital Giving Content & Links
                 if (data.card_giving) {
                     if (data.card_giving.title) document.getElementById('giving-heading').textContent = data.card_giving.title;
+
+                    // Shelterluv Checkout
+                    if (data.card_giving.shelterluv_title) document.getElementById('shelterluv-title').textContent = data.card_giving.shelterluv_title;
+                    if (data.card_giving.shelterluv_desc) document.getElementById('shelterluv-desc').textContent = data.card_giving.shelterluv_desc;
+                    if (data.card_giving.shelterluv_btn) document.getElementById('shelterluv-btn-text').textContent = data.card_giving.shelterluv_btn;
+                    if (data.card_giving.shelterluv_url) document.getElementById('shelterluv-link').href = data.card_giving.shelterluv_url;
 
                     // PayPal
                     if (data.card_giving.paypal_title) document.getElementById('paypal-title').textContent = data.card_giving.paypal_title;
