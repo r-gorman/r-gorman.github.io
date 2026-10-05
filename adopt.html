@@ -19,7 +19,16 @@
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             padding: 1rem;
+            box-sizing: border-box;
         }
+
+        /* Adjust mobile spacing so content clears the header */
+        @media (max-width: 768px) {
+            .help-section {
+                padding: 2rem 1rem !important; /* Proper padding all around without overlapping */
+            }
+        }
+
         /* Style for hiding the application container initially */
         .app-container-hidden {
             display: none;

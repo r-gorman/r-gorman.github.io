@@ -81,8 +81,9 @@ nav a:hover, nav a.active {
     background: var(--logo-brown);
     color: white;
     padding: 5rem 2rem;
-    overflow: hidden;
+    overflow: hidden; /* Keeps content strictly inside the container bounds */
 }
+
 
 .hero-container {
     max-width: 1200px;
@@ -122,11 +123,11 @@ nav a:hover, nav a.active {
 /* Polaroid Stack Styles */
 .polaroid-stack {
     position: relative;
-    width: 560px;
+    width: 480px; /* Reduce total width footprint */
     height: 380px;
     flex-shrink: 0;
-    margin-right: -50px;
-    transform: translateX(60px);
+    margin-right: 0;
+    transform: translateX(0); /* Remove the push that caused horizontal overflow */
 }
 
 .polaroid {
@@ -684,5 +685,21 @@ a.vet-phone:hover {
     footer p {
         font-size: 0.85rem !important;
         margin: 0 !important;
+    }
+}
+@media (max-width: 768px) {
+    /* Ensure main content containers don't overflow on mobile */
+    .featured, .help-section, .about-section, .donate-hero {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        box-sizing: border-box !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Prevent any grid or card from forcing horizontal breakout */
+    .help-container, .featured-card, .help-card {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
 }
