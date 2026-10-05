@@ -222,26 +222,68 @@ async function loadHomeCMSContent() {
                 }
             });
 
-            // 4. Render Featured Animals List
-            const container = document.getElementById('featured-animals-container');
-            if (container && Array.isArray(data.featured_animals)) {
-                container.innerHTML = '';
-                data.featured_animals.forEach(animal => {
-                    const card = document.createElement('div');
-                    card.className = 'featured-card';
-                    card.style.cssText = "background: white; border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;";
-                    card.innerHTML = `
-                        <img src="${animal.image}" alt="${animal.name}" style="width: 100%; height: 220px; object-fit: cover;">
-                        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-                            <h3 style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.5rem; font-size: 1.3rem;">${animal.name}</h3>
-                            <p style="color: #594f47; font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">
-                                ${animal.text}
-                            </p>
-                            <a href="${animal.link}" class="button btn-primary" target="_blank" rel="noopener" style="text-align: center; padding: 0.75rem; background: var(--logo-orange); color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">View Profile & Apply</a>
-                        </div>
-                    `;
-                    container.appendChild(card);
-                });
+            // 4. Render Featured Animals List (Pulls from automated Shelterluv JSON with fallback)
+            let loadedDynamicPets = false;
+            try {
+                const petsResponse = await fetch('content/home/featured-pets.json');
+                if (petsResponse.ok) {
+                    const featuredPets = await petsResponse.json();
+                    const container = document.getElementById('featured-animals-container');
+                    if (container && Array.isArray(featuredPets) && featuredPets.length > 0) {
+                        container.innerHTML = '';
+                        featuredPets.forEach(animal => {
+                            const card = document.createElement('div');
+                            card.className = 'featured-card';
+                            card.style.cssText = "background: white; border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;";
+                            card.innerHTML = `
+                                <a href="${animal.link}" target="_blank" rel="noopener" style="text-decoration: none; display: block;">
+                                    <img src="${animal.image}" alt="${animal.name}" style="width: 100%; height: 220px; object-fit: cover;">
+                                </a>
+                                <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                                    <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.3rem;">
+                                        <a href="${animal.link}" target="_blank" rel="noopener" style="color: var(--logo-brown); text-decoration: none;">${animal.name}</a>
+                                    </h3>
+                                    <p style="color: #594f47; font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">
+                                        ${animal.text}
+                                    </p>
+                                    <a href="${animal.link}" class="button btn-primary" target="_blank" rel="noopener" style="text-align: center; padding: 0.75rem; background: var(--logo-orange); color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">View Profile & Apply</a>
+                                </div>
+                            `;
+                            container.appendChild(card);
+                        });
+                        loadedDynamicPets = true;
+                    }
+                }
+            } catch (err) {
+                console.log('Dynamic featured pets JSON not found yet, utilizing fallback.');
+            }
+
+            // Fallback to static markdown data if JSON isn't generated or empty yet
+            if (!loadedDynamicPets) {
+                const container = document.getElementById('featured-animals-container');
+                if (container && Array.isArray(data.featured_animals)) {
+                    container.innerHTML = '';
+                    data.featured_animals.forEach(animal => {
+                        const card = document.createElement('div');
+                        card.className = 'featured-card';
+                        card.style.cssText = "background: white; border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;";
+                        card.innerHTML = `
+                            <a href="${animal.link}" target="_blank" rel="noopener" style="text-decoration: none; display: block;">
+                                <img src="${animal.image}" alt="${animal.name}" style="width: 100%; height: 220px; object-fit: cover;">
+                            </a>
+                            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                                <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.3rem;">
+                                    <a href="${animal.link}" target="_blank" rel="noopener" style="color: var(--logo-brown); text-decoration: none;">${animal.name}</a>
+                                </h3>
+                                <p style="color: #594f47; font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">
+                                    ${animal.text}
+                                </p>
+                                <a href="${animal.link}" class="button btn-primary" target="_blank" rel="noopener" style="text-align: center; padding: 0.75rem; background: var(--logo-orange); color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">View Profile & Apply</a>
+                            </div>
+                        `;
+                        container.appendChild(card);
+                    });
+                }
             }
         }
     } catch (error) {
