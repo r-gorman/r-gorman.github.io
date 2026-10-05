@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Include js-yaml to parse front matter markdown -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <style>
+        /* Style for hiding the foster application container initially */
+        .app-container-hidden {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,16 +54,17 @@
             </div>
 
             <!-- What We Provide Callout -->
-            <div style="background: #f7f1ec; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color); margin-bottom: 3rem;">
+            <div style="background: #f7f1ec; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color); margin-bottom: 2rem;">
                 <h3 id="cover-title" style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem; font-size: 1.4rem;">We Cover Everything</h3>
-                <p id="cover-text" style="color: #594f47; font-size: 1.05rem; line-height: 1.7; margin: 0;">
+                <p id="cover-text" style="color: #594f47; font-size: 1.05rem; line-height: 1.7; margin: 0; margin-bottom: 1.5rem;">
                     Loading...
                 </p>
+                <button id="toggle-foster-btn" class="button btn-primary" style="display: inline-block; cursor: pointer; border: none;">Open Foster Application Form</button>
             </div>
 
-            <!-- Foster Application Form Embed -->
-            <div style="background: #fcfbfa; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; margin-bottom: 4rem;">
-                <iframe id="foster-embed" src="" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0" title="Jak's Second Chance Rescue Ranch Foster Application">Loading…</iframe>
+            <!-- Collapsible Foster Application Form Embed -->
+            <div id="foster-wrapper" class="app-container-hidden" style="background: #fcfbfa; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; margin-bottom: 4rem;">
+                <iframe id="foster-embed" src="https://new.shelterluv.com/matchme/foster/JAKS/Dog" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0" title="Jak's Second Chance Rescue Ranch Foster Application">Loading…</iframe>
             </div>
         </div>
     </section>
@@ -78,6 +85,20 @@
 </footer>
 
 <script>
+    // Setup toggle button functionality immediately
+    const toggleFosterBtn = document.getElementById('toggle-foster-btn');
+    const fosterWrapper = document.getElementById('foster-wrapper');
+
+    toggleFosterBtn.addEventListener('click', () => {
+        const isHidden = fosterWrapper.classList.toggle('app-container-hidden');
+        if (!isHidden) {
+            toggleFosterBtn.textContent = 'Close Foster Application Form';
+            fosterWrapper.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            toggleFosterBtn.textContent = 'Open Foster Application Form';
+        }
+    });
+
     async function loadGetInvolvedContent() {
         try {
             const response = await fetch('content/get-involved/get-involved.md');
@@ -92,10 +113,6 @@
                 document.getElementById('hero-text').textContent = data.hero_text || '';
                 document.getElementById('cover-title').textContent = data.cover_title || '';
                 document.getElementById('cover-text').textContent = data.cover_text || '';
-                
-                if (data.foster_embed_url) {
-                    document.getElementById('foster-embed').src = data.foster_embed_url;
-                }
 
                 document.getElementById('other-title').textContent = data.other_title || '';
                 document.getElementById('other-text').textContent = data.other_text || '';
