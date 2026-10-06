@@ -4,7 +4,9 @@ on:
   schedule:
     - cron: '0 0 * * *' # Runs every day at midnight UTC
   workflow_dispatch:      # Allows manual trigger
-
+# Grant write permissions to the GitHub Actions bot
+permissions:
+  contents: write
 jobs:
   update-pets:
     runs-on: ubuntu-latest
