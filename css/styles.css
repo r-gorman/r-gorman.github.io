@@ -91,7 +91,7 @@ nav a:hover, nav a.active {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 6rem;
     flex-wrap: wrap;
 }
 
@@ -126,6 +126,7 @@ nav a:hover, nav a.active {
     width: 480px; /* Reduce total width footprint */
     height: 380px;
     flex-shrink: 0;
+    margin-left: 1rem;
     margin-right: 0;
     transform: translateX(0); /* Remove the push that caused horizontal overflow */
 }
