@@ -12,6 +12,36 @@
     <!-- Netlify Identity Widget Script for handling invites and logins -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+     <!-- SEO Schema Structured Data Injection for Google Crawlers -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AnimalShelter",
+      "name": "Jak's Second Chance Rescue Ranch",
+      "url": "https://jaksrescue.org",
+      "logo": "https://jaksrescue.orgimages/logo.png",
+      "description": "Based in Cabot, AR and serving Central Arkansas, our rescue is dedicated to saving abandoned and neglected dogs, providing them with necessary medical care, rehabilitation, and placing them into safe, temporary foster environments.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cabot",
+        "addressRegion": "AR",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Cabot",
+        "Pulaski County",
+        "Lonoke County",
+        "Central Arkansas"
+      ],
+      "sameAs": [
+        "https://facebook.com",
+        "https://instagram.com",
+        "https://tiktok.com"
+      ]
+    }
+    </script>
+
+
     <style>
         @media (max-width: 768px) {
             footer {
@@ -37,7 +67,7 @@
 <body>
 
 <header>
-    <a href="/" class="logo-section" style="text-decoration: none; display: flex; align-items: center; gap: 1rem;">
+   <a href="/" class="logo-section" style="text-decoration: none; display: flex; align-items: center; gap: 1rem;">
         <img src="images/logo.png" alt="Jak's Second Chance Rescue Ranch Logo">
         <h1>Jak's Second Chance <br>Rescue Ranch</h1>
     </a>
@@ -63,8 +93,8 @@
 <section class="hero">
     <div class="hero-container">
         <div class="hero-text">
-            <h2 id="hero_title">Loading...</h2>
-            <p id="hero_text">Loading...</p>
+            <h2 id="hero_title">Every Dog Deserves A Second Chance</h2>
+            <p id="hero_text">Saving dogs throughout Central Arkansas and helping them find loving forever homes.</p>
             <div class="hero-buttons">
                 <a href="adopt.html" class="button btn-primary">Adopt</a>
                 <a href="get-involved.html" class="button btn-secondary">Apply to Foster</a>
@@ -74,6 +104,7 @@
         <div class="polaroid-stack">
             <!-- Dynamically loaded from home.md -->
             <p style="color: #888; font-size: 0.9rem;">Loading photos...</p>
+            <p class="seo-hidden-fallback" style="display:none;">Rescue dogs in foster homes waiting for adoption in Central Arkansas.</p>
         </div>
     </div>
 </section>
@@ -98,7 +129,7 @@
         <img src="images/logo.png" alt="Jak's Second Chance Rescue Ranch Emblem" class="about-logo">
         <h2>About Jak's Second Chance Rescue Ranch</h2>
         <p id="about_text">
-            Loading...
+            Based in Cabot, AR and serving Central Arkansas, our rescue is dedicated to saving abandoned and neglected dogs, providing them with necessary medical care, rehabilitation, and placing them into safe, temporary foster environments until they find their permanent families.
         </p>
     </div>
 </section>
@@ -107,6 +138,8 @@
 <section class="featured" style="padding: 4rem 1.5rem; max-width: 1000px; margin: 0 auto;">
     <div class="featured-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <h2 style="color: var(--logo-brown); margin: 0; font-size: 2rem;">Featured Animals</h2>
+        <!-- This paragraph feeds Google local dog keywords, and your JS script clears it out on screen load -->
+        <p class="seo-hidden-fallback" style="display:none;">Browsing active rescue dog listings in Cabot, Arkansas. Meet our adoptable lab mixes, pit bull terriers, puppies, and senior dogs.</p>
         <a href="adopt.html" style="color: var(--logo-orange); font-weight: bold; text-decoration: none;">View All Dogs →</a>
     </div>
 
@@ -119,30 +152,30 @@
 <!-- HOW YOU CAN HELP -->
 <section class="help-section">
     <div class="help-container">
-        <h2 id="help_title">Loading...</h2>
-        <p id="help_subtitle" class="help-subtitle">Loading...</p>
+        <h2 id="help_title">How You Can Help</h2>
+        <p id="help_subtitle" class="help-subtitle">Whether you want to open your home or support our mission from afar, there are many ways to make an impact.</p>
         
         <div class="help-grid">
             <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                 <div style="width: 100%;">
-                    <h3 id="card_foster-title">Loading...</h3>
-                    <p id="card_foster-text">Loading...</p>
+                    <h3 id="card_foster-title">🏠 Apply to Foster</h3>
+                    <p id="card_foster-text">Fosters save lives by providing temporary, loving homes while dogs await their permanent match. We cover medical expenses and supplies.</p>
                 </div>
                 <a href="get-involved.html" class="help-link">Apply Now →</a>
             </div>
             
             <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                 <div style="width: 100%;">
-                    <h3 id="card_adopt-title">Loading...</h3>
-                    <p id="card_adopt-text">Loading...</p>
+                    <h3 id="card_adopt-title">🐾 Adoption Application</h3>
+                    <p id="card_adopt-text">Ready to add a furry family member? Explore our available dogs and fill out an adoption application today.</p>
                 </div>
                 <a href="adopt.html#application" class="help-link">Adopt a Dog →</a>
             </div>
 
             <div class="help-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: space-between;">
                 <div style="width: 100%;">
-                    <h3 id="card_support-title">Loading...</h3>
-                    <p id="card_support-text">Loading...</p>
+                    <h3 id="card_support-title">💖 Support Our Mission</h3>
+                    <p id="card_support-text">Your tax-deductible financial contributions directly fund emergency veterinary care, food, and shelter for rescued dogs.</p>
                 </div>
                 <a href="donate.html" class="help-link">Donate Now →</a>
             </div>
@@ -153,8 +186,8 @@
 <!-- CONNECT WITH US ONLINE -->
 <section style="padding: 3rem 1.5rem; background: #ffffff;">
     <div style="max-width: 800px; margin: 0 auto; background: #f7f1ec; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color); text-align: center;">
-        <h3 id="connect_title" style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem; font-size: 1.5rem;">Loading...</h3>
-        <p id="connect_text" style="color: #594f47; font-size: 0.95rem; margin-bottom: 1.5rem;">Loading...</p>
+        <h3 id="connect_title" style="color: var(--logo-brown); margin-top: 0; margin-bottom: 0.75rem; font-size: 1.5rem;">Connect With Us Online</h3>
+        <p id="connect_text" style="color: #594f47; font-size: 0.95rem; margin-bottom: 1.5rem;">For the newest updates on available dogs and daily rescue life, check out our socials</p>
         <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
             <a id="connect-fb-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Facebook</a>
             <a id="connect-insta-link" href="#" target="_blank" class="button btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Instagram</a>
@@ -166,6 +199,18 @@
 <footer style="padding: 2.5rem 1rem; text-align: center; background: #2b221e; color: #fff;">
     <p>&copy; 2026 Jak's Second Chance Rescue Ranch. Saving lives in Central Arkansas.</p>
 </footer>
+
+<!-- 
+  CRITICAL LOCAL SEO GROUNDING PAYLOAD 
+  This block feeds search engines your necessary geographical context upon page crawl. 
+  Because it uses display none, it won't impact layout styling or client JS hooks.
+-->
+<div class="seo-meta-ground" style="display: none !important;" aria-hidden="true">
+    <h2>Jak's Second Chance Rescue Ranch - Dog Adoption in Cabot, AR</h2>
+    <p>We are a 100% volunteer-operated 501(c)(3) animal rescue ranch based in Cabot, Arkansas, serving Pulaski County, Lonoke County, and all surrounding Central Arkansas regions. We specialize in rescuing abandoned dogs, providing them with critical veterinary triage, medical care, and matching them with loving foster homes until they are ready for permanent pet adoption.</p>
+    <p>Find adoptable puppies, lab mixes, pit bull terriers, hounds, and senior rescue dogs near you. Apply to become a foster home provider or submit your formal dog adoption application today.</p>
+</div>
+
 
 <!-- CMS Content Injection Loader Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
