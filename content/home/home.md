@@ -19,14 +19,14 @@ stats_rescued: "360+"
 stats_fosters: "45+"
 about_text: "Based in Cabot, AR and serving Central Arkansas, our rescue is dedicated to saving abandoned and neglected dogs, providing them with necessary medical care, rehabilitation, and placing them into safe, temporary foster environments until they find their permanent families."
 featured_animals:
-  - name: "Ricky"
-    image: "images/IMG_5718.jpeg"
-    text: "Sweet, playful, and dog-friendly—Ricky is a fun-loving boy who’s ready to capture your heart!"
-    link: "https://www.adoptapet.com/pet/47987703-cabot-arkansas-pit-bull-terrier-plott-hound-mix"
-  - name: "Lucy"
-    image: "images/IMG_5652.jpeg"
-    text: "Kid-friendly, dog-friendly, cat-friendly, and endlessly sweet, Lucy is ready to steal your heart."
-    link: "https://www.adoptapet.com/pet/48464989-cabot-arkansas-pit-bull-terrier-mix"
+  - name: 
+    image: 
+    text: 
+    link: 
+  - name: 
+    image: 
+    text: 
+    link: 
 help_title: "How You Can Help"
 help_subtitle: "Whether you want to open your home or support our mission from afar, there are many ways to make an impact."
 card_foster:
@@ -39,7 +39,7 @@ card_support:
   title: "💖 Support Our Mission"
   text: "Your tax-deductible financial contributions directly fund emergency veterinary care, food, and shelter for rescued dogs."
 connect_title: "Connect With Us Online"
-connect_text: "For the newest updates on available dogs and daily rescue life, check out our socials"
+connect_text: "For the newest updates on available dogs and daily rescue life, check out our socials!"
 facebook_url: "https://www.facebook.com/profile.php?id=61566464825278"
 instagram_url: "https://www.instagram.com/jaks_second_chance"
 tiktok_url: "https://tiktok.com/@jaks.second.chance"
