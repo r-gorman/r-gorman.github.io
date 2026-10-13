@@ -19,29 +19,71 @@
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             padding: 1rem;
-            box-sizing: border-box;
         }
-
-        /* Adjust mobile spacing so content clears the header */
-        @media (max-width: 768px) {
-            .help-section {
-                padding: 2rem 1rem !important; /* Proper padding all around without overlapping */
-            }
-        }
-
         /* Style for hiding the application container initially */
         .app-container-hidden {
             display: none;
         }
     </style>
-    <!-- Open Graph / Facebook Social Sharing Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jaksrescue.org/">
-    <meta property="og:title" content="Jak's Second Chance Rescue Ranch">
-    <meta property="og:description" content="Saving lives and finding forever homes for dogs in Central Arkansas.">
-    <meta property="og:image" content="https://i.imgur.com/ju2Kmpy.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+<!-- AnimalShelter Schema -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "AnimalShelter",
+    "name": "Jak's Second Chance Rescue Ranch",
+    "url": "https://jaksrescue.org",
+    "logo": "https://jaksrescue.org/images/logo.png",
+    "email": "jaksrescueranch@gmail.com",
+    "description": "Based in Cabot, AR and serving Central Arkansas, our rescue is dedicated to saving abandoned and neglected dogs, providing them with necessary medical care, rehabilitation, and placing them into safe, temporary foster environments.",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14610 Sumner Cemetery Rd",
+        "addressLocality": "Cabot",
+        "addressRegion": "AR",
+        "postalCode": "72023",
+        "addressCountry": "US"
+    },
+    "areaServed": [
+        "Cabot",
+        "Little Rock",
+        "Sherwood",
+        "Conway",
+        "Jacksonville",
+        "Pulaski County",
+        "Lonoke County",
+        "Faulkner County",
+        "Central Arkansas"
+    ],
+    "sameAs": [
+        "https://facebook.com/profile.php?id=61566464825278",
+        "https://instagram.com/jaks_second_chance",
+        "https://tiktok.com/@jaks.second.chance"
+    ]
+    }
+    </script>
+
+    <!-- Adoptable Dogs Breadcrumb ONLY -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://jaksrescue.org/"
+        },
+        {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Adoptable Dogs",
+        "item": "https://jaksrescue.org/adopt.html"
+        }
+    ]
+    }
+    </script>
+
 </head>
 
 <body>
@@ -49,7 +91,7 @@
 <header>
     <a href="/" class="logo-section" style="text-decoration: none; display: flex; align-items: center; gap: 1rem;">
         <img src="images/logo.png" alt="Jak's Second Chance Rescue Ranch Logo">
-        <h1>Jak's Second Chance <br>Rescue Ranch</h1>
+        <h1>Jak's Second Chance Rescue Ranch</h1>
     </a>
     
     <!-- Mobile hamburger menu toggle elements -->
