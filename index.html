@@ -13,9 +13,11 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
      <!-- SEO Schema Structured Data Injection for Google Crawlers -->
-    <script type="application/ld+json">
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "AnimalShelter",
       "name": "Jak's Second Chance Rescue Ranch",
       "url": "https://jaksrescue.org",
@@ -29,7 +31,7 @@
         "addressRegion": "AR",
         "postalCode": "72023",
         "addressCountry": "US"
-        },
+      },
       "areaServed": [
         "Cabot",
         "Little Rock",
@@ -46,8 +48,33 @@
         "https://instagram.com/jaks_second_chance",
         "https://tiktok.com/@jaks.second.chance"
       ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jaksrescue.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Adoptable Dogs",
+          "item": "https://jaksrescue.org/adopt.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Donate",
+          "item": "https://jaksrescue.org/donate.html"
+        }
+      ]
     }
-    </script>
+  ]
+}
+</script>
 
 
     <style>
