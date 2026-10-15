@@ -193,13 +193,6 @@ nav a:hover, nav a.active {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
 }
 
-@media (max-width: 900px) {
-    .polaroid-stack {
-        margin: 2rem auto 0 auto;
-        transform: scale(0.9) translateX(0);
-    }
-}
-
 .button {
     padding: 0.85rem 1.75rem;
     border-radius: 6px;
@@ -296,19 +289,12 @@ nav a:hover, nav a.active {
     margin-bottom: 1.5rem;
 }
 
-/* Restrict the grid width so cards stay compact and form a strict 2x2 layout */
 .featured .help-grid {
     grid-template-columns: repeat(2, 1fr);
     max-width: 700px;
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    .featured .help-grid {
-        grid-template-columns: 1fr;
-        max-width: 100%;
-    }
-}
 .about-section {
     background: #ffffff;
     padding: 5rem 1.5rem;
@@ -439,11 +425,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ========================================== */
-/* DONATE PAGE SPECIFIC MATCHING STYLES       */
-/* ========================================== */
-
-/* Matches the clean, centered inner-page hero style (like Foster Hero) */
+/* DONATE PAGE STYLES */
 .donate-hero {
     background: var(--bg-cream);
     padding: 4rem 1.5rem;
@@ -475,7 +457,6 @@ footer {
     margin: 0 auto;
 }
 
-/* Professional Vet Card Layout */
 .vet-info {
     margin: 1rem 0 1.5rem 0;
     text-align: center;
@@ -503,17 +484,34 @@ a.vet-phone:hover {
     color: var(--logo-orange) !important;
     text-decoration: underline;
 }
+
 /* ========================================== */
 /* MOBILE RESPONSIVE FIXES                   */
 /* ========================================== */
 
-/* Hide mobile toggle elements by default on desktop */
 .nav-toggle, .nav-toggle-label {
     display: none;
 }
 
-@media (max-width: 768px) {
-    /* Make the logo icon larger on mobile */
+@media (max-width: 900px) {
+    /* Stack hero buttons neatly on smaller screens */
+    .hero-buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        gap: 0.5rem !important;
+    }
+
+    .hero-buttons .button {
+        width: 80% !important;
+        max-width: 280px !important;
+        padding: 0.6rem 1rem !important;
+        font-size: 0.95rem !important;
+        text-align: center !important;
+        box-sizing: border-box !important;
+    }
+
     .logo-section img {
         height: 65px !important;
         width: 65px !important;
@@ -521,23 +519,19 @@ a.vet-phone:hover {
         max-width: 65px !important;
     }
 
-    /* Make the text larger, allow two lines, and prevent truncation */
     .logo-section h1 {
         font-size: clamp(0.95rem, 4.2vw, 1.15rem) !important;
         white-space: normal !important;
         line-height: 1.15;
     }
 
-    /* Tighten gap slightly to give text and logo more breathing room */
     .logo-section {
         gap: 0.75rem !important;
     }
     
     header {
-        /* Reduce left padding from 1rem down to 0.5rem (or 0.75rem) */
         padding: 0.85rem 1rem 0.85rem 0.5rem !important;
     }
-
 
     .nav-toggle-label {
         display: flex;
@@ -620,7 +614,7 @@ a.vet-phone:hover {
         width: 100% !important;
         max-width: 300px !important;
         height: 320px !important;
-        margin: 2rem auto 1rem auto !important;
+        margin: 0.5rem auto 1rem auto !important;
         transform: none !important;
         left: 0 !important;
         right: 0 !important;
@@ -649,7 +643,6 @@ a.vet-phone:hover {
         padding: 0 !important;
     }
 
-    /* Force all help grids and digital giving grids into a strict single-column flex layout on mobile */
     .help-grid,
     .featured .help-grid,
     .digital-giving-container .help-grid {
@@ -663,7 +656,6 @@ a.vet-phone:hover {
         padding: 0 !important;
     }
 
-    /* Ensure individual cards fill the mobile screen nicely without overflow */
     .help-card,
     .featured-card,
     .digital-giving-container .featured-card,
@@ -687,20 +679,12 @@ a.vet-phone:hover {
         font-size: 0.85rem !important;
         margin: 0 !important;
     }
-}
-@media (max-width: 768px) {
-    /* Ensure main content containers don't overflow on mobile */
+
     .featured, .help-section, .about-section, .donate-hero {
         padding-left: 1rem !important;
         padding-right: 1rem !important;
         box-sizing: border-box !important;
         width: 100% !important;
         max-width: 100% !important;
-    }
-
-    /* Prevent any grid or card from forcing horizontal breakout */
-    .help-container, .featured-card, .help-card {
-        max-width: 100% !important;
-        box-sizing: border-box !important;
     }
 }
