@@ -51,12 +51,13 @@ nav a.active {
 }
 
 .logo-section h1 {
-    font-size: 1.4rem; /* Adjust larger or smaller to fit your preference */
+    font-size: 1.35rem; 
     margin: 0 0 0 1.25rem;
     color: #ffffff;
     font-weight: 700;
     line-height: 1.2;
-    white-space: normal; /* Permits line wrapping */
+    max-width: 210px; /* Constrains width so 'Rescue Ranch' drops to line 2 everywhere */
+    display: block;
 }
 
 nav {
