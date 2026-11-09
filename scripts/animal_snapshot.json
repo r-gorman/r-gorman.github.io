@@ -1,0 +1,3318 @@
+{
+  "214664531": {
+    "ID": "3",
+    "Internal-ID": "214664531",
+    "Name": "Ricky",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Matt",
+      "LastName": "Singer",
+      "OutDateUnixTime": "1791140015",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "61",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1754024400,
+    "Age": 15,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/94a4af884225fe4d7269fb36c7c765fc/3c34bcce9c92bc21fc86f8cb551e8ebd.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/94a4af884225fe4d7269fb36c7c765fc/3c34bcce9c92bc21fc86f8cb551e8ebd.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/5da0bb7ec726852cdaccc968e9e2667a/8f5f08e93dd14dfbd4fbad62bbbf3ef3.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/de36564b7efbc03073908c35e37f7472/171fc2ec8c6cf7a2ab48a477ca57dcd3.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull/Hound, Plott",
+    "Color": "Brindle/White",
+    "Pattern": "Brindle",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Ricky came to us hairless and bloody and infected and swollen. He was in horrible shape but we got him healthy again with the exception of heartworm treatment which we have begun and will have it covered by the rescue. Ricky is dog friendly and loves humans. He has not yet been tested with cats. He is working on potty training and doing well using a potty mat or staying on a schedule! He had a horrible start to life but we want the rest of his existence to be amazing. Are you his person?\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007514364",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1774422000"
+      }
+    ],
+    "LastIntakeUnixTime": "1774422000",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792161864"
+  },
+  "214670521": {
+    "ID": "4",
+    "Internal-ID": "214670521",
+    "Name": "April",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Rebecca",
+      "LastName": "Schiermeyer",
+      "OutDateUnixTime": "1772956800",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "46",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1687676400,
+    "Age": 40,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/982eef3fff4750f3d8b5c2a0c198920c/d975a9202bb1003b0b523a89ec1b4557.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/982eef3fff4750f3d8b5c2a0c198920c/d975a9202bb1003b0b523a89ec1b4557.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/98fd4d31b36a7e0ab322a800c5975781/e56526d9b52f7b8179851d366ca2c914.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Cattle Dog, Australian (Red Heeler)/Hound",
+    "Color": "White/Red/Mahogany",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "April and her two daughters Bunny and Candy were strays taken in by a good Samaritan. They are super sweet and will make a great addition to any home. They have primarily been outdoor dogs but show signs of intelligence for training. She will be spayed prior to adoption.\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007492549",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1772956800"
+      }
+    ],
+    "LastIntakeUnixTime": "1772956800",
+    "Attributes": [
+      {
+        "Internal-ID": "878326",
+        "AttributeName": "Heartworm+",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794255293"
+  },
+  "214670608": {
+    "ID": "6",
+    "Internal-ID": "214670608",
+    "Name": "Banks",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Chris",
+      "LastName": "York",
+      "OutDateUnixTime": "1784358000",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "45",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1767513600,
+    "Age": 10,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/302a53ddbe0bb0992b9f105fb7a5bdc0/ce18d557dab5d7d9aed9cee101445431.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/302a53ddbe0bb0992b9f105fb7a5bdc0/ce18d557dab5d7d9aed9cee101445431.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/d2ae8fabbb3a7a421d4de850061f9b21/e409e0e030a158d0263fbb8c7101000c.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/1e83b7e571d1c4f764b561deba0ebbba/eb7f4bd47f9dd60ae6e2308a84c8719a.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/c952001f217cc8dccaad0322942080ea/6dbb08d9e51d7525f1e5d01cc7d721ba.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Husky/Shepherd, German",
+    "Color": "Tan",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Banks was abandoned at a local lake with his 4 siblings. He is absolutely perfect- loves all human humans and gets along great with other dogs. He is sweet, potty trained, walks well on a leash, and is quirky and fun.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263004478456",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1784358000"
+      }
+    ],
+    "LastIntakeUnixTime": "1784358000",
+    "Attributes": [
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1791139258"
+  },
+  "214670628": {
+    "ID": "7",
+    "Internal-ID": "214670628",
+    "Name": "Bindi",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Nicarah",
+      "LastName": "Wooten",
+      "OutDateUnixTime": "1784012400",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "15",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1780556400,
+    "Age": 5,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/86c49bc7549ee92f924580701d079474/60cd25869f5e8ca4c3f5862193bfc540.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/86c49bc7549ee92f924580701d079474/60cd25869f5e8ca4c3f5862193bfc540.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/30e8eacf70a0357ca6b646eb2e39641f/fbe11b0cb9654701b2bc170c2814a710.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/1bfe209a424f8f2f6d894ecae5dd5339/07583d4f165c494427c8b033a9720c0d.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull",
+    "Color": "Tan/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Bindi came to us from a local shelter. She had bowed legs and needed medical attention. Thankfully a foster stepped up for her and she has recovered with good nutrition. She is going to be spayed soon and is looking for her forever home! She’s playful and smart. She knows how to use the doggy door!\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515764",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1784012400"
+      }
+    ],
+    "LastIntakeUnixTime": "1784012400",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792184444"
+  },
+  "214671043": {
+    "ID": "8",
+    "Internal-ID": "214671043",
+    "Name": "Butch",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Melinda",
+      "LastName": "Wheeler",
+      "OutDateUnixTime": "1758351600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "50",
+    "Size": "",
+    "Altered": "Yes",
+    "DOBUnixTime": 1665118800,
+    "Age": 49,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/4a80cc0c1688eb586230b7e29142d4ea/85190c01d6c7099124d3cb88a575a817.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/4a80cc0c1688eb586230b7e29142d4ea/85190c01d6c7099124d3cb88a575a817.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/1b8ea565637c3b7c10fdd00f34404b86/a6c3ced160fc17f336c5987878188fa2.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/652b3f3fdbb777f7f16d9d00f9b8da71/ea752f0fc6e8705580e44ee7245382cd.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/334de75c00939413041bf13e20733c40/25bdf4387b02ab2b8c2c609f0c040740.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Butch was one of 16 pit bulls removed during a cruelty case investigation 9-20-25. He was underweight and uncared for. He is heartworm negative and has done ok walking beside other dogs and playing catch. He is spunky and goofy.  He is looking for a foster home or adopter!\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263002838651",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1758351600"
+      }
+    ],
+    "LastIntakeUnixTime": "1758351600",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878294",
+        "AttributeName": "Not Good with Cats",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792444609"
+  },
+  "214671083": {
+    "ID": "9",
+    "Internal-ID": "214671083",
+    "Name": "Candace",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Brittany",
+      "LastName": "Summerlin",
+      "OutDateUnixTime": "1793645982",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "52",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1759561200,
+    "Age": 13,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/0e4f26ada609f9aa33d554813688b26c/4431230d3ab000d54cf113d5b124ede3.jfif",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/0e4f26ada609f9aa33d554813688b26c/4431230d3ab000d54cf113d5b124ede3.jfif"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull",
+    "Color": "Grey",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Candace was found off Graham rd. She was microchipped and had a spay tattoo. We were excited thinking that she would be easy to reunite with her owner! Unfortunately despite multiple attempts to contact the owner including a conversation in which they initially answered texts but then stopped answering once they realized we were trying to return their dog, we concluded that they intentionally abandoned her. Thankfully her finder was willing to foster her so we were able to accept her into the rescue.\n\nShe has been to the vet and got caught up on her vaccines. She is unfortunately heartworm positive 😕. She has begun her treatment.",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1790146800",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1791826912"
+  },
+  "214671139": {
+    "ID": "10",
+    "Internal-ID": "214671139",
+    "Name": "Candy",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Sonya",
+      "LastName": "Bitely",
+      "OutDateUnixTime": "1774681200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "32",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1769580000,
+    "Age": 9,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/c0f827e7c18847a268ef6ac88fac6b7a/2ea7dedba6b138bbe853f8d85320335e.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/c0f827e7c18847a268ef6ac88fac6b7a/2ea7dedba6b138bbe853f8d85320335e.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/cd535d985f18049abad7d67cd68e5e59/64c7ea966c550151c71dcd035bf33c46.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/44768dbe02bfca724b4903c6809cba23/394a1b758b5e60330e4d3eabc1598cd4.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/6f6d273d4f63b30f2d4cd283744981b1/cfd4795450136a4857e831df5bea8ad8.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Cattle Dog, Australian (Red Heeler)/Hound",
+    "Color": "White/Red/Mahogany",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Candy and her sister and mother were strays in central Arkansas. She’s a very sweet puppy needing a forever home. She is fully vetted and ready to go!\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007504742",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1774681200"
+      }
+    ],
+    "LastIntakeUnixTime": "1774681200",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792165475"
+  },
+  "214671158": {
+    "ID": "11",
+    "Internal-ID": "214671158",
+    "Name": "Cece",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Stephanie",
+      "LastName": "Long",
+      "OutDateUnixTime": "1784617200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "25",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1567580400,
+    "Age": 86,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/72a33829b62914082cbf1640d308ef18/6719628300e050668765db940506f4b6.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/72a33829b62914082cbf1640d308ef18/6719628300e050668765db940506f4b6.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/d644479b74595e6c6c9175a8a5d39de1/3eda4656240e5449b5d51419d89415d6.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/185b3d2ec4faea11be4c17ca6588958b/5cff6d9b7a39960b327090bad1e171af.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/8724a40fbb3fda98084964d4c1e33958/92d0dbd8779fdeef336a101c4c0dffbe.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Cattle Dog/Terrier",
+    "Color": "Brindle/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Cece was found running stray in rural Fordyce. She had limited access to food or water and was in danger. Thankfully a foster found her and stepped up for her. She’s been to the vet and although she’s heartworm positive she will be getting treated and it will be covered by the rescue. Her fosters report that she’s smart, uses the doggy door, is low maintenance, and is very calm!\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900085002056817",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1784617200"
+      }
+    ],
+    "LastIntakeUnixTime": "1784617200",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878326",
+        "AttributeName": "Heartworm+",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792009336"
+  },
+  "214671183": {
+    "ID": "12",
+    "Internal-ID": "214671183",
+    "Name": "Cruz",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Aylette",
+      "LastName": "Roper",
+      "OutDateUnixTime": "1781766000",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1664866800,
+    "Age": 49,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/1e13bcb931cb9828b101ab718bef3c64/1992d687fde4fdd9fd6f8fbe5353142f.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/1e13bcb931cb9828b101ab718bef3c64/1992d687fde4fdd9fd6f8fbe5353142f.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/a2a81f2e94967ad089aeb25d79c42611/5d8a5079ded406f72c3d2d0fd84df37c.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Large)",
+    "Color": "Red/Mahogany/Black",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515910",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1781766000"
+      }
+    ],
+    "LastIntakeUnixTime": "1781766000",
+    "Attributes": [
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1791147595"
+  },
+  "214671192": {
+    "ID": "13",
+    "Internal-ID": "214671192",
+    "Name": "Elizabeth",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Susan",
+      "LastName": "Owen",
+      "OutDateUnixTime": "1782457200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "42",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1719817200,
+    "Age": 28,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/301e34c7314bfb7adac42910066bcfb8/2a8efab05e8e86e50a8a4ff3a4b7e178.jfif",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/301e34c7314bfb7adac42910066bcfb8/2a8efab05e8e86e50a8a4ff3a4b7e178.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/352d8585a1a2fc689c243c9a2d0a0c3f/d151df2219bf54e2d94fdaccdbcce1d4.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/e2657594e17a05c1ade5e292121f62d6/cff27ac7e3d1e95944585973947fc75b.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/6e396cf90fc5970e9e71a50e6e0d1305/8cdce34d15322e95efaaac1cf9d82d69.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Hound",
+    "Color": "Tan/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Elizabeth was surrendered to Pulaski county animal control along with her 5 puppies. She was going to be euthanized but we were able to save her. She is heartworm positive but treatment has been started and is covered by the rescue. She is dog friendly, potty trained, walks on a leash, and is sweet. She is a little nervous around very small children but has been fine with older children. She definitely wants to be with her person. That’s where she is happiest.\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263004492648",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1782457200"
+      }
+    ],
+    "LastIntakeUnixTime": "1782457200",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878326",
+        "AttributeName": "Heartworm+",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792000584"
+  },
+  "214671225": {
+    "ID": "14",
+    "Internal-ID": "214671225",
+    "Name": "Frankie",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Male",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "49",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1507100400,
+    "Age": 109,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/0d928fd4a51b39feb43a9e231e0c022d/f41de619a383db3c2b13ccc0e32c01a5.jfif",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/0d928fd4a51b39feb43a9e231e0c022d/f41de619a383db3c2b13ccc0e32c01a5.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/ece8e69932ff7da0b793333bed12495c/8779a507696bf31958122c9c88cc247d.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/94affe423f31b4a0619b5d4ff8979905/46cbfbee22dd3d4f619d37a53cf07d76.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/a122f8b1063be275886f42a673da3351/1fb6d017a7e285ed9035c559f378ed66.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/83f75c92e45f3af8ebcd2c0f298044e2/9b38239727027076daccb543ead5f513.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/dc02a552e96fdb051b636a025aa4d2bf/e553f74f0c2f96e0247488ca36a98c0a.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Frankie is estimated to be 7–8 years old, and this boy is full of love and cuddles. He’s calm, kennel trained, potty trained, great with kids, and happiest curled into the tiniest little ball on a soft blanket. And that underbite? Still a fan favorite. \n\nFrankie must be the ONLY ANIMAL in the home, but don’t let that make you overlook this incredible boy. He loves his people, he loves kids, and he has more than enough love to fill a home all by himself.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263002827895",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1758351600"
+      }
+    ],
+    "LastIntakeUnixTime": "1758351600",
+    "Attributes": [
+      {
+        "Internal-ID": "878294",
+        "AttributeName": "Not Good with Cats",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878303",
+        "AttributeName": "Not Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878323",
+        "AttributeName": "Single Dog Home",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793681158"
+  },
+  "214671262": {
+    "ID": "15",
+    "Internal-ID": "214671262",
+    "Name": "Jerry",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Robyn",
+      "LastName": "Marino",
+      "OutDateUnixTime": "1758351600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "43",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1728277200,
+    "Age": 25,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/2ab512f082ec2f44229396456bca55de/947a663a1d1d19ac2a49c48b1857d43c.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/2ab512f082ec2f44229396456bca55de/947a663a1d1d19ac2a49c48b1857d43c.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/cd215df920471d01f068a6c7e90dd121/402b006e390aaa68dc3e6f98ca267832.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/4256872a796fddfd7152eaa8759e394a/df906ce2b2abe4e98df0cb94c66bd50b.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/ffa0c3e13ba62a74ccb105915697b363/cf039949f4cf632fab7e0e39db61f70f.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull",
+    "Color": "Black",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Jerry is timid and still learning to accept love. He is from a multi-dog cruelty case where he was on a chain his whole life and many dogs had died of starvation. Jerry is dog friendly. He has not been cat tested. He is very timid but learning that humans can be gentle. He is learning to play with toys ❤️\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263002838174",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1758351600"
+      }
+    ],
+    "LastIntakeUnixTime": "1758351600",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792533012"
+  },
+  "214671283": {
+    "ID": "16",
+    "Internal-ID": "214671283",
+    "Name": "Leftie",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Megan",
+      "LastName": "Hum",
+      "OutDateUnixTime": "1781938800",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "59",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1630738800,
+    "Age": 62,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/5ba0dc08f7d7e7146e79f6bf30924723/8ecfb234bc6ab1ac5a70e76372445697.jfif",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/5ba0dc08f7d7e7146e79f6bf30924723/8ecfb234bc6ab1ac5a70e76372445697.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/8ee408462842446a8db492f3dc8a4e3f/00a276de4fbef1b46343a1af63583eda.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/0981730845228d0870e15cf05b19f09e/a39ae68f0b9a95e0fd2def950c13642d.jfif"
+    ],
+    "Videos": [],
+    "Breed": "Cattle Dog, Australian (Blue Heeler)/Terrier, American Pit Bull",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Leftie was found stray on a rural road. She’s kid and dog friendly. She does well on a leash and rides great in the car. She is looking for her forever home! She does have heartworm treatment ahead of her which is paid for by the rescue.\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007516148",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1781938800"
+      }
+    ],
+    "LastIntakeUnixTime": "1781938800",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792095340"
+  },
+  "214671310": {
+    "ID": "17",
+    "Internal-ID": "214671310",
+    "Name": "Libby",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Rhonda",
+      "LastName": "Frey",
+      "OutDateUnixTime": "1786345200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "50",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1725433200,
+    "Age": 26,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/22416e630b0444d7936f54a63a8007ed/a0d8a298b8e34f7454677efe42c94588.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/22416e630b0444d7936f54a63a8007ed/a0d8a298b8e34f7454677efe42c94588.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/bfa821e1774c8c955930851f9cbfa211/75f7842826e5ae070f19efcdf580c087.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/89b22eb63c95c9b35de07325255b3296/c737d732b21e9ac6bca374aadf3c98ea.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/e81ca158d61b7b2c6d1c28a3d12513a1/42cbffd0977ea044c6016327a6f5aad5.png",
+      "https://new-s3.shelterluv.com/profile-pictures/10001a081670301acf48bd8837648cec/23a8a9645ef76e5a9f39befc62bf04e0.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Catahoula Leopard Dog",
+    "Color": "Red/Mahogany/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Libby was living in a very unsafe environment with no medical care and had a couple litters of puppies that she tried desperately to raise. She is nervous and unsure if people are safe yet but she is gentle and is tolerating a lot of handling. She wants to be loved and just needs some\nTime! She’s heartworm negative and is fully vetted. Her right eye is a “cracked” eye with one side of the eyeball being brown and the other side blue. She’s beautiful and deserves her chance at a real home.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515975",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1786345200"
+      }
+    ],
+    "LastIntakeUnixTime": "1786345200",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878266",
+        "AttributeName": "Good with Cats",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1791855153"
+  },
+  "214671320": {
+    "ID": "18",
+    "Internal-ID": "214671320",
+    "Name": "Midnight",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Rachel",
+      "LastName": "Gorman",
+      "OutDateUnixTime": "1792627657",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "65",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1693810800,
+    "Age": 38,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/e53e3f31159e941192cc5b9edf9801a2/79544238c619304b657213b250da5a8b.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/e53e3f31159e941192cc5b9edf9801a2/79544238c619304b657213b250da5a8b.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/32714ba05133378bef836d61b37c03d2/c07c8e1b4beb2ec778cca4b6eee74ed8.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/1e2e0435569e622e067345570295bdb5/6761080cec6da56f9475d37b7e677fb2.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/b9c421a8ec5eba4777715f77582897bb/063393052df6b6d824caa83b4f757aa3.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/06364604a7a663e35d508dba38cb0572/f9cdaa3d1267b42646c93de263a5dc05.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/e2f5ce74cc655cdd63c8b7a8a5dc56cb/e507af13aeec40413a13ddb211cba7bc.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/7344b5cf344046bf816624f84953ab72/078764c72a3aa99b725ea27cd9763c3c.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/f9a38f72b8f7dc395e4d216a4bfaca37/ede465103818c0b0477f0bd29f60aceb.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Husky/Collie, Border",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Midnight’s is kid friendly, crate trained, potty trained, walks well on a leash, and is the incredibly smart and sweet. She was missing an eye when she came to us so we don’t know how she lost it but she does great with just the one! She’s looking for a family that will include her in their daily routines! Midnight does take a twice daily anti seizure medication.\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900235001313155",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1782284400"
+      }
+    ],
+    "LastIntakeUnixTime": "1782284400",
+    "Attributes": [
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895848",
+        "AttributeName": "Requires Routine Medication",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895850",
+        "AttributeName": "Tolerates Grooming",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895838",
+        "AttributeName": "Leash Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895839",
+        "AttributeName": "Dog Door Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895861",
+        "AttributeName": "Crate Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878266",
+        "AttributeName": "Good with Cats",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "898636",
+        "AttributeName": "Low energy/Lazy ",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794152629"
+  },
+  "214671343": {
+    "ID": "19",
+    "Internal-ID": "214671343",
+    "Name": "Mookie Betts",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Male",
+    "Status": "Unavailable In-Shelter (Behavioral)",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "55",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1744434000,
+    "Age": 18,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/2c782c84f4f62bf07d32f84508eeaa29/c2d51fcc42beee5280766daefbd3ed23.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/2c782c84f4f62bf07d32f84508eeaa29/c2d51fcc42beee5280766daefbd3ed23.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/7f57169236b8e6e97a188ecb41233a2d/fc4c8af666f5255f9dc8a29afa2359ba.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Boxer/Mixed Breed (Large)",
+    "Color": "Red/Mahogany/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1791149955",
+    "Attributes": [
+      {
+        "Internal-ID": "878326",
+        "AttributeName": "Heartworm+",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878257",
+        "AttributeName": "Adult-Only Home Preferred",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793147139"
+  },
+  "214671365": {
+    "ID": "20",
+    "Internal-ID": "214671365",
+    "Name": "Oreo",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Maria",
+      "LastName": "Jones",
+      "OutDateUnixTime": "1782111600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "",
+    "Size": "Small (0-24)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1664866800,
+    "Age": 49,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/0aa121a19bb5e54a8fe95efdd22d6dd1/f2c2e36cc73274719b0d8f631fa87c25.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/0aa121a19bb5e54a8fe95efdd22d6dd1/f2c2e36cc73274719b0d8f631fa87c25.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/664fced755acd25439d80867d591e05d/02fd5a519cbbdcb735dcf64bfe18a850.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, Jack Russell",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Oreo was found alone in the woods near Billy Goat Mountain in Vilonia, scared and unsure of people. Since coming into care, she’s been given a safe, quiet place to decompress and is slowly beginning to trust.\n\nShe’ll need a patient, understanding home willing to give her time to settle in and learn that she’s safe. She’s had a rough start, but she’s finally getting the chance at a much better future. ❤️",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263002753984",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1782111600"
+      }
+    ],
+    "LastIntakeUnixTime": "1782111600",
+    "Attributes": [
+      {
+        "Internal-ID": "878326",
+        "AttributeName": "Heartworm+",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794185707"
+  },
+  "214671395": {
+    "ID": "21",
+    "Internal-ID": "214671395",
+    "Name": "Pigeon",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "52",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1641535200,
+    "Age": 58,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/b2a2e7bca10352eb294f213fa84fc51d/ddf8211d49af114ff2d0868b95ea4a9a.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/b2a2e7bca10352eb294f213fa84fc51d/ddf8211d49af114ff2d0868b95ea4a9a.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/87ac786b32395b5108ad34be89514ec0/9bc133efac0c5b6002cad9bcbe7ad0cf.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/e4c785d7d8fd6562de25a9dd6c39aaae/2c705c2560dffdbbc7572ef2823f8a95.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/add42602c210925c9c997afc705f4cfa/1d1d163adafa7f475cf7b9fc4bfb6aa3.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/6cb289b19020cc31251eafb7dda44ce6/e7cbf1795c3b6e5d54bdea0c72aad67c.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull/Boxer",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Pigeon was found abandoned on Pigeon Road in Lonoke County, where she was in danger of being shot by neighbors who didn’t want her around. Thankfully, she was kept safe until she could come into rescue.\n\nPigeon has been through a lot medically, including severe heartworm disease and a difficult treatment process, but she’s made it through the hardest part and is doing well. Because of the extent of her heartworm disease, she probably won’t be a dog for long runs or strenuous hikes, but that’s perfectly fine with her.\n\nPigeon is sweet, walks well on a leash, sits for treats, and clearly knows what it’s like to live in a home. During a temporary foster stay, she absolutely loved having a couch, a yard, and people around.\n\nHer ideal life is pretty simple: hanging out on the couch, following her people around the house, lounging in the yard while you drink your coffee, and being part of everyday life.\n\nPigeon has come incredibly far. Now she just needs someone to give her the home she’s been waiting for. ❤️",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263004492567",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1767081600"
+      }
+    ],
+    "LastIntakeUnixTime": "1767081600",
+    "Attributes": [
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792155993"
+  },
+  "214671418": {
+    "ID": "22",
+    "Internal-ID": "214671418",
+    "Name": "Sarah Huckabee Sanders",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "47",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1627023600,
+    "Age": 63,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/fe15a8c913f378d2ff2e037a403d2ebb/c2c8cff2a09a4380c44b4a93e76a6107.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/fe15a8c913f378d2ff2e037a403d2ebb/c2c8cff2a09a4380c44b4a93e76a6107.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/4207771b9541be1d0fa572bb6cc75913/bef07cd7fe7cae5fc34407aa52c285e5.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/a7a699164e289d22039940add4422b79/33d70fac53e41aed3437a629d1452aa7.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Hound, Plott",
+    "Color": "Brindle/White",
+    "Pattern": "Brindle",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Sarah was the most severely emotionally damaged dog we pulled out of the felony animal cruelty case in Jacksonville, AR on April 12, 2025. She was absolutely in fight or flight mode. She does have a human bite history from when an animal control officer surprised her by coming up behind her and grabbing her hips to try and lift her into the vehicle. She was focused on me who had her leash and was not expecting them to touch her. After a mandatory bite quarantine we had a professional behavioral assessment done. They expressed her reactions are all fear based. She is not aggressive but she does have certain triggers that make her absolutely terrified. Once a solid bond of trust is established, like I have made with her, she can be worked with. She is highly food motivated (which makes sense after being starved to near death in a tiny bedroom with 20 other dogs) and that can be used to form the bond. She is very soft and accepts pets once she trusts you. She is potty pad trained! We’re working on walking on a leash. Something about having a collar put over her head terrifies her and we’re still working on that. I’ve been able to bathe her and pick her up and crate her and get her to the vet. She has had all her shots and been spayed and microchipped. Any interested adopter will need to be willing to go slow and put in the work and agree to not put her into a situation that she’s likely to fail. I’ve worked too hard on her to go backwards from someone else not being careful. She’s a special dog to me and has boatloads of potential.\n\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263002838375",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1744441200"
+      }
+    ],
+    "LastIntakeUnixTime": "1744441200",
+    "Attributes": [
+      {
+        "Internal-ID": "878257",
+        "AttributeName": "Adult-Only Home Preferred",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "888816",
+        "AttributeName": "Not Good With Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "888815",
+        "AttributeName": "Needs Experienced Adopter",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792182609"
+  },
+  "214671468": {
+    "ID": "23",
+    "Internal-ID": "214671468",
+    "Name": "Laverne",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Foster to Adopt",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Kristina",
+      "LastName": "Keener",
+      "OutDateUnixTime": "1769155200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "58",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1743750000,
+    "Age": 19,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/14e3cf9bcd1da2d48c7efbf63c64cc81/7f6090219b886967a3178c1158a3e66e.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/14e3cf9bcd1da2d48c7efbf63c64cc81/7f6090219b886967a3178c1158a3e66e.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/185aaf9112657ad434d63aa0b857e2ae/66a999343b76e55e9012784f080c8806.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/f971a0c15fc0f6055c953c8ba299a491/468d5e42e158cf5c235dd7d18d7abf46.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/7843121e44d0ba1102a9010f65f5657b/442ab72a8dfd01e05cbecd6873ad6aef.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/fc47d9b53665f3964c1fcd5ab0416336/2644d5caeca89d4cb928a3832363ccac.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/848e9f74c7c269d001656a43512395db/d9a2f5c718a7dc1280f20aba9bff8c73.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/55a5389677dfc82321e044db66ee4436/e2fca7fa139368b56cdd5b4147c7aac5.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/b574db0146ddb5b1067261893eb6924b/4b925d578d9a296a615bffd0fc36ea3e.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Hound",
+    "Color": "Red/Mahogany/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Laverne is about 1½ years old, around 60 lbs, and truly the definition of family dog material.\n\nShe was found running stray with Shirley and Fonzie just before an ice storm and was brought into rescue so they could all get somewhere safe. Since then, Laverne has had the chance to settle into a foster home and show us exactly who she is.\n\nShe is incredibly sweet, dog friendly, wonderful with kids, and is learning to live with cats. She’s affectionate, squishy, loves being pet and hugged, and according to her foster, has some pretty serious lazy girl vibes. \n\nLaverne is still improving on leash walking, but she’s already making progress. More than anything, she just wants a comfy place to nap, people to love, maybe some dog friends, and a family she never has to say goodbye to.\n\nShe’s one of the most bomb-proof, easygoing dogs in the rescue and has already learned how to be someone’s family dog. Now she’s just waiting for someone to make it official. ",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263004492595",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1769155200"
+      }
+    ],
+    "LastIntakeUnixTime": "1769155200",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878266",
+        "AttributeName": "Good with Cats",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793493672"
+  },
+  "214671488": {
+    "ID": "24",
+    "Internal-ID": "214671488",
+    "Name": "Adam",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Wendy",
+      "LastName": "Mytar",
+      "OutDateUnixTime": "1786690800",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "45",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1770192000,
+    "Age": 9,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/e5ee763bce5b6bae66a862133b8df697/c383c11bd4a461ae2090249203d8dcf6.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/e5ee763bce5b6bae66a862133b8df697/c383c11bd4a461ae2090249203d8dcf6.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/1571b50f93c4e5d1f5468b327f2498e6/783a173bd6d05aabf8e8400d88e984d8.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Mountain Cur/Hound, Plott",
+    "Color": "Brindle",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Adam and his sister were running stray in rural Lonoke County, AR. His sister was hit by a car and had a fractured pelvis. We got her into surgery and couldn’t leave him behind. He’s very friendly, a quick learner, dog friendly, and gentle. He’s truly going to make someone a very good family dog.\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007499750",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1786690800"
+      }
+    ],
+    "LastIntakeUnixTime": "1786690800",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794186929"
+  },
+  "214671502": {
+    "ID": "25",
+    "Internal-ID": "214671502",
+    "Name": "Joseph",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Georgia",
+      "LastName": "Tarvin",
+      "OutDateUnixTime": "1773903600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "50",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1648011600,
+    "Age": 55,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/a82e085811648d97d98661ba6e97cbc4/618114486d0050ca3df5f7892e32b374.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/a82e085811648d97d98661ba6e97cbc4/618114486d0050ca3df5f7892e32b374.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/65877af2654969ae057b336143dbfd72/16603ee9695edafc91cae0d48e8d4d67.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Pyrenees, Great",
+    "Color": "White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Joseph was found tied to a tree, infested with fleas, skin sore and thickened, very skinny, and with lots of thinning hair. He is feeling better every day. He will be fully vetted prior to adoption. He is heartworm negative. He doesn’t potty in his kennel and goes quickly once on a leash and led outside. He’s a very sweet boy!\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263004494778",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1773903600"
+      }
+    ],
+    "LastIntakeUnixTime": "1773903600",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792157820"
+  },
+  "214671519": {
+    "ID": "26",
+    "Internal-ID": "214671519",
+    "Name": "Sassy",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Miracle",
+      "LastName": "Farrell",
+      "OutDateUnixTime": "1786345200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "40",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1762243200,
+    "Age": 12,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/4cde3d7c1204fd6b1cceb94c021087e6/e6c8ccb949fe933431f18cd43dba463e.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/4cde3d7c1204fd6b1cceb94c021087e6/e6c8ccb949fe933431f18cd43dba463e.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/e0602368b88d04cb986655246b864206/22bd184aea39158f7789cb451a11c996.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/25038f511c04f036e58dd0921fdf1081/40231fa3baf689a3eab00cedd17a0090.jfif"
+    ],
+    "Videos": [],
+    "Breed": "Cattle Dog, Australian (Red Heeler)",
+    "Color": "Red/Mahogany/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Sassy was found abandoned under a vehicle. She was immediately taken into foster care. She’s playful, working on crate and potty training and doing well! She will make a great addition to any family.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900085002035716",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1786345200"
+      }
+    ],
+    "LastIntakeUnixTime": "1786345200",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1791825572"
+  },
+  "214671530": {
+    "ID": "27",
+    "Internal-ID": "214671530",
+    "Name": "Stacey",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "40",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1557550800,
+    "Age": 89,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/c89e31656bc60799d303da0b24dcbd45/e8cd9a78205da5b96e37f2cf37fd7175.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/c89e31656bc60799d303da0b24dcbd45/e8cd9a78205da5b96e37f2cf37fd7175.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/18144407bc91bd604a44930d62435157/f23aa23df186c9830a6f28ff27189179.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Tan",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263004494084",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1778223600"
+      }
+    ],
+    "LastIntakeUnixTime": "1778223600",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794255293"
+  },
+  "214671543": {
+    "ID": "28",
+    "Internal-ID": "214671543",
+    "Name": "Fargo",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Male",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {
+      "FirstName": "Patrick",
+      "LastName": "McNeely",
+      "OutDateUnixTime": "1781161200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "20",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1767513600,
+    "Age": 10,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/146b4398343a64332688d4f7bc40c31c/2fa887ea7cad379c652be5fb6a73076a.jfif",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/146b4398343a64332688d4f7bc40c31c/2fa887ea7cad379c652be5fb6a73076a.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/94294d95a84e6aaab18013be63d733c4/61b797991ff8c4e1234189371357b3a1.jfif"
+    ],
+    "Videos": [],
+    "Breed": "Cattle Dog, Australian (Blue Heeler)",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007516133",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1781161200"
+      }
+    ],
+    "LastIntakeUnixTime": "1781161200",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1793147270"
+  },
+  "214671558": {
+    "ID": "29",
+    "Internal-ID": "214671558",
+    "Name": "Walter",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "JoAnne",
+      "LastName": "Ruhter",
+      "OutDateUnixTime": "1787209200",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "8",
+    "Size": "Small (0-24)",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1475564400,
+    "Age": 121,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/de0b0d2ff63a49985366119b483624a4/12240ebb20f11a9f97d870969faccfb6.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/de0b0d2ff63a49985366119b483624a4/12240ebb20f11a9f97d870969faccfb6.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Chihuahua",
+    "Color": "Brown/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263004490660",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1787209200"
+      }
+    ],
+    "LastIntakeUnixTime": "1787209200",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1791219737"
+  },
+  "214671586": {
+    "ID": "30",
+    "Internal-ID": "214671586",
+    "Name": "Cooper",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Sherry",
+      "LastName": "Rowlett",
+      "OutDateUnixTime": "1791155011",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "71",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1412406000,
+    "Age": 145,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/9377d58c59bb63b2afd8762ccf40a55a/869956ba0e1741437c72c63b95519243.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/9377d58c59bb63b2afd8762ccf40a55a/869956ba0e1741437c72c63b95519243.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/0c084531f746cfad8f75fb87d0ec69ac/04b481baf6a6873930a3ab73b70dac7f.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Coonhound",
+    "Color": "Black/Tan",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Cooper is a sweet senior hound who’s looking for a quieter place to call home. He’s your classic good ole hound dog and may be a Bluetick or Black and Tan Coonhound mix.\n\nHe’s heartworm negative, has started preventions, and will be getting a dental soon. Cooper has done great with other dogs and previously lived with a cat.\n\nHe’s a gentle older guy who deserves a comfy spot, some peace and quiet, and people to love him through his golden years. ",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "981020013898090",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1787295600"
+      }
+    ],
+    "LastIntakeUnixTime": "1791155011",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878266",
+        "AttributeName": "Good with Cats",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792447041"
+  },
+  "214671851": {
+    "ID": "33",
+    "Internal-ID": "214671851",
+    "Name": "Eliza",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Foster to Adopt",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Stacy",
+      "LastName": "Jarrett",
+      "OutDateUnixTime": "1788591600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "25",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1780556400,
+    "Age": 5,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/0e130c04419e378defd78c399fe5a404/13a887fa2ed1f7556d79cb3a51c90b46.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/0e130c04419e378defd78c399fe5a404/13a887fa2ed1f7556d79cb3a51c90b46.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/db020baf9b81bdacf1efa1f6c7311db7/bc4116d9ebdb8c9ca5bc6bd6e13633c3.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Retriever, Black Labrador/Mixed Breed (Large)",
+    "Color": "Black",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Eliza was found with her brother hiding in a ditch, underweight, dirty, and in need of help. Since coming into foster care, she’s been bathed, fed, loved, and is already showing what a smart little girl she is.\n\nEliza is playful, affectionate, and catching on quickly to life in a home. She’s figured out the doggy door, follows the bigger dogs around, and is already trying to go outside when she needs to potty.\n\nShe’s a sweet, goofy puppy with big paws, floppy ears, and just a few white toes to tell her apart from her brother. Now she’s looking for a family to grow up with. ",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515811",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1788591600"
+      }
+    ],
+    "LastIntakeUnixTime": "1788591600",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895850",
+        "AttributeName": "Tolerates Grooming",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793494645"
+  },
+  "214671857": {
+    "ID": "34",
+    "Internal-ID": "214671857",
+    "Name": "Alex",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Unknown",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Stacy",
+      "LastName": "Jarrett",
+      "OutDateUnixTime": "1788591600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "25",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1780556400,
+    "Age": 5,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/45f3022f66d1545a76d0fdb0c965fc08/ce886db6dbbd60c886ba0ca3dd441369.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/45f3022f66d1545a76d0fdb0c965fc08/ce886db6dbbd60c886ba0ca3dd441369.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/cf32e7496c6927584dfdcc9d20b9b043/fe7261125aad5365ebb18439f346f318.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/9d79d1475c1a365fc19739e5c033650a/a02c567a0bc441b083a86cad5d259a90.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/ea57dcff6233d2f8797bc84ee83615a6/5ec28b3556dd34bc5ed0f8933cb3cc47.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/7978692216840981b75d6e109ab991cc/4d7740fdceda3737e4a330d2fbb1b261.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/8bd2476e3f5c9fb7d0707344290bfa8e/580e38d78ea8b40989659ed2a967efbf.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/e00c097cd692ecc9acaa6e8b95de8842/754be62ebea4acd02fb6d7bbfb3479f1.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Retriever, Black Labrador/Mixed Breed (Large)",
+    "Color": "Black",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Alex was found with his sister hiding in a ditch, underweight, dirty, and in need of help. Since coming into foster care, he’s been bathed, fed, loved, and is already settling right into home life.\n\nAlex is smart, playful, and affectionate. He’s figured out the doggy door, follows the bigger dogs around, and is already trying to go outside when he needs to potty.\n\nHe’s an adorable puppy with big paws, floppy ears, and white markings on his feet. Now he just needs a family to grow up with. ",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515782",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1788591600"
+      }
+    ],
+    "LastIntakeUnixTime": "1788591600",
+    "Attributes": [
+      {
+        "Internal-ID": "895839",
+        "AttributeName": "Dog Door Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895850",
+        "AttributeName": "Tolerates Grooming",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793579994"
+  },
+  "214671878": {
+    "ID": "35",
+    "Internal-ID": "214671878",
+    "Name": "Pickles",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Kristina",
+      "LastName": "Keener",
+      "OutDateUnixTime": "1793898970",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "55",
+    "Size": "",
+    "Altered": "Yes",
+    "DOBUnixTime": 1728073038,
+    "Age": 25,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/09107aebd573a7607f03ae560c10666d/c347c482c896ffc66a7a2ab3cf83381b.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/09107aebd573a7607f03ae560c10666d/c347c482c896ffc66a7a2ab3cf83381b.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/3d33f107ed3862bb97367e32ded13893/940286055aa9d14facbaddbde6f42c07.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/0db2a5d80c3c401fd40e605daec2338d/bed9794f6b845b29ac5e809b1405951e.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/7e1ac8604514aed4aaa279f0071747b1/f46d4bc7d19466102d1e502bb01226e3.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Pyrenees, Great",
+    "Color": "White",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "So far being in a foster home we’ve noticed that Pickles loves kids and getting pets. She gets along with other dogs and hardly pays attention to cats. She does very well crated and she loves laying around outside. She’s still learning to live in the house but has not had an accident. She is a certified toy stealer though!!!",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007507835",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1793042915"
+      }
+    ],
+    "LastIntakeUnixTime": "1788764400",
+    "Attributes": [
+      {
+        "Internal-ID": "878266",
+        "AttributeName": "Good with Cats",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895857",
+        "AttributeName": "Good with Livestock",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895861",
+        "AttributeName": "Crate Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794255319"
+  },
+  "214671880": {
+    "ID": "36",
+    "Internal-ID": "214671880",
+    "Name": "Dot",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Unavailable In-Shelter (Medical)",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "",
+    "Size": "",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1759561200,
+    "Age": 13,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/cbaece5e39fea713481afafc1f506ca1/8e7f3dfd89efcbb39eea8671d4201bc0.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/cbaece5e39fea713481afafc1f506ca1/8e7f3dfd89efcbb39eea8671d4201bc0.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/9bec1f2f39cf624a5b1eb1d39b00504f/1c0da8014da1e588176bda40474dccd7.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Pyrenees, Great",
+    "Color": "",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96481,
+      "Name": "Standard Cat Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1791162154",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1794255273"
+  },
+  "214671884": {
+    "ID": "37",
+    "Internal-ID": "214671884",
+    "Name": "Lou Lou ",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Court Case",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "",
+    "Size": "",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1759561200,
+    "Age": 13,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/10d7a587b6be17436f41df079f0bd9b5/b42892b7c4d16cbc830bb9be16bcfae5.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/10d7a587b6be17436f41df079f0bd9b5/b42892b7c4d16cbc830bb9be16bcfae5.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Coonhound, Bluetick",
+    "Color": "",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1788764400",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1793403867"
+  },
+  "214671886": {
+    "ID": "38",
+    "Internal-ID": "214671886",
+    "Name": "Ginger",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Court Case",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "",
+    "Size": "",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1759626429,
+    "Age": 13,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/bc52ae70d0e7f7bca87775a18ce0931c/4980c07f9df0166ed89f46ff4b8bc116.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/bc52ae70d0e7f7bca87775a18ce0931c/4980c07f9df0166ed89f46ff4b8bc116.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Pyrenees, Great",
+    "Color": "",
+    "Pattern": null,
+    "AdoptionFeeGroup": null,
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1791162373",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1793978208"
+  },
+  "214671890": {
+    "ID": "39",
+    "Internal-ID": "214671890",
+    "Name": "Jill",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Sierra",
+      "LastName": "Robinson",
+      "OutDateUnixTime": "1789023600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "25",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1780556400,
+    "Age": 5,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/12eed92b3f86d4ae19ef22fca21f711d/6f2c63932e29c55aa0eb87c8f06b97aa.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/12eed92b3f86d4ae19ef22fca21f711d/6f2c63932e29c55aa0eb87c8f06b97aa.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/09cb9144beb662d7af8eb7b4cb3f7fc7/050f2a0af28a6ff4ae7f2f04fcffff0f.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Large)",
+    "Color": "Brown/Black",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Jack and Jill were found surviving along a busy road in Jacksonville, where they had been on their own for at least two weeks.\n\nThey are now safe, fully vetted, microchipped, and spayed/neutered. Both are still learning that people can be kind and that they no longer have to live in survival mode.\n\nJack and Jill will need patient, understanding homes willing to give them time to build confidence and trust. They’ve already come a long way, and now they’re ready for the next part of their story. ",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515786",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1789023600"
+      }
+    ],
+    "LastIntakeUnixTime": "1789023600",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1792593975"
+  },
+  "214671893": {
+    "ID": "40",
+    "Internal-ID": "214671893",
+    "Name": "Jack",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Sierra",
+      "LastName": "Robinson",
+      "OutDateUnixTime": "1789023600",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "",
+    "Size": "Large (60-99)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1780556400,
+    "Age": 5,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/b36ca2e797eb1ba98407e2f0cf7b0ec6/7c49e77364aa45d60769759f75e51dc0.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/b36ca2e797eb1ba98407e2f0cf7b0ec6/7c49e77364aa45d60769759f75e51dc0.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/c4f61bcefea93e533235d21a3c46dd46/abb1294d5a4ce19db88a1abf92cd0df5.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Large)",
+    "Color": "Brown/Black",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Jack and Jill were found surviving along a busy road in Jacksonville, where they had been on their own for at least two weeks.\n\nThey are now safe, fully vetted, microchipped, and spayed/neutered. Both are still learning that people can be kind and that they no longer have to live in survival mode.\n\nJack and Jill will need patient, understanding homes willing to give them time to build confidence and trust. They’ve already come a long way, and now they’re ready for the next part of their story.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515810",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1789023600"
+      }
+    ],
+    "LastIntakeUnixTime": "1789023600",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1792594060"
+  },
+  "214671901": {
+    "ID": "41",
+    "Internal-ID": "214671901",
+    "Name": "Alani",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {
+      "FirstName": "Renee",
+      "LastName": "Meigs",
+      "OutDateUnixTime": "1791163146",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "30.6",
+    "Size": "",
+    "Altered": "Yes",
+    "DOBUnixTime": 1735545600,
+    "Age": 22,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/f4c208dbd486c52c67df17c868e51412/c9d1064abbf2fedfbdb9ce5a22b19f2e.jfif",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/f4c208dbd486c52c67df17c868e51412/c9d1064abbf2fedfbdb9ce5a22b19f2e.jfif"
+    ],
+    "Videos": [],
+    "Breed": "Hound",
+    "Color": "Brown/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Alani (formerly Mocha) came to us as a small pup with a broken leg and two crushed feet. We got her vetted and adopted out but unfortunately she was returned when the owner had to move and was unable to take her. She is extremely dog friendly, potty trained, submissive, and sweet. She is a little timid and needs to work on her leash skills but she’s a lovely dog to pet and very gentle with humans.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263002828662",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1789023600"
+      }
+    ],
+    "LastIntakeUnixTime": "1791163146",
+    "Attributes": [
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1792435538"
+  },
+  "214671905": {
+    "ID": "42",
+    "Internal-ID": "214671905",
+    "Name": "Myrtle",
+    "LitterGroupId": 9603119,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Kaylee",
+      "LastName": "Harlan",
+      "OutDateUnixTime": "1790406000",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "",
+    "Size": "",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1783148400,
+    "Age": 4,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/eac872fe28feaa102e45eb03fa4feaea/120987e42d8dd267a53d6382f936f009.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/eac872fe28feaa102e45eb03fa4feaea/120987e42d8dd267a53d6382f936f009.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/12234676d4f5e74f50fe6af2ad2463f1/24db0e1135e099c8936f333bdeda95ab.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/cc6692cdb47dfa439c28e6fd027edf39/0f4a7ec30b870eb532330451566fde6c.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/9816edd9b27f0aa1170b92a75ac735ec/74110ce47e402dabf890f858a3f52231.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/f41854f403feaf8b2b90a33496a50156/32e79b22b131d01517a9782049de8f61.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/078506bf106c0f90a730cb40d50cfc43/22c56075297ad466f9edf26228b7706a.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/56759dfae39e2a750fef66110bd2f179/3da2c2abf2880aee98520c50985579b7.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Myrtle has come a long way since her rescue, transforming into a smart, confident pup with the cutest ears around.\n\nShe has a fun, spunky personality with plenty of healthy puppy energy. She loves getting her zoomies out with her doggy friends, but once playtime is over, she’s impressively self-sufficient and will happily put herself to sleep in her crate. Myrtle is both crate-trained and house-trained, making her a smooth addition to an active home.",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1790406000",
+    "Attributes": [
+      {
+        "Internal-ID": "895861",
+        "AttributeName": "Crate Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878312",
+        "AttributeName": "Housetrained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793910936"
+  },
+  "214671908": {
+    "ID": "43",
+    "Internal-ID": "214671908",
+    "Name": "Harry",
+    "LitterGroupId": 9603119,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Robyn",
+      "LastName": "Marino",
+      "OutDateUnixTime": "1790406000",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "10.6",
+    "Size": "",
+    "Altered": "Yes",
+    "DOBUnixTime": 1783148400,
+    "Age": 4,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/9471d208f0435938d5d738b308103cf4/4b440732815ea58efd715a36c8fc602c.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/9471d208f0435938d5d738b308103cf4/4b440732815ea58efd715a36c8fc602c.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/70e242e393b3b3034fa78a3cbba4878d/7cf84aeb75dc83e88d93a2aed2c226f8.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/5c29de0674c4198eb3f1cbd06cbe79cb/a5c7083d0d85f622fa73e7391d68bfc0.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/102f0cded4866858606e922624107298/21612f41c178cca7164a2dad88d4415b.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Black",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Rescued from the White County cruelty case, Harry is a relaxed, sweet puppy who is more than ready for a fresh start.\n\nWhile he enjoys playing with other dogs, Harry is easily the most laid-back of his litter. His absolute favorite thing is curling up for a nap next to his humans or dog friends. He’s low-key, affectionate, and happiest whenever he's cuddling.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007507840",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1793060721"
+      }
+    ],
+    "LastIntakeUnixTime": "1790406000",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793910492"
+  },
+  "214671909": {
+    "ID": "44",
+    "Internal-ID": "214671909",
+    "Name": "Ron",
+    "LitterGroupId": 9603119,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Robyn",
+      "LastName": "Marino",
+      "OutDateUnixTime": "1790406000",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "13",
+    "Size": "",
+    "Altered": "Yes",
+    "DOBUnixTime": 1783148400,
+    "Age": 4,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/57b8c67a83defb1e4d30f39c423e1f15/f4853ce76a934a4752efd99798e6a6a7.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/57b8c67a83defb1e4d30f39c423e1f15/f4853ce76a934a4752efd99798e6a6a7.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/ca17ea8d587d951a57ad2028b0abdb0c/c92008d4f14839e1d68b97c283b9ad42.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/a1bc8243f2224fb5db9e028cd18e2e96/98811d627b9d28373f61b00a30fa1562.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/9f7e07c338650749939105898a073dc9/277e5f026d10a21c6ef30b93243cc94e.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Black",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Rescued from the White County cruelty case, Ron is an affectionate, balanced puppy who loves playing hard and cuddling harder.\n\nRon thoroughly enjoys romping around with other dogs and participating in puppy playtime, but once he burns off his energy, he immediately looks for his person. He is a natural shadow who loves sticking close to his humans and curling up for a long snuggle.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007507834",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1793060151"
+      }
+    ],
+    "LastIntakeUnixTime": "1790406000",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793910757"
+  },
+  "214671911": {
+    "ID": "45",
+    "Internal-ID": "214671911",
+    "Name": "Hermione",
+    "LitterGroupId": 9603119,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Robyn",
+      "LastName": "Marino",
+      "OutDateUnixTime": "1793725667",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "14",
+    "Size": "",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1782246063,
+    "Age": 4,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/325ce4219eef8af7e29dfb1dd9c830ea/a456e7d78686e5ae11e067500d307884.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/325ce4219eef8af7e29dfb1dd9c830ea/a456e7d78686e5ae11e067500d307884.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/2adab1a9d7063d49ec591a839db01661/e5c85efb02a2b328c7b210a2b2cddd37.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/b8e441f2602286487ee486fed927ee53/18424bceedd835c1aeb78883e2539a72.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/3d3108c9a6d51ac0927d6e8076fd1171/23bc531f9556065e20a26deb7e51b693.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Black/White",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Rescued from the White County cruelty case, Hermione is the most outgoing and social pup of her litter, putting her past behind her to live life to the fullest.\n\nShe is a playful, confident little sidekick who loves being right in the middle of whatever action is happening. Whether she's wrestling with other dogs or keeping herself entertained with toys, Hermione brings fun, positive energy wherever she goes.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007508060",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1793061925"
+      }
+    ],
+    "LastIntakeUnixTime": "1790406000",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793911104"
+  },
+  "214671912": {
+    "ID": "46",
+    "Internal-ID": "214671912",
+    "Name": "Dobby",
+    "LitterGroupId": 9603119,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Robyn",
+      "LastName": "Marino",
+      "OutDateUnixTime": "1793725614",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "14",
+    "Size": "",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1783196526,
+    "Age": 4,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/98794e4639d038a2d1ce95c203f77974/95d7bfc1c6fa391b44ea4a3e45ca39fe.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/98794e4639d038a2d1ce95c203f77974/95d7bfc1c6fa391b44ea4a3e45ca39fe.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/8cb61d057f629353686d568af2b9c99a/9ea6d472b486c33cbabec79e26a213e0.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/dff00b110c18488bb9a554dc2387c8df/2e269ee4be47cd3dcae602708d96bd77.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/2a1acf6522c2b0fb208722420f68795c/3cdbffefaaaf1a94052fc0b2c3317117.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Black/White",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Rescued from the White County cruelty case, Dobby is a quiet, sweet puppy who takes a little time to warm up—but once he does, he's pure love.\n\nA bit more reserved than his siblings, Dobby has been steadily coming out of his shell. He enjoys playing with toys and loves other dogs, often choosing to curl up in the kennel for a snuggle with his bigger buddy, Jerry. He just needs a patient home that will let him settle in at his own pace.",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007508068",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1793061580"
+      }
+    ],
+    "LastIntakeUnixTime": "1790406000",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793910613"
+  },
+  "214671929": {
+    "ID": "47",
+    "Internal-ID": "214671929",
+    "Name": "Eowyn",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Foster to Adopt",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Joshua",
+      "LastName": "Forney",
+      "OutDateUnixTime": "1790990880",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "",
+    "Size": "Medium (25-59)",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1786585610,
+    "Age": 2,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/e0c438bb35dc9d7dd4c5e111d4cad03d/3063d713de8e7a11ddc5e94c6b323a76.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/e0c438bb35dc9d7dd4c5e111d4cad03d/3063d713de8e7a11ddc5e94c6b323a76.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/aedf260f2d28c3145008e2fefc96828a/285c0904dbd33817028cbf605c3520c5.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/356d087e5dbfa1c9fc2cff237fbbf6d8/d38205f8584764c70a788cd046b825be.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Black/White",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1790990880",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1793493872"
+  },
+  "214671936": {
+    "ID": "48",
+    "Internal-ID": "214671936",
+    "Name": "Lavender",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Traci",
+      "LastName": "Smith",
+      "OutDateUnixTime": "1794097560",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "19",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1780166869,
+    "Age": 5,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/dd26c003a52aeedf8502e98739a36fce/5782f9dfc9d7909269268f87a5e48db1.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/dd26c003a52aeedf8502e98739a36fce/5782f9dfc9d7909269268f87a5e48db1.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/72c5d938869788424d0e058d16d562eb/621c7610c57d0c5334b257cdbb99565b.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Cattle Dog/Mixed Breed (Medium)",
+    "Color": "Black/White",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515773",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1791828964"
+      }
+    ],
+    "LastIntakeUnixTime": "1791164252",
+    "Attributes": [
+      {
+        "Internal-ID": "895861",
+        "AttributeName": "Crate Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878284",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895837",
+        "AttributeName": "Potty Pad Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895850",
+        "AttributeName": "Tolerates Grooming",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794184040"
+  },
+  "214671939": {
+    "ID": "49",
+    "Internal-ID": "214671939",
+    "Name": "Arthur",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Male",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "35",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1749052491,
+    "Age": 17,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/314e64374199de1516dabc6296eb3129/b17fbd90afee963fabd1601e89e64234.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/314e64374199de1516dabc6296eb3129/b17fbd90afee963fabd1601e89e64234.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/e389880f3bb948bc6cedf80c6d260f0a/eaeab2ec89419412cd10ae67b7990a67.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "",
+    "Pattern": null,
+    "AdoptionFeeGroup": null,
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1791164388",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1793911844"
+  },
+  "214671941": {
+    "ID": "50",
+    "Internal-ID": "214671941",
+    "Name": "Ginny",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {
+      "FirstName": "Kristina",
+      "LastName": "Keener",
+      "OutDateUnixTime": "1792857289",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "25",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1759561200,
+    "Age": 13,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/076b2c9a75caf13fdb8e03bdad650b56/86315894b87da1555ca00635ce6bdd26.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/076b2c9a75caf13fdb8e03bdad650b56/86315894b87da1555ca00635ce6bdd26.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/4e39d746329aa023e45f4117a8d31bd5/eb4328a04b79e5d891de09a6524c0d39.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/e8d532467ec3e811425b969b0d3dabc1/03a48932cc6e7afceb6d930845035dc0.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/30ffdcdd1e0364c04aa9932ea9aec601/dbaa444f720f5434ea68db0d6c2edee5.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Tan",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Ginny is a little over a year old. She is a very sweet, small girl. And look at those ears!! She’s learning how to live indoors, be around kids, and learning what a cat is. She can be a little timid and skittish while adapting but she’s already figured out what cuddling is and she’d make the best lap dog!",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515885",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1791828250"
+      }
+    ],
+    "LastIntakeUnixTime": "1791164480",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895837",
+        "AttributeName": "Potty Pad Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895861",
+        "AttributeName": "Crate Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895850",
+        "AttributeName": "Tolerates Grooming",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793147015"
+  },
+  "214671942": {
+    "ID": "51",
+    "Internal-ID": "214671942",
+    "Name": "Molly",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "49",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1728074356,
+    "Age": 25,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/c1c2cd6444bf9bafb9312bb4f290c3de/071eb65f5c59609dbaaa63737070e19c.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/c1c2cd6444bf9bafb9312bb4f290c3de/071eb65f5c59609dbaaa63737070e19c.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/148a6967ee6f7b74157cc3aebbb1bb81/c3181b1a45f991fed344f24ef4c09812.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/2c63abd142e4167e04a20d570d563347/ff647990a51040656d63c2f3817a526a.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Tan",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007515893",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1791829095"
+      }
+    ],
+    "LastIntakeUnixTime": "1791164480",
+    "Attributes": [
+      {
+        "Internal-ID": "878326",
+        "AttributeName": "Heartworm+",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895861",
+        "AttributeName": "Crate Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895855",
+        "AttributeName": "Resource Guards Food",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895850",
+        "AttributeName": "Tolerates Grooming",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794255329"
+  },
+  "214671944": {
+    "ID": "52",
+    "Internal-ID": "214671944",
+    "Name": "Cedric",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Male",
+    "Status": "Available In-Shelter",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "20.6",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1775317926,
+    "Age": 7,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/3e164c3f8bb52fca82b68ed1fc1741ee/71ff069966787f7555cd42f78938e80d.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/3e164c3f8bb52fca82b68ed1fc1741ee/71ff069966787f7555cd42f78938e80d.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/f8fa0e13189941a72a664008fdbbc20b/56e5d99dafd5958f2e67bb301840ba69.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "",
+    "Pattern": null,
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1791164480",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1793147044"
+  },
+  "214671946": {
+    "ID": "53",
+    "Internal-ID": "214671946",
+    "Name": "Pumpkin",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {},
+    "Sex": "Unknown",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Robyn",
+      "LastName": "Marino",
+      "OutDateUnixTime": "1792179810",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "24",
+    "Size": "Medium (25-59)",
+    "Altered": "Yes",
+    "DOBUnixTime": 1696395600,
+    "Age": 37,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/42ca548e4af9a69f863df666f8d9b432/5acb4b58a8f95f4b9bc44cd4a7ee535e.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/42ca548e4af9a69f863df666f8d9b432/5acb4b58a8f95f4b9bc44cd4a7ee535e.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/14f82a684df7bddea63badd3fa249ccb/f7aa5d84754b45888f356a06f6019727.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/6441528a6e659e1266669915637547cc/4f83bb4134077dc201236015885a391c.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/777959768aaafa28f93478b1c73ad8c2/85cc7e4c4038b4a401d933630f07d3f4.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/44d8e25f55e5e764819e56e78fa3f379/21484512342d189d801d5bb0825006d2.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/e1c5137bf638fade4cfa59089aaa8c57/2a3379653f2428bc789324466f82bcf7.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/68ebc16de6ef7e40d23f74d6998f6f79/ade121a294aec220c677c3373a82d51f.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Mixed Breed (Medium)",
+    "Color": "Red/Mahogany",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1791164480",
+    "Attributes": [
+      {
+        "Internal-ID": "878275",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895846",
+        "AttributeName": "Rides Well in Car",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "895839",
+        "AttributeName": "Dog Door Trained",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793911555"
+  },
+  "214671961": {
+    "ID": "54",
+    "Internal-ID": "214671961",
+    "Name": "Teddy",
+    "LitterGroupId": null,
+    "Type": "Cat",
+    "CurrentLocation": {},
+    "Sex": "Male",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Rachel",
+      "LastName": "Gorman",
+      "OutDateUnixTime": "1791165014",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "10",
+    "Size": "",
+    "Altered": "Yes",
+    "DOBUnixTime": 1696402800,
+    "Age": 37,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/00e73db9354704e672ea2cba7b51443d/2d45d77e8a4dd20c47d07e4a7bad393c.jfif",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/00e73db9354704e672ea2cba7b51443d/2d45d77e8a4dd20c47d07e4a7bad393c.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/5083d7d2419aad38a9c229ab528de232/35bfdb8276cb6dd8dc1c80fb55af6528.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/fce42a4c79a369bd08283b318655759b/3a7abcfdaa37531bf9b61630e37c98d4.jfif",
+      "https://new-s3.shelterluv.com/profile-pictures/78ef4583c29e16ac60167cffba2d5121/ef4ee18b550eb2267f17d4af142f3088.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Domestic Shorthair",
+    "Color": "Brown",
+    "Pattern": "Tabby",
+    "AdoptionFeeGroup": {
+      "Id": 96481,
+      "Name": "Standard Cat Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Teddy is a sweet, gentle 3-year-old boy with the absolute worst RBF and the cutest little personality. He can be shy at first, but once he trusts you, he LOVES attention and will meow and chitter at you if the pets stop too soon.\n\nTeddy would do best in a quieter home without small children and with someone willing to let him settle in at his own pace. He previously lived in a home with multiple dogs, so he can handle being around them, he can just get overwhelmed if they're too energetic.\n\nHe is neutered, vaccinated, microchipped, and FIV/FeLV negative. Teddy is ready for a patient, loving home where he can finally relax and be someone’s spoiled little house cat. ",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263007499593",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1787727600"
+      }
+    ],
+    "LastIntakeUnixTime": "1791165014",
+    "Attributes": [
+      {
+        "Internal-ID": "878267",
+        "AttributeName": "Good with Cats",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878276",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878285",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878293",
+        "AttributeName": "Litter Box Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907470",
+        "AttributeName": "Shy",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907471",
+        "AttributeName": "Independent ",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907472",
+        "AttributeName": "Quiet",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794258875"
+  },
+  "214671965": {
+    "ID": "55",
+    "Internal-ID": "214671965",
+    "Name": "Soup",
+    "LitterGroupId": null,
+    "Type": "Cat",
+    "CurrentLocation": {},
+    "Sex": "Female",
+    "Status": "Available In-Foster",
+    "InFoster": true,
+    "AssociatedPerson": {
+      "FirstName": "Rachel",
+      "LastName": "Gorman",
+      "OutDateUnixTime": "1791165014",
+      "RelationshipType": "foster"
+    },
+    "CurrentWeightPounds": "",
+    "Size": "",
+    "Altered": "Yes",
+    "DOBUnixTime": 1780556400,
+    "Age": 5,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/7345b54dc5ecfef9e00048f9e9d143e4/37dc6dc2627fdd32bec7f913812a4ca3.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/7345b54dc5ecfef9e00048f9e9d143e4/37dc6dc2627fdd32bec7f913812a4ca3.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/92273ac8d8289b0630646ab2268e4564/32972f2aa994bdec0a5f677b944c6096.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/4f141aac59d4a4a7b0db93b0df114790/58ff24f7f94c84c5ac5cf51fcf77cf38.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/02fdbe158d9e15ba3cfedc625d1edfc1/91f92facddaec0feae30afd9f2317bcf.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/6219ae5634b207f933e3237d2efe255e/d7c84268a63713acf7359328440d4fcc.jpg",
+      "https://new-s3.shelterluv.com/profile-pictures/cfd156519d9ee42f5c1d292958b84c3d/ec23cc34ecae9a7e827e715e9df85d59.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Domestic Shorthair",
+    "Color": "Grey",
+    "Pattern": "Tabby",
+    "AdoptionFeeGroup": {
+      "Id": 96481,
+      "Name": "Standard Cat Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "Soup is a tiny kitten with a big heart and so much love to give! She came to us from a cruelty case with a partial rectal prolapse and has since undergone a colopexy to correct it.\n\nDespite her rough start, Soup is the SWEETEST little girl! She's constantly purring, making biscuits, and soaking up all the attention she can get. She's playful, affectionate, and full of that typical kitten energy!\n\nSoup is litterbox trained and gets along great with other cats. With her playful personality, she'd do best in a home with another cat to keep her company! She can be nervous around new dogs at first, but does well with proper introductions.\n\nThis little sweetheart deserves a lifetime of love and spoiling, and she's ready to find her forever home!\n",
+    "PreviousIds": [],
+    "Microchips": [
+      {
+        "Id": "900263002753716",
+        "Issuer": "Fi Nano",
+        "ImplantUnixTime": "1791954000"
+      }
+    ],
+    "LastIntakeUnixTime": "1791165014",
+    "Attributes": [
+      {
+        "Internal-ID": "878267",
+        "AttributeName": "Good with Cats",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878276",
+        "AttributeName": "Good with Dogs",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878285",
+        "AttributeName": "Good with Kids",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "878293",
+        "AttributeName": "Litter Box Trained",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907647",
+        "AttributeName": "Energetic",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907468",
+        "AttributeName": "Cuddly",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907648",
+        "AttributeName": "Confident",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907469",
+        "AttributeName": "Friendly",
+        "Publish": "Yes"
+      },
+      {
+        "Internal-ID": "907473",
+        "AttributeName": "Vocal",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1793990857"
+  },
+  "214973756": {
+    "ID": "58",
+    "Internal-ID": "214973756",
+    "Name": "Millie",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Unavailable In-Shelter (Medical)",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "31",
+    "Size": "Medium (25-59)",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1667624400,
+    "Age": 48,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/2c6b5f6d2635f070e8c20d713a38a721/7afc9996d40e0b75f821824ea2ad88fb.jpg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/2c6b5f6d2635f070e8c20d713a38a721/7afc9996d40e0b75f821824ea2ad88fb.jpg"
+    ],
+    "Videos": [],
+    "Breed": "Terrier, American Pit Bull",
+    "Color": "White/Brown",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1793631900",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1793944841"
+  },
+  "214991177": {
+    "ID": "59",
+    "Internal-ID": "214991177",
+    "Name": "Sky",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Unavailable In-Shelter (Medical)",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "21",
+    "Size": "",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1731045600,
+    "Age": 24,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/872959e7a2a6d3748addb5ad93399d85/8a240f7813525cfcdaa237be0497d2d4.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/872959e7a2a6d3748addb5ad93399d85/8a240f7813525cfcdaa237be0497d2d4.jpeg",
+      "https://new-s3.shelterluv.com/profile-pictures/8095a2e541b8d08ef7ac6540a9bb8d81/cb931ad0f8673992574f4a705a76ef91.png"
+    ],
+    "Videos": [],
+    "Breed": "",
+    "Color": "Red/Mahogany/White",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1794149313",
+    "Attributes": [
+      {
+        "Internal-ID": "898633",
+        "AttributeName": "Bite risk",
+        "Publish": "Yes"
+      }
+    ],
+    "LastUpdatedUnixTime": "1794255318"
+  },
+  "214991182": {
+    "ID": "60",
+    "Internal-ID": "214991182",
+    "Name": "Delta",
+    "LitterGroupId": null,
+    "Type": "Dog",
+    "CurrentLocation": {
+      "Tier1": "Shelter Building 1",
+      "Tier2": "Adoption Floor",
+      "Tier3": "Main Shelter"
+    },
+    "Sex": "Female",
+    "Status": "Unavailable In-Shelter (Medical)",
+    "InFoster": false,
+    "AssociatedPerson": {},
+    "CurrentWeightPounds": "55",
+    "Size": "Medium (25-59)",
+    "Altered": "Unknown",
+    "DOBUnixTime": 1731045600,
+    "Age": 24,
+    "CoverPhoto": "https://new-s3.shelterluv.com/profile-pictures/f409feb21b6d2a228a60d87b348911c1/fae839e269e7bf549883c96cb2b52e8a.jpeg",
+    "Photos": [
+      "https://new-s3.shelterluv.com/profile-pictures/f409feb21b6d2a228a60d87b348911c1/fae839e269e7bf549883c96cb2b52e8a.jpeg"
+    ],
+    "Videos": [],
+    "Breed": "Shepherd, Australian",
+    "Color": "Black/Brown",
+    "Pattern": "None",
+    "AdoptionFeeGroup": {
+      "Id": 96480,
+      "Name": "Standard Dog Fee",
+      "Price": 100,
+      "Discount": 0,
+      "Tax": 0,
+      "IsVariable": false
+    },
+    "Description": "",
+    "PreviousIds": [],
+    "Microchips": [],
+    "LastIntakeUnixTime": "1794149636",
+    "Attributes": [],
+    "LastUpdatedUnixTime": "1794235867"
+  }
+}
