@@ -24,7 +24,7 @@ jobs:
       - name: Run Audit Script
         env:
           SHELTERLUV_API_KEY: ${{ secrets.SHELTERLUV_API_KEY }}
-        run: node audit-changes.js  # Make sure this matches your actual script file name!
+        run: node scripts/diff-check.js  # Make sure this matches your actual script file name!
 
       - name: Check for changes and commit updated snapshot
         run: |
