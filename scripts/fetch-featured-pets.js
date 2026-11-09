@@ -1,4 +1,8 @@
 const fs = require('fs');
+const path = require('path');
+
+// Dynamically target project-root/content/home
+const targetDir = path.resolve(__dirname, '../content/home');
 
 async function updateFeaturedPets() {
     try {
@@ -24,19 +28,34 @@ async function updateFeaturedPets() {
         // Filter for available/adoptable animals
         const availableAnimals = data.animals.filter(pet => {
             const status = (pet.Status || '').toLowerCase();
-            return status.includes('available') || status.includes('adoptable');
+            return status.includes('available');
         });
+
+        // Check specifically for available cats using 'Type'
+        const availableCats = availableAnimals.filter(pet => {
+            const type = (pet.Type || '').toLowerCase();
+            return type === 'cat' || type === 'feline';
+        });
+
+        // Ensure root/content/home exists
+        if (!fs.existsSync(targetDir)) {
+            fs.mkdirSync(targetDir, { recursive: true });
+        }
+
+        // Save site-status.json to root/content/home/site-status.json
+        const siteStatus = { cats_available: availableCats.length > 0 };
+        fs.writeFileSync(path.join(targetDir, 'site-status.json'), JSON.stringify(siteStatus, null, 2));
+        console.log(`Available cats count: ${availableCats.length}`);
 
         if (availableAnimals.length === 0) {
             console.log('No available animals found.');
             return;
         }
 
-        // Randomize and select 2 pets
+        // Randomize and select 2 pets for featured section
         const shuffled = availableAnimals.sort(() => 0.5 - Math.random());
         const selected = shuffled.slice(0, 2);
 
-        // Map data fields using the correct Internal-ID for Shelterluv profile URLs
         const featuredData = selected.map(pet => {
             const uniqueId = pet['Internal-ID'] || pet.ID;
             return {
@@ -47,12 +66,9 @@ async function updateFeaturedPets() {
             };
         });
 
-        if (!fs.existsSync('content/home')) {
-            fs.mkdirSync('content/home', { recursive: true });
-        }
-
-        fs.writeFileSync('content/home/featured-pets.json', JSON.stringify(featuredData, null, 2));
-        console.log('Successfully updated featured-pets.json with working Shelterluv links.');
+        // Save featured-pets.json to root/content/home/featured-pets.json
+        fs.writeFileSync(path.join(targetDir, 'featured-pets.json'), JSON.stringify(featuredData, null, 2));
+        console.log('Successfully updated featured-pets.json and site-status.json in root/content/home/');
 
     } catch (error) {
         console.error('API Request Error:', error);

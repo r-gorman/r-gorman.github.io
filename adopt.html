@@ -16,10 +16,18 @@
             margin: 0 auto;
             background: #ffffff;
             border-radius: 8px;
-            overflow: hidden;
+            overflow-x: auto; /* Prevents wide content from breaking out of the container */
+            overflow-y: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             padding: 1rem;
+            box-sizing: border-box; /* Ensures padding doesn't push width out */
         }
+        
+        /* Ensure any iframe inside respects the maximum bounds */
+        .pet-list-wrapper iframe {
+            max-width: 100% !important;
+        }
+
         /* Style for hiding the application container initially */
         .app-container-hidden {
             display: none;
@@ -102,7 +110,7 @@
 <body>
 
 <header>
-    <a href="/" class="logo-section" style="text-decoration: none; display: flex; align-items: center; gap: 1rem;">
+    <a href="/" class="logo-section">
         <img src="images/logo.png" alt="Jak's Second Chance Rescue Ranch Logo">
         <h1>Jak's Second Chance Rescue Ranch</h1>
     </a>
@@ -153,10 +161,16 @@
                 <div style="background: white; padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
                     <h3 id="card-app-title" style="color: var(--logo-orange); margin-top: 0; font-size: 1.3rem;">1. Submit an Application</h3>
                     <p id="card-app-text" style="color: #594f47; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">Loading...</p>
-                    <button id="toggle-app-btn" class="button btn-primary" style="display: inline-block; cursor: pointer; border: none;">Open Application Form</button>
+                    
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+                        <button id="toggle-app-btn" class="button btn-primary" style="display: inline-block; cursor: pointer; border: none;">Open Dog Application Form</button>
+                        
+                        <!-- Cat Application Button (Hidden by default unless cats are available) -->
+                        <button id="toggle-cat-app-btn" class="button btn-primary" style="display: none; cursor: pointer; border: none; background-color: var(--logo-brown);">Open Cat Application Form</button>
+                    </div>
                 </div>
-    
-                <!-- Collapsible Application Iframe Container (URL hardcoded directly here) -->
+
+                <!-- Collapsible Application Iframe Container -->
                 <div id="app-wrapper" class="app-container-hidden" style="background: #fcfbfa; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; margin-bottom: 4rem;">
                     <iframe id="app-embed" src="https://new.shelterluv.com/matchme/adopt/JAKS/Dog" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0" title="Jak's Second Chance Rescue Ranch Adoption Application">Loading…</iframe>
                 </div>
@@ -199,19 +213,56 @@
 </script>
 
 <script>
-    // Setup toggle button functionality immediately
+    // Setup toggle button functionality for both Dog and Cat forms
     const toggleBtn = document.getElementById('toggle-app-btn');
+    const toggleCatBtn = document.getElementById('toggle-cat-app-btn');
     const appWrapper = document.getElementById('app-wrapper');
+    const appEmbed = document.getElementById('app-embed');
 
+    // Toggle Dog Application Form
     toggleBtn.addEventListener('click', () => {
+        appEmbed.src = "https://new.shelterluv.com/matchme/adopt/JAKS/Dog";
         const isHidden = appWrapper.classList.toggle('app-container-hidden');
         if (!isHidden) {
             toggleBtn.textContent = 'Close Application Form';
+            if (toggleCatBtn) toggleCatBtn.style.display = 'none'; 
             appWrapper.scrollIntoView({ behavior: 'smooth' });
         } else {
-            toggleBtn.textContent = 'Open Application Form';
+            toggleBtn.textContent = 'Open Dog Application Form';
+            checkCatStatusToShowButton();
         }
     });
+
+    // Toggle Cat Application Form
+    if (toggleCatBtn) {
+        toggleCatBtn.addEventListener('click', () => {
+            appEmbed.src = "https://new.shelterluv.com/matchme/adopt/JAKS/Cat";
+            const isHidden = appWrapper.classList.toggle('app-container-hidden');
+            if (!isHidden) {
+                toggleCatBtn.textContent = 'Close Application Form';
+                if (toggleBtn) toggleBtn.style.display = 'none'; 
+                appWrapper.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                toggleCatBtn.textContent = 'Open Cat Application Form';
+                if (toggleBtn) toggleBtn.style.display = 'inline-block';
+            }
+        });
+    }
+
+    // Check site-status.json to conditionally show the cat button if available
+    async function checkCatStatusToShowButton() {
+        try {
+            const response = await fetch('content/home/site-status.json');
+            if (response.ok) {
+                const statusData = await response.json();
+                if (statusData.cats_available && toggleCatBtn) {
+                    toggleCatBtn.style.display = 'inline-block';
+                }
+            }
+        } catch (err) {
+            console.log('Site status JSON not found yet.');
+        }
+    }
 
     async function loadAdoptContent() {
         try {
@@ -252,6 +303,7 @@
     }
 
     loadAdoptContent();
+    checkCatStatusToShowButton();
 </script>
 
 </body>
