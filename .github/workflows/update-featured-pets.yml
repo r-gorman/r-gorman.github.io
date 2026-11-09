@@ -24,7 +24,7 @@ jobs:
       - name: Run Audit Script
         env:
           SHELTERLUV_API_KEY: ${{ secrets.SHELTERLUV_API_KEY }}
-        run: node diff-check.js
+        run: node audit-changes.js  # Make sure this matches your actual script file name!
 
       - name: Check for changes and commit updated snapshot
         run: |
@@ -41,7 +41,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: "🐾 Shelterluv Daily Change Report"
-          to: "rachelrgomez97@gmail.com" # Replace with your actual email address
+          to: "rachelrgomez97@gmail.com.com"
           from: "Shelterluv Bot"
           body: "Attached is the latest field-level change log for Shelterluv records."
           attachments: |
