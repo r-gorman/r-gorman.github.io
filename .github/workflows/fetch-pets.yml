@@ -24,7 +24,7 @@ jobs:
       - name: Run fetch script
         env:
           SHELTERLUV_API_KEY: ${{ secrets.SHELTERLUV_API_KEY }}
-        run: node your-fetch-script.js # Make sure this matches your actual fetch script filename
+        run: node scripts/diff-check.js # Make sure this matches your actual fetch script filename
 
       - name: Commit and push changes if data updated
         run: |
