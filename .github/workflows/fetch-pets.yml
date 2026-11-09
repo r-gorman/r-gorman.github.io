@@ -1,0 +1,31 @@
+name: Fetch Featured Pets & Site Status
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs every day at 8:00 AM UTC
+  workflow_dispatch: # Allows you to manually trigger it from GitHub anytime
+
+jobs:
+  update-pets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies (if any)
+        run: npm install
+
+      - name: Run fetch script
+        run: node scripts/fetch-featured-pets.js
+
+      - name: Commit and push changes if data updated
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add content/home/site-status.json content/home/featured-pets.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update pet and site status JSON [skip ci]" && git push)
